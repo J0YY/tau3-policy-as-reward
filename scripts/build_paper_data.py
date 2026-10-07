@@ -94,26 +94,38 @@ def main():
     ]
     infra = sum(r["status"] == "excluded_infrastructure" for r in rows)
     (OUT / "coverage.tex").write_text(
-        f"We replay {d['total_simulations']:,} simulations from {len(subs)} submissions. Under the upstream metric convention, {infra} infrastructure failures are excluded; all remaining simulations have resolved replay outcomes. The pinned evaluator reproduces {matches} published submission scores to their recorded precision. The main state analysis uses all accessible submissions, and reproduced-score sensitivities are reported separately.\n"
+        f"We replay {d['total_simulations']:,} public runs from {len(subs)} submissions and reproduce {matches} published scores. We follow the benchmark's convention of excluding {infra} infrastructure failures. Every remaining run has a resolved replay result. We use all accessible submissions for the main record analysis and check the reproduced-score subset separately.\n"
     )
     c = s["counts"]
     a = c["task_084"]
     b = c["task_086"]
     p = c["task_082"]
-    text = f"The \\$275 transaction has a dispute record in {a['extra084']} of 111 runs ({100 * a['extra084'] / 111:.1f}\\%); the \\$350 transaction is recorded in {b['extra086']} ({100 * b['extra086'] / 111:.1f}\\%). The remaining runs omit the named record. An omission is compatible with the reference cap, but can also arise from incomplete execution.\n\n"
-    text += f"For TechWorld in task 084, {a['liability_category'].get('412.88', 0)} runs record the reference \\$412.88, {a['liability_category'].get('500', 0)} record \\$500, {a['liability_category'].get('50', 0)} record \\$50, and one records zero. One records \\$47.50, two use the unlimited-liability sentinel, and 26 have no record. In task 086, 50 record the reference \\$500, 16 record \\$50, six record zero, 11 use the unlimited-liability sentinel, and 28 have no record.\n\n"
-    text += f"The lost-wallet record uses \\code{{yes\\_shared}} in {p['pin_category']['yes_shared']} runs, \\code{{yes\\_observed}} in {p['pin_category']['yes_observed']}, and \\code{{unknown}} in {p['pin_category']['unknown']}; {p['pin_category']['missing record']} have no record. Thus {p['nonshared082']} runs avoid the shared-PIN category. These are stored classifications; their wording does not establish how the PIN was actually compromised.\n\n"
+    text = f"Agents file the \\$275 transfer in {a['extra084']} of 111 attempts, or about three in ten. They file the \\$350 charge in {b['extra086']} attempts, or about two in ten. The remaining attempts leave the claim unfiled. Either applying the cap or stopping early could produce an omission.\n\n"
+    text += "The TechWorld records also vary. Many agents choose the reference liability, while others choose \\$50 or less. Some record unlimited liability, and others leave no record. The appendix gives every count.\n\n"
+    text += f"In the lost-wallet case, {p['pin_category']['yes_shared']} runs classify the PIN as shared. Another {p['nonshared082']} choose observed or unknown, avoiding the reference's sharing category. The remaining {p['pin_category']['missing record']} create no record. These categories describe the agent's entry in the database. They cannot establish how someone obtained the PIN.\n\n"
     text += (
-        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/state_outcomes.pdf}\caption{What agents recorded beneath a shared zero task score. Each row uses all 111 scored trials for its task. Counts include premature stops; missing records stay visible. The \$47.50 record is shown separately within the green \$0--50 range. Unlimited liability is the tool's $-1$ sentinel.}\label{fig:states}\end{figure}"
+        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/state_outcomes.pdf}\caption{Agents make different decisions even when they all fail the task. Each row counts 111 attempts at the named scenario, including early stops. Green segments in the liability panel span zero to \$50. The tool uses $-1$ to represent unlimited liability.}\label{fig:states}\end{figure}"
         + "\n"
     )
     (OUT / "state_results.tex").write_text(text)
+    details = [
+        r"\begin{table}[!htbp]\centering\small",
+        r"\begin{tabular}{lrrrrrrr}\toprule Scenario & \$412.88 & \$500 & \$50 & \$47.50 & \$0 & Unlimited & Missing\\\midrule",
+    ]
+    for name, counts in [(r"\$275 case (084)", a), (r"\$350 case (086)", b)]:
+        values = [str(counts['liability_category'].get(k, 0)) for k in ['412.88', '500', '50', '47.5', '0', '-1', 'missing record']]
+        details.append(name + " & " + " & ".join(values) + r"\\")
+    details += [
+        r"\bottomrule\end{tabular}\caption{How much liability agents assign to the TechWorld fraud claim in each capped-claim scenario. Every row sums to 111 runs. Missing means the agent leaves no matching dispute record.}\end{table}",
+        r"In the lost-wallet scenario, agents choose \code{yes\_shared} in 54 runs, \code{yes\_observed} in 32, and \code{unknown} in five. Twenty runs leave no record. The latter two recorded categories account for the 37 runs that avoid voluntary sharing.",
+    ]
+    (OUT / "outcome_details.tex").write_text("\n".join(details) + "\n")
     fig, axs = plt.subplots(
         3, 1, figsize=(7.5, 5.6), gridspec_kw={"height_ratios": [1, 1, 0.65]}
     )
     stacked(
         axs[0],
-        ["084: $275 transfer", "086: $350 charge"],
+        ["$275 transfer (084)", "$350 charge (086)"],
         [[a["extra084"], 111 - a["extra084"]], [b["extra086"], 111 - b["extra086"]]],
         ["Record present", "Record absent"],
         ["#3b7183", "#d9dfe3"],
@@ -126,7 +138,7 @@ def main():
     assert all(sum(row) == 111 for row in vals)
     stacked(
         axs[1],
-        ["084: TechWorld", "086: TechWorld"],
+        ["$275 case (084)", "$350 case (086)"],
         vals,
         ["$412.88", "$500", "$50", "$47.50", "$0", "Unlimited", "No record"],
         ["#25445a", "#3b7183", "#b7cfbd", "#d8e8c9", "#80b4a0", "#d7b892", "#d9dfe3"],
@@ -140,7 +152,7 @@ def main():
     )
     stacked(
         axs[2],
-        ["082: lost wallet"],
+        ["Lost wallet (082)"],
         [
             [
                 p["pin_category"].get(k, 0)
@@ -159,9 +171,9 @@ def main():
     names = {
         "extra084": r"\$275 claim recorded (084)",
         "extra086": r"\$350 claim recorded (086)",
-        "low084": r"TechWorld liability $0$--$50$ (084)",
-        "low086": r"TechWorld liability $0$--$50$ (086)",
-        "nonshared082": "Nonshared PIN category (082)",
+        "low084": r"TechWorld $0$--$50$, \$275 case",
+        "low086": r"TechWorld $0$--$50$, \$350 case",
+        "nonshared082": "Lost-wallet PIN not shared",
     }
     lines = [
         r"\begin{table}[!htbp]\centering\small",
@@ -179,25 +191,25 @@ def main():
         )
     lines += [
         r"\bottomrule\end{tabular}",
-        r"\caption{Capability and recorded state across 32 submissions. Capability uses the same 81 unaffected tasks for every submission. Outcome rates are unconditional over scored trials. Intervals are 95\% percentile sensitivities from resampling nine model families; they refer to ordinary Spearman, not the centered statistic.}\label{tab:capability}\end{table}",
+        r"\caption{How each recorded decision relates to performance on 81 other banking tasks. Positive correlations mean higher-scoring submissions record the outcome more often. Negative correlations mean they do so less often. Each submission contributes one rate, using all its scored attempts. The 95\% intervals resample the nine model families and refer to ordinary Spearman correlation.}\label{tab:capability}\end{table}",
     ]
     v = s["associations"]
     l1 = v["extra084"]["raw_spearman_leave_one_family_out_range"]
     l2 = v["extra086"]["raw_spearman_leave_one_family_out_range"]
     lines += [
-        f"Higher unaffected-task scores are associated with less frequent recording of the two omitted claims: Spearman $\\rho={v['extra084']['spearman']:.2f}$ for the \\$275 transfer and ${v['extra086']['spearman']:.2f}$ for the \\$350 charge. Within-family rank adjustment preserves both signs ({v['extra084']['family_centered_rank_correlation']:.2f} and {v['extra086']['family_centered_rank_correlation']:.2f}). Leaving out one family at a time gives ranges [{l1[0]:.2f}, {l1[1]:.2f}] and [{l2[0]:.2f}, {l2[1]:.2f}], respectively.\n"
+        f"Higher-scoring submissions file the omitted claims less often. The correlation is $\\rho={v['extra084']['spearman']:.2f}$ for the \\$275 transfer and ${v['extra086']['spearman']:.2f}$ for the \\$350 charge. Both remain negative after adjusting for model-family averages or leaving out one family at a time. Table~\\ref{{tab:capability}} gives the estimates and intervals.\n",
+        "Higher-scoring submissions more often assign at most \\$50 to the TechWorld claim. Their lost-wallet PIN choices have a weaker association with broader performance. Figure~\\ref{fig:capability} shows each submission.\n",
+        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/capability.pdf}\caption{Each point represents a submission. The horizontal axis shows its pass rate on the same 81 other tasks. The vertical axis shows how often it records the named outcome in the disputed scenario. Colors identify model families. Some points overlap at zero and 100\%. Missing records count as absence of the outcome. The panels use all 111 attempts per scenario, grouped by submission.}\label{fig:capability}\end{figure}",
     ]
-    lines += [
-        f"The other outcomes move in the opposite direction. Higher scores are associated with more frequent liability values between zero and \\$50 ($\\rho={v['low084']['spearman']:.2f}$ and ${v['low086']['spearman']:.2f}$), and weakly with a nonshared PIN category ($\\rho={v['nonshared082']['spearman']:.2f}$). Table~\\ref{{tab:capability}} shows the family sensitivities. The direction depends on the requirement: higher-scoring submissions more often omit the capped claims, while more often recording lower liability. The explicit cap and the underdetermined liability rule therefore show different capability associations.\n"
-    ]
-    lines += [
-        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/capability.pdf}\caption{Recorded-state rates against performance on 81 common unaffected tasks. Each panel contains 32 submissions; some points overlap at 0\% and 100\%. Colors identify model-name families. Missing affected-task records count as absence of the plotted outcome. All rates use the 111-trial-per-task cohort, aggregated within submission.}\label{fig:capability}\end{figure}"
-    ]
+    robustness = (
+        f"The filing correlations stay negative when we leave out one family at a time. For the \\$275 claim they range from {l1[0]:.2f} to {l1[1]:.2f}. For the \\$350 claim they range from {l2[0]:.2f} to {l2[1]:.2f}.\n"
+    )
     (OUT / "capability_results.tex").write_text("\n".join(lines) + "\n")
     restricted = json.loads((ROOT / "results/restricted_correlations.json").read_text())
     restricted_lines = [
         r"\subsection{Trial-count sensitivity}\label{sec:trial-sensitivity}",
-        r"Excluding five one-trial submissions leaves 27 submissions and 106 scored trials per affected task. All five excluded submissions use voice with all tools exposed; the restriction also changes the cohort's modality and tool-access composition. Capability still uses the same 81 unaffected tasks, and submissions retain equal weight. The associations with both omitted-claim filings become more negative; those with lower liability stay positive.",
+        robustness,
+        r"We repeat the comparison using only submissions with at least three scored attempts at each main scenario. This leaves 27 submissions and 106 trials per scenario. All five excluded submissions use voice with all tools exposed. The restriction therefore changes the evaluation setup as well as trial count. We keep the same 81 comparison tasks and give each submission equal weight. Both claim-filing correlations become more negative, while the lower-liability correlations stay positive.",
         r"\begin{table}[!htbp]\centering\small",
         r"\begin{tabular}{p{.39\linewidth}rrr}\toprule Recorded outcome & Spearman $\rho$ & Family-centered & Family bootstrap \\",
         r" & & rank correlation & interval for $\rho$ \\\midrule",
@@ -205,16 +217,16 @@ def main():
     for metric,name in names.items():
         v=restricted['associations'][metric]; lo,hi=v['raw_spearman_family_bootstrap_95_percentile']
         restricted_lines.append(f"{name} & {v['spearman']:.2f} & {v['family_centered_rank_correlation']:.2f} & [{lo:.2f}, {hi:.2f}] " + r"\\")
-    restricted_lines += [r"\bottomrule\end{tabular}\caption{The same state-outcome analysis restricted to submissions with at least three scored trials per primary task. Intervals resample model families.}\label{tab:restricted}\end{table}"]
+    restricted_lines += [r"\bottomrule\end{tabular}\caption{The pattern persists among submissions with at least three attempts per main scenario. Intervals resample model families.}\label{tab:restricted}\end{table}"]
     (OUT/'restricted_results.tex').write_text('\n'.join(restricted_lines)+'\n')
     families = sorted({x["family"] for x in s["submissions"]})
     colors = dict(zip(families, plt.cm.tab10.colors))
     titles = [
         "$275 claim recorded (084)",
         "$350 claim recorded (086)",
-        "Liability $0-50 (084)",
-        "Liability $0-50 (086)",
-        "PIN not shared (082)",
+        "TechWorld in $275 case\nLiability at most 50 dollars",
+        "TechWorld in $350 case\nLiability at most 50 dollars",
+        "Lost-wallet PIN not shared",
     ]
     fig, axs = plt.subplots(2, 3, figsize=(8.4, 4.7), sharex=True, sharey=True)
     for ax, metric, title in zip(axs.flat, names, titles):
@@ -243,8 +255,8 @@ def main():
         frameon=False,
         fontsize=8,
     )
-    fig.supxlabel("Pass rate on common unaffected tasks (%)", fontsize=10)
-    fig.supylabel("Runs with recorded outcome (%)", fontsize=10)
+    fig.supxlabel("Pass rate on the same 81 other banking tasks (%)", fontsize=10)
+    fig.supylabel("Attempts with the named outcome (%)", fontsize=10)
     fig.tight_layout()
     fig.savefig(FIG / "capability.pdf")
     plt.close(fig)

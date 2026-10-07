@@ -1,6 +1,6 @@
 # τ³-Banking: policy as reward
 
-Replication materials for **Graded Against a Policy: Consumer Protection and a Latent Penalty in τ³-Banking**.
+Replication materials for **When a Banking Benchmark Rewards the Wrong Rule**.
 
 [Read the paper](paper/main.pdf) · [Editable LaTeX](paper/main.tex) · [Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
 
@@ -75,6 +75,16 @@ for row in json.loads(Path('results/artifact_manifest.json').read_text())['artif
 print('Artifact hashes verified')
 PY
 ```
+
+## Prepare a standalone LaTeX ZIP
+
+After building the paper, package its editable sources and figures with:
+
+```bash
+python3 scripts/package_latex.py
+```
+
+The archive appears at `dist/tau3-policy-as-reward-latex.zip`. It includes the manuscript, bibliography, generated TeX inputs, figures, and build instructions. It compiles independently of the analysis environment. Upload it to Overleaf with `main.tex` as the main document, or extract it and run `bash build.sh` with a TeX installation.
 
 ## Reproduce the full replay
 
