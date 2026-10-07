@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-07T19:07:50.762968+00:00",
+  "generated_utc": "2026-10-07T19:32:45.196429+00:00",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -271,11 +271,11 @@
     },
     {
       "path": "paper/main.pdf",
-      "sha256": "882f11783c35300c2a1c0afbf963fed88492c22961f06d5affd6f37552a5c231"
+      "sha256": "297b9f4e9bf9cbee6a70467f79365544324d45b182911a35ce4cab624c5ccfc6"
     },
     {
       "path": "paper/main.tex",
-      "sha256": "b30e36cd94a5d3b4c7dd20f6f2d380579fcb420989f7620ecd9a37efc327e8d8"
+      "sha256": "58a9689383701f1f86b63b82c2fbdf129ef32ac7690df20e02696d27533bcd83"
     },
     {
       "path": "paper/references.bib",
@@ -543,7 +543,7 @@
     },
     {
       "path": "scripts/package_latex.py",
-      "sha256": "89cd6a39aaf1fb1a482ac569e7cba9407fe284f09016ad7ca54d58bf3b46b4a3"
+      "sha256": "df851053838f67d95382707719e49bc72238e669202cfb8c069e94867a899f50"
     },
     {
       "path": "scripts/rank_sensitivity.py",
