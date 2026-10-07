@@ -15,7 +15,7 @@ Legal interpretation is source-grounded and model-assisted, with explicit covera
 | `paper/` | Manuscript, references, generated tables, and figures |
 | `regrade/` | Replay adapters, original grading, alternative predicates, and metrics |
 | `scripts/` | Acquisition, inventory, controls, public replay, diagnostics, aggregation, and plotting |
-| `tests/` | 57 tests for replay/scoring and recorded-state analysis |
+| `tests/` | 67 tests for replay/scoring, recorded states, and tool-call chronology |
 | `analysis-plan.md` | Original local computational plan and subsequent scope amendment |
 | `results/public/` | Per-run replay results for all 32 accessible submissions |
 | `results/` | Aggregates, controls, state outcomes, rank sensitivities, discrepancies, and environment snapshots |
@@ -59,6 +59,7 @@ pdftoppm -scale-to 1400 -png paper/main.pdf paper/rendered/page
 
 ```bash
 .venv/bin/python -m scripts.state_outcomes
+.venv/bin/python -m scripts.restricted_correlations
 ```
 
 This uses the saved dispute states plus `results/extra_state_replays.json`, which contains the nine early-stop states recovered from the original archives. If that cache is removed, regenerating it requires the downloaded trajectories and pinned benchmark.
@@ -116,6 +117,8 @@ Then generate diagnostics and rebuild:
 .venv/bin/python -m scripts.reconcile_scores
 .venv/bin/python -m scripts.rank_sensitivity
 .venv/bin/python -m scripts.state_outcomes
+.venv/bin/python -m scripts.restricted_correlations
+.venv/bin/python -m scripts.trajectory_checks
 bash scripts/build_paper.sh
 ```
 
@@ -141,7 +144,7 @@ Machine-readable files retain these identifiers:
 
 Original, primary alternative, and accept-either scores coincide for every submission in the saved corpus. Premature stops receive zero; infrastructure failures are excluded. All retained runs have resolved original rewards. Higher-order pass estimates are emitted only when every retained task has enough trials.
 
-The main state cohort has 111 scored trials on each of tasks 082, 084, and 086. The reproduced-score subset has 88. Capability analysis uses 81 common unaffected tasks, unconditional state-outcome rates, equal submission weighting, and explicitly described model-family sensitivities. Family-bootstrap intervals concern composition sensitivity, not a causal effect.
+The main state cohort has 111 scored trials on each of tasks 082, 084, and 086. The reproduced-score subset has 88. Capability analysis uses 81 common unaffected tasks, unconditional state-outcome rates, equal submission weighting, and explicitly described model-family sensitivities. Family-bootstrap intervals concern composition sensitivity, not a causal effect. `results/restricted_correlations.json` repeats the analysis on 27 submissions with at least three trials. The five excluded submissions all use voice with all tools exposed, so this restriction changes cohort composition as well as trial precision. `results/trajectory_checks.json` records completed dispute-history reads, their timing relative to filing, final open-dispute counts, and the task-086 date/liability cross-tabulation; regenerating it requires the downloaded archives.
 
 Six baseline discrepancies are preserved in `results/baseline_reconciliation.json`: two reconcile numerically under an infrastructure-denominator sensitivity, and four remain unresolved. The main alternative adds no complete-task passes. Fifty runs meet the targeted component predicates but differ elsewhere; the residual ledger identifies those fields without assuming every difference is an independent error.
 

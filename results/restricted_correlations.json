@@ -1,0 +1,106 @@
+{
+  "selection": "At least three scored trials on every primary task; same 81 common unaffected tasks, rates, families, and weighting as main analysis.",
+  "n_submissions": 27,
+  "n_trials_per_primary_task": 106,
+  "submissions": [
+    "claude-fable-5_sierra_2026-08-04",
+    "claude-opus-4-5_sierra_2026-02-26",
+    "claude-opus-4-6_sierra_2026-05-05",
+    "claude-opus-4-7_sierra_2026-05-05",
+    "claude-opus-4-8_sierra_2026-08-04",
+    "claude-opus-5_sierra_2026-08-04",
+    "claude-sonnet-4-5_sierra_2026-02-26",
+    "gemini-2-5-pro_sierra_2026-05-05",
+    "gemini-3-1-pro-preview_sierra_2026-05-05",
+    "gemini-3-flash_sierra_2026-03-02",
+    "gemini-3-pro_sierra_2026-03-02",
+    "glm-5-2_sierra_2026-08-04",
+    "glm-5-think_sierra_2026-03-02",
+    "gpt-5-2-none_sierra_2026-02-26",
+    "gpt-5-2_sierra_2026-02-26",
+    "gpt-5-4_sierra_2026-03-25",
+    "gpt-5-5_sierra_2026-05-05",
+    "gpt-5-6-sol_sierra_2026-08-04",
+    "grok-4-1-fast_sierra_2026-05-05",
+    "grok-4-2_sierra_2026-05-05",
+    "grok-4-5_sierra_2026-08-04",
+    "grok-4-fast_sierra_2026-05-05",
+    "inkling_sierra_2026-08-04",
+    "kimi-k3_sierra_2026-08-04",
+    "muse-spark-1-1_sierra_2026-08-04",
+    "qwen3-8-max_sierra_2026-08-04",
+    "qwen3.5-397b-a17b-think_sierra_2026-03-02"
+  ],
+  "associations": {
+    "extra084": {
+      "n_submissions": 27,
+      "spearman": -0.539582377474817,
+      "family_centered_rank_correlation": -0.5864328857806073,
+      "raw_spearman_family_bootstrap_95_percentile": [
+        -0.8117932560800137,
+        -0.14532123620553863
+      ],
+      "bootstrap_defined": 9994,
+      "raw_spearman_leave_one_family_out_range": [
+        -0.6433162214678046,
+        -0.44892088914123135
+      ]
+    },
+    "extra086": {
+      "n_submissions": 27,
+      "spearman": -0.6114994880877858,
+      "family_centered_rank_correlation": -0.6321804250164054,
+      "raw_spearman_family_bootstrap_95_percentile": [
+        -0.8464318044333498,
+        -0.2639798189974009
+      ],
+      "bootstrap_defined": 9993,
+      "raw_spearman_leave_one_family_out_range": [
+        -0.6985469956350554,
+        -0.5224543617163311
+      ]
+    },
+    "low084": {
+      "n_submissions": 27,
+      "spearman": 0.35689821079118217,
+      "family_centered_rank_correlation": 0.34104018288404897,
+      "raw_spearman_family_bootstrap_95_percentile": [
+        0.08992136881549803,
+        0.6796906958294069
+      ],
+      "bootstrap_defined": 10000,
+      "raw_spearman_leave_one_family_out_range": [
+        0.2706952456919994,
+        0.4618905325412265
+      ]
+    },
+    "low086": {
+      "n_submissions": 27,
+      "spearman": 0.29619968496483384,
+      "family_centered_rank_correlation": 0.6039678022511537,
+      "raw_spearman_family_bootstrap_95_percentile": [
+        0.077027082415568,
+        0.7303674546730717
+      ],
+      "bootstrap_defined": 9997,
+      "raw_spearman_leave_one_family_out_range": [
+        0.23298755393856505,
+        0.47857636103185247
+      ]
+    },
+    "nonshared082": {
+      "n_submissions": 27,
+      "spearman": 0.09490255996380711,
+      "family_centered_rank_correlation": 0.19489347716912056,
+      "raw_spearman_family_bootstrap_95_percentile": [
+        -0.391848051978202,
+        0.5211682726039906
+      ],
+      "bootstrap_defined": 10000,
+      "raw_spearman_leave_one_family_out_range": [
+        -0.05771832842926582,
+        0.24025224125964953
+      ]
+    }
+  }
+}

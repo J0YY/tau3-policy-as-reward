@@ -1,6 +1,6 @@
 .venv
 vendor
-data/trajectories/
+data/trajectories
 __pycache__/
 .pytest_cache/
 *.pyc

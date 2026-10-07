@@ -60,7 +60,7 @@ def stacked(ax, names, vals, labels, colors):
     ax.tick_params(axis="x", labelsize=8)
     ax.spines[["top", "right", "left"]].set_visible(False)
     ax.legend(
-        ncol=min(len(labels), 3),
+        ncol=min(len(labels), 4),
         loc="upper left",
         bbox_to_anchor=(0, -0.27),
         frameon=False,
@@ -101,10 +101,10 @@ def main():
     b = c["task_086"]
     p = c["task_082"]
     text = f"The \\$275 transaction has a dispute record in {a['extra084']} of 111 runs ({100 * a['extra084'] / 111:.1f}\\%); the \\$350 transaction is recorded in {b['extra086']} ({100 * b['extra086'] / 111:.1f}\\%). The remaining runs omit the named record. An omission is compatible with the reference cap, but can also arise from incomplete execution.\n\n"
-    text += f"For TechWorld in task 084, {a['liability_category'].get('412.88', 0)} runs record the reference \\$412.88, {a['liability_category'].get('500', 0)} record \\$500, {a['liability_category'].get('50', 0)} record \\$50, and {a['liability_category'].get('0', 0)} records zero. Three use other values (one \\$47.50 and two unlimited-liability sentinels); 26 have no record. In task 086, 50 record the reference \\$500, 16 record \\$50, six record zero, 11 use the unlimited-liability sentinel, and 28 have no record.\n\n"
+    text += f"For TechWorld in task 084, {a['liability_category'].get('412.88', 0)} runs record the reference \\$412.88, {a['liability_category'].get('500', 0)} record \\$500, {a['liability_category'].get('50', 0)} record \\$50, and one records zero. One records \\$47.50, two use the unlimited-liability sentinel, and 26 have no record. In task 086, 50 record the reference \\$500, 16 record \\$50, six record zero, 11 use the unlimited-liability sentinel, and 28 have no record.\n\n"
     text += f"The lost-wallet record uses \\code{{yes\\_shared}} in {p['pin_category']['yes_shared']} runs, \\code{{yes\\_observed}} in {p['pin_category']['yes_observed']}, and \\code{{unknown}} in {p['pin_category']['unknown']}; {p['pin_category']['missing record']} have no record. Thus {p['nonshared082']} runs avoid the shared-PIN category. These are stored classifications; their wording does not establish how the PIN was actually compromised.\n\n"
     text += (
-        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/state_outcomes.pdf}\caption{What agents recorded beneath a shared zero task score. Each row uses all 111 scored trials for its task. Counts include premature stops; missing records stay visible. Other liability means \$47.50 or the unlimited-liability sentinel on task 084, and the sentinel on task 086.}\label{fig:states}\end{figure}"
+        r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/state_outcomes.pdf}\caption{What agents recorded beneath a shared zero task score. Each row uses all 111 scored trials for its task. Counts include premature stops; missing records stay visible. The \$47.50 record is shown separately within the green \$0--50 range. Unlimited liability is the tool's $-1$ sentinel.}\label{fig:states}\end{figure}"
         + "\n"
     )
     (OUT / "state_results.tex").write_text(text)
@@ -121,28 +121,15 @@ def main():
     axs[0].set_title(
         "A. Requested claim", loc="left", fontsize=10, fontweight="bold", pad=10
     )
-    cats = ["412.88", "500", "50", "0", "other", "missing record"]
-    vals = []
-    for x in (a, b):
-        h = x["liability_category"]
-        vals.append(
-            [
-                h.get(k, 0)
-                if k != "other"
-                else sum(
-                    v
-                    for k2, v in h.items()
-                    if k2 not in ["412.88", "500", "50", "0", "missing record"]
-                )
-                for k in cats
-            ]
-        )
+    cats = ["412.88", "500", "50", "47.5", "0", "-1", "missing record"]
+    vals = [[x["liability_category"].get(k, 0) for k in cats] for x in (a, b)]
+    assert all(sum(row) == 111 for row in vals)
     stacked(
         axs[1],
         ["084: TechWorld", "086: TechWorld"],
         vals,
-        ["$412.88", "$500", "$50", "$0", "Other", "No record"],
-        ["#25445a", "#3b7183", "#b7cfbd", "#80b4a0", "#d7b892", "#d9dfe3"],
+        ["$412.88", "$500", "$50", "$47.50", "$0", "Unlimited", "No record"],
+        ["#25445a", "#3b7183", "#b7cfbd", "#d8e8c9", "#80b4a0", "#d7b892", "#d9dfe3"],
     )
     axs[1].set_title(
         "B. Maximum liability in the TechWorld record",
@@ -201,12 +188,25 @@ def main():
         f"Higher unaffected-task scores are associated with less frequent recording of the two omitted claims: Spearman $\\rho={v['extra084']['spearman']:.2f}$ for the \\$275 transfer and ${v['extra086']['spearman']:.2f}$ for the \\$350 charge. Within-family rank adjustment preserves both signs ({v['extra084']['family_centered_rank_correlation']:.2f} and {v['extra086']['family_centered_rank_correlation']:.2f}). Leaving out one family at a time gives ranges [{l1[0]:.2f}, {l1[1]:.2f}] and [{l2[0]:.2f}, {l2[1]:.2f}], respectively.\n"
     ]
     lines += [
-        f"The other outcomes move in the opposite direction. Higher scores are associated with more frequent liability values between zero and \\$50 ($\\rho={v['low084']['spearman']:.2f}$ and ${v['low086']['spearman']:.2f}$), and weakly with a nonshared PIN category ($\\rho={v['nonshared082']['spearman']:.2f}$). Table~\\ref{{tab:capability}} shows the family sensitivities. There is no single pattern in which stronger agents uniformly reproduce or uniformly depart from the contested reference records.\n"
+        f"The other outcomes move in the opposite direction. Higher scores are associated with more frequent liability values between zero and \\$50 ($\\rho={v['low084']['spearman']:.2f}$ and ${v['low086']['spearman']:.2f}$), and weakly with a nonshared PIN category ($\\rho={v['nonshared082']['spearman']:.2f}$). Table~\\ref{{tab:capability}} shows the family sensitivities. The direction depends on the requirement: higher-scoring submissions more often omit the capped claims, while more often recording lower liability. The explicit cap and the underdetermined liability rule therefore show different capability associations.\n"
     ]
     lines += [
         r"\begin{figure}[!htbp]\centering\includegraphics[width=.98\linewidth]{figures/capability.pdf}\caption{Recorded-state rates against performance on 81 common unaffected tasks. Each panel contains 32 submissions; some points overlap at 0\% and 100\%. Colors identify model-name families. Missing affected-task records count as absence of the plotted outcome. All rates use the 111-trial-per-task cohort, aggregated within submission.}\label{fig:capability}\end{figure}"
     ]
     (OUT / "capability_results.tex").write_text("\n".join(lines) + "\n")
+    restricted = json.loads((ROOT / "results/restricted_correlations.json").read_text())
+    restricted_lines = [
+        r"\subsection{Trial-count sensitivity}\label{sec:trial-sensitivity}",
+        r"Excluding five one-trial submissions leaves 27 submissions and 106 scored trials per affected task. All five excluded submissions use voice with all tools exposed; the restriction also changes the cohort's modality and tool-access composition. Capability still uses the same 81 unaffected tasks, and submissions retain equal weight. The associations with both omitted-claim filings become more negative; those with lower liability stay positive.",
+        r"\begin{table}[!htbp]\centering\small",
+        r"\begin{tabular}{p{.39\linewidth}rrr}\toprule Recorded outcome & Spearman $\rho$ & Family-centered & Family bootstrap \\",
+        r" & & rank correlation & interval for $\rho$ \\\midrule",
+    ]
+    for metric,name in names.items():
+        v=restricted['associations'][metric]; lo,hi=v['raw_spearman_family_bootstrap_95_percentile']
+        restricted_lines.append(f"{name} & {v['spearman']:.2f} & {v['family_centered_rank_correlation']:.2f} & [{lo:.2f}, {hi:.2f}] " + r"\\")
+    restricted_lines += [r"\bottomrule\end{tabular}\caption{The same state-outcome analysis restricted to submissions with at least three scored trials per primary task. Intervals resample model families.}\label{tab:restricted}\end{table}"]
+    (OUT/'restricted_results.tex').write_text('\n'.join(restricted_lines)+'\n')
     families = sorted({x["family"] for x in s["submissions"]})
     colors = dict(zip(families, plt.cm.tab10.colors))
     titles = [
