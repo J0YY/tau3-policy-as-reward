@@ -1,0 +1,137 @@
+{
+  "4bef8f10-abc4-429f-9000-890bd5a16a48": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_5a5e134f5b86",
+        "transaction_id": "btxn_e34be6244638",
+        "account_id": "chk_e5a31c7d82",
+        "card_id": "dbc_82b5d1a6f3",
+        "user_id": "a7c2f85d91",
+        "dispute_category": "goods_services_not_received",
+        "disputed_amount": 189.99,
+        "filing_date": "11/07/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": false,
+        "provisional_credit_amount": 0,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "6eb5fed4-8f89-4673-ae3e-1a293bcbdb00": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_1ff4032fa4fb",
+        "transaction_id": "btxn_e139a180b899",
+        "account_id": "chk_cr47f8d2a1_evergreen",
+        "card_id": "dbc_cr47f8d2a1_evergreen",
+        "user_id": "cr47f8d2a1",
+        "dispute_category": "duplicate_charge",
+        "disputed_amount": 127.5,
+        "filing_date": "11/08/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": true,
+        "provisional_credit_amount": 127.5,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "124a39de-87f4-4d0c-a6d2-412811f67d1e": {
+    "disputes": [],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "598227aa-3597-4baf-86aa-ef1bc3cad6c5": {
+    "disputes": [],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "1ddb9a42-0af7-4f03-ab0b-6634bb71adf5": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_1ff4032fa4fb",
+        "transaction_id": "btxn_e139a180b899",
+        "account_id": "chk_cr47f8d2a1_evergreen",
+        "card_id": "dbc_cr47f8d2a1_evergreen",
+        "user_id": "cr47f8d2a1",
+        "dispute_category": "duplicate_charge",
+        "disputed_amount": 127.5,
+        "filing_date": "11/08/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": true,
+        "provisional_credit_amount": 127.5,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "7c4cd031-acfd-4ecb-9f3c-51e18d1fcba8": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_5a5e134f5b86",
+        "transaction_id": "btxn_e34be6244638",
+        "account_id": "chk_e5a31c7d82",
+        "card_id": "dbc_82b5d1a6f3",
+        "user_id": "a7c2f85d91",
+        "dispute_category": "goods_services_not_received",
+        "disputed_amount": 189.99,
+        "filing_date": "11/07/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": false,
+        "provisional_credit_amount": 0,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "2443c7b2-d656-4dc2-a78f-7dc492267e73": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_5a5e134f5b86",
+        "transaction_id": "btxn_e34be6244638",
+        "account_id": "chk_e5a31c7d82",
+        "card_id": "dbc_82b5d1a6f3",
+        "user_id": "a7c2f85d91",
+        "dispute_category": "goods_services_not_received",
+        "disputed_amount": 189.99,
+        "filing_date": "11/07/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": false,
+        "provisional_credit_amount": 0,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "0bad4750-8f50-4a2e-a456-12e0ee12bb6c": {
+    "disputes": [],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  },
+  "34c1eaf1-3187-4167-817d-a050378c3a0e": {
+    "disputes": [
+      {
+        "dispute_id": "dsp_1ff4032fa4fb",
+        "transaction_id": "btxn_e139a180b899",
+        "account_id": "chk_cr47f8d2a1_evergreen",
+        "card_id": "dbc_cr47f8d2a1_evergreen",
+        "user_id": "cr47f8d2a1",
+        "dispute_category": "duplicate_charge",
+        "disputed_amount": 127.5,
+        "filing_date": "11/08/2025",
+        "status": "OPEN",
+        "provisional_credit_issued": true,
+        "provisional_credit_amount": 127.5,
+        "expected_resolution_date": "12/22/2025"
+      }
+    ],
+    "source": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+    "termination_reason": "too_many_errors"
+  }
+}

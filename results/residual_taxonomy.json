@@ -1,0 +1,1867 @@
+{
+  "method": "Deterministic classification by table and field name; categories overlap. Does not infer which residual is legally or operationally erroneous.",
+  "run_counts": {
+    "card_servicing_state_or_order_identity": 46,
+    "retained_dispute_facts_or_classification": 45,
+    "retained_liability_or_credit_choice": 48,
+    "required_tool_log_difference": 35,
+    "other_financial_state": 6,
+    "escalation_record": 7,
+    "dispute_record_presence_or_identity": 7,
+    "verification_record_or_timestamp": 5
+  },
+  "rows": [
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "simulation": "2b8f3312-139d-4f27-bebe-0aebe554b098",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "simulation": "cde221c4-e7ed-48db-b203-62ea71e8b954",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "simulation": "6eaa7bf5-886b-40bc-826b-5e4615bfa1f8",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "simulation": "058e5dcb-1d93-47e7-a55b-ae99e4eee86d",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-5_sierra_2026-02-26",
+      "simulation": "b9292935-a24a-4a81-a36d-d063a0a98ee5",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "other_financial_state",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_7e3685d3:extra_pred"
+        ],
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/provisional_credit_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_38ff7e3685d3:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-5_sierra_2026-02-26",
+      "simulation": "16ef0657-7611-4845-adf2-02263740c59e",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "other_financial_state",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_7e3685d3:extra_pred"
+        ],
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_38ff7e3685d3:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-5_sierra_2026-02-26",
+      "simulation": "9c85d3bf-08eb-4856-9989-ebbe582bc10b",
+      "task": "task_084",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:extra_pred"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_1520c35c05b8:extra_pred",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_fbc04e705365/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_c133cb1b572e:extra_pred",
+          "/debit_cards/data/dbc_c7e49977bbbc:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-7_sierra_2026-05-05",
+      "simulation": "d38faca1-8f10-4e53-a915-2f6c1b40eb5a",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/e34fb51e99bb8861:extra_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/recurring_blocked:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-7_sierra_2026-05-05",
+      "simulation": "8101a39a-4c3c-4478-ae9e-653071820478",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "other_financial_state",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_7e3685d3:extra_pred"
+        ],
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_38ff7e3685d3:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-8_sierra_2026-08-04",
+      "simulation": "24e8f752-0574-4ed5-9bd8-bbac400c4587",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-8_sierra_2026-08-04",
+      "simulation": "d9fe9782-71c9-4079-8fe6-ca1088292df9",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "dispute_record_presence_or_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d:missing_pred"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-4-8_sierra_2026-08-04",
+      "simulation": "c7ac58c3-0cb5-402c-bbaa-40a45e8bd5ec",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-5_sierra_2026-08-04",
+      "simulation": "3c799409-22b1-4a86-a8fd-f6b085df9087",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "other_financial_state",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_7e3685d3:extra_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_38ff7e3685d3:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-5_sierra_2026-08-04",
+      "simulation": "023ac667-28dd-438d-8f21-8a24737f7755",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-opus-5_sierra_2026-08-04",
+      "simulation": "3af1f50f-e61b-4100-a081-1e120d96ca2a",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+      "simulation": "c69158ce-30f3-4ab1-b15d-5279025bc110",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+      "simulation": "2bc18530-0a2e-4114-be6e-6f8afc461c46",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "other_financial_state",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/accounts/data/chk_mc47a2b9e1_gff/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_8c4d64ca:extra_pred",
+          "/bank_account_transaction_history/data/btxn_dcfee_dbe34134:extra_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_3757dbe34134:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_card_orders/data/dcord_c0ff8c4d64ca:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+      "simulation": "20cda961-be3d-4c5e-8cad-8c6c743db470",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/provisional_credit_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+      "simulation": "405f8616-1feb-463b-adc3-5b915f44fec0",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-2-5-pro_sierra_2026-05-05",
+      "simulation": "916f3ed1-18ef-4688-9d10-14e38056cd39",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closed_date:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-2-5-pro_sierra_2026-05-05",
+      "simulation": "03d5e7a4-e74d-47f7-a7f5-f00aef0fe328",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-1-pro-preview_sierra_2026-05-05",
+      "simulation": "ceb131df-0b9d-4e72-966a-a8ae00ccb288",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/provisional_credit_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-flash_sierra_2026-03-02",
+      "simulation": "fa13ada9-ceb7-4e2f-b842-0144cc481eb6",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/police_report_filed:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "0ff6fdb3-7b8d-4cc9-9bf6-f177b4f0cde2",
+      "task": "task_084",
+      "categories": [
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice",
+        "verification_record_or_timestamp"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/discovery_date:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/written_statement_provided:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/dispute_category:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/transaction_type:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/written_statement_provided:value"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "verification_record_or_timestamp": [
+          "/verification_history/data/a7c2f85d91_20250120_153500:extra_pred",
+          "/verification_history/data/a7c2f85d91_20251114_034000_EST:missing_pred"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "92873282-2574-478f-a346-e8ea5f2e3f26",
+      "task": "task_086",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice",
+        "verification_record_or_timestamp"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_3c585e9afa44/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/customer_max_liability_amount:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_094423cfa44e:extra_pred",
+          "/debit_card_orders/data/dcord_8a68db16b7ef:missing_pred",
+          "/debit_cards/data/dbc_5b437fabe330/card_design:value",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/status:value"
+        ],
+        "verification_record_or_timestamp": [
+          "/verification_history/data/cr47f8d2a1_20250101_010000_EST:extra_pred",
+          "/verification_history/data/cr47f8d2a1_20251114_034000_EST:missing_pred"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "e65b9d4b-9533-42d4-814d-bba01fcdf332",
+      "task": "task_084",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/db2cecf4fb06ddb7:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_f0b84f2935a6/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_c133cb1b572e:extra_pred",
+          "/debit_cards/data/dbc_c7e49977bbbc:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "3aabb8e4-f0b4-4811-ada7-ab0dcd626f81",
+      "task": "task_086",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/db2cecf4fb06ddb7:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_3c585e9afa44/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/transaction_type:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "643f8b6d-e1cd-4d55-9bcd-667e39622391",
+      "task": "task_084",
+      "categories": [
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/customer_max_liability_amount:value"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_fbc04e705365/pin_compromised:value"
+        ]
+      }
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "simulation": "62420e7b-9434-4745-923e-f263f298c577",
+      "task": "task_086",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_3c585e9afa44/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/written_statement_provided:value",
+          "/debit_card_disputes/data/dsp_3c585e9afa44/written_statement_provided:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/written_statement_provided:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/written_statement_provided:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/transaction_type:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/written_statement_provided:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_0ced2f9fc4df:extra_pred",
+          "/debit_card_orders/data/dcord_8a68db16b7ef/card_design:value",
+          "/debit_cards/data/dbc_5b437fabe330/card_design:value",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/status:value",
+          "/debit_cards/data/dbc_d7c6d11e78e5:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "glm-5-2_sierra_2026-08-04",
+      "simulation": "0bba9370-ca56-4c11-9623-8bcaeeb90511",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "gpt-5-2-none_sierra_2026-02-26",
+      "simulation": "d7bde3a5-e645-4fa3-ae60-9cb12a76ae90",
+      "task": "task_084",
+      "categories": [
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_1520c35c05b8:extra_pred",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/customer_max_liability_amount:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/transaction_type:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/transaction_type:value"
+        ]
+      }
+    },
+    {
+      "submission": "gpt-5-2-none_sierra_2026-02-26",
+      "simulation": "1b07537b-54b2-4688-bcdc-fd6fe9e0791a",
+      "task": "task_084",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/50121832d6a2fec6:extra_pred",
+          "/agent_discoverable_tools/data/7d2d289458587c8d:extra_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:extra_pred"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_1520c35c05b8:extra_pred",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_c133cb1b572e:extra_pred",
+          "/debit_cards/data/dbc_82b5d1a6f3/frozen_date:extra_pred",
+          "/debit_cards/data/dbc_82b5d1a6f3/unfrozen_date:extra_pred",
+          "/debit_cards/data/dbc_c7e49977bbbc:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "fc15f279-b66f-4f12-a87c-4edc38e6d608",
+      "task": "task_084",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_fbc04e705365/dispute_category:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_82b5d1a6f3/closed_date:missing_pred",
+          "/debit_cards/data/dbc_82b5d1a6f3/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_82b5d1a6f3/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-1-fast_sierra_2026-05-05",
+      "simulation": "cf45c35c-1200-4351-8357-a237f6bc8662",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closed_date:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-1-fast_sierra_2026-05-05",
+      "simulation": "208ad794-ee0a-4569-99e7-462ae9112a7e",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice",
+        "verification_record_or_timestamp"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closed_date:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/status:value"
+        ],
+        "verification_record_or_timestamp": [
+          "/verification_history/data/mc47a2b9e1_:extra_pred",
+          "/verification_history/data/mc47a2b9e1_20251114_034000_EST:missing_pred"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-2_sierra_2026-05-05",
+      "simulation": "bc0535ac-6d7a-47c2-a6d2-81f37c4e9928",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closed_date:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-2_sierra_2026-05-05",
+      "simulation": "891b363c-e0a8-48b5-b583-edc7f37e157e",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-5_sierra_2026-08-04",
+      "simulation": "f68a2602-8f83-4330-8519-5b3904860e38",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "1c1b2475-149c-43dc-bae1-8ed63bf5173a",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "a730d42f-ceb8-4665-9032-d1bf880b3b3b",
+      "task": "task_086",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_3c585e9afa44/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/customer_max_liability_amount:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/discovery_date:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_8a68db16b7ef:missing_pred",
+          "/debit_cards/data/dbc_5b437fabe330:missing_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_evergreen/closed_date:missing_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_evergreen/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_evergreen/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "a6254cb1-3587-4bc0-99b8-3456d65cd606",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "retained_liability_or_credit_choice",
+        "verification_record_or_timestamp"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ],
+        "verification_record_or_timestamp": [
+          "/verification_history/data/mc47a2b9e1_20251114_034000_EST:missing_pred",
+          "/verification_history/data/mc47a2b9e1_[TIMESTAMP_FROM_GET_CURRENT_TIME]:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "6a379459-b189-4315-9b40-9e2ff81b9904",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred",
+          "/agent_discoverable_tools/data/63560e8d09d99795:missing_pred",
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closed_date:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "65b6498c-c7b4-4316-8ac7-ddc813a874d6",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice",
+        "verification_record_or_timestamp"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/provisional_credit_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/disputed_amount:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_f889dc05f099:extra_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "verification_record_or_timestamp": [
+          "/verification_history/data/mc47a2b9e1_20241114_103000_PST:extra_pred",
+          "/verification_history/data/mc47a2b9e1_20251114_034000_EST:missing_pred"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "b7059579-4d9e-4bae-b34a-5c4fd2630031",
+      "task": "task_084",
+      "categories": [
+        "dispute_record_presence_or_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "dispute_record_presence_or_identity": [
+          "/debit_card_disputes/data/dsp_1520c35c05b8:extra_pred",
+          "/debit_card_disputes/data/dsp_f0b84f2935a6:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_4c15bbe02fde/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_fbc04e705365/dispute_category:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_fbc04e705365/transaction_type:value"
+        ]
+      }
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "simulation": "c783fdce-c368-4899-b18e-f08813f83c85",
+      "task": "task_086",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/50121832d6a2fec6:extra_pred",
+          "/agent_discoverable_tools/data/7d2d289458587c8d:extra_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_24a0475d1aa9/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_b6f75628c914/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_b50ebf8cd6b4/disputed_amount:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/card_action:value",
+          "/debit_card_disputes/data/dsp_eab67a7a00f1/transaction_type:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_094423cfa44e:extra_pred",
+          "/debit_card_orders/data/dcord_8a68db16b7ef:missing_pred",
+          "/debit_cards/data/dbc_5b437fabe330/card_design:value",
+          "/debit_cards/data/dbc_cr47f8d2a1_evergreen/frozen_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_evergreen/unfrozen_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/frozen_date:extra_pred",
+          "/debit_cards/data/dbc_cr47f8d2a1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "inkling_sierra_2026-08-04",
+      "simulation": "781b3665-50bf-4d44-ab5b-bd8d1feb4392",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "other_financial_state",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "other_financial_state": [
+          "/accounts/data/chk_mc47a2b9e1_blue/current_holdings:value",
+          "/accounts/data/chk_mc47a2b9e1_gff/current_holdings:value",
+          "/bank_account_transaction_history/data/btxn_dcfee_7e3685d3:extra_pred",
+          "/bank_account_transaction_history/data/btxn_dcfee_dbe34134:extra_pred"
+        ],
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/476b001bf604b41d:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_action:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_3757dbe34134:extra_pred",
+          "/debit_card_orders/data/dcord_38ff7e3685d3:extra_pred",
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_3fe9066a1a5f:extra_pred",
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "kimi-k3_sierra_2026-08-04",
+      "simulation": "79c22146-fce7-4568-bf20-d2eb3c36985b",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/discovery_date:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "kimi-k3_sierra_2026-08-04",
+      "simulation": "988aaf01-f044-4083-bcdf-1b70687f2e88",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_cb48b0f7af2d/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/discovery_date:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/pin_compromised:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/discovery_date:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_6845d0896ace/issue_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    },
+    {
+      "submission": "qwen3-8-max_sierra_2026-08-04",
+      "simulation": "675ee403-1379-4374-b50a-35a13b90fb50",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "escalation_record",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/dispute_category:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/transaction_type:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ],
+        "escalation_record": [
+          "/human_transfer_requests/data/transfer_request_1:extra_pred"
+        ]
+      }
+    },
+    {
+      "submission": "qwen3-8-max_sierra_2026-08-04",
+      "simulation": "23b84da7-0c08-4d18-a832-db266bb664b9",
+      "task": "task_082",
+      "categories": [
+        "card_servicing_state_or_order_identity",
+        "required_tool_log_difference",
+        "retained_dispute_facts_or_classification",
+        "retained_liability_or_credit_choice"
+      ],
+      "paths_by_category": {
+        "required_tool_log_difference": [
+          "/agent_discoverable_tools/data/dd16126aba16cc39:missing_pred"
+        ],
+        "retained_liability_or_credit_choice": [
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_10e20efddf60/provisional_credit_issued:value",
+          "/debit_card_disputes/data/dsp_ce4ea4d90d11/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/customer_max_liability_amount:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_amount:type",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_eligible:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/provisional_credit_issued:value"
+        ],
+        "retained_dispute_facts_or_classification": [
+          "/debit_card_disputes/data/dsp_d3627614b43e/card_in_possession:value",
+          "/debit_card_disputes/data/dsp_d3627614b43e/pin_compromised:value"
+        ],
+        "card_servicing_state_or_order_identity": [
+          "/debit_card_orders/data/dcord_96780e464cfa:missing_pred",
+          "/debit_cards/data/dbc_6845d0896ace:missing_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_blue/closure_reason:value",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closed_date:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/closure_reason:extra_pred",
+          "/debit_cards/data/dbc_mc47a2b9e1_gff/status:value"
+        ]
+      }
+    }
+  ]
+}

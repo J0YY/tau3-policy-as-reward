@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+pytest
+websockets
+audioop-lts; python_version >= '3.13'

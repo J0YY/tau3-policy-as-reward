@@ -1,0 +1,1365 @@
+{
+  "host": "cnode404",
+  "slurm_job": "420809",
+  "seconds": 15.821805238723755,
+  "rows": [
+    {
+      "task": "task_001",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_002",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_003",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_004",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_005",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_006",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_007",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_008",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_010",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_012",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_014",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_015",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_016",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_017",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_018",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_019",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_020",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_021",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_022",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_023",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_024",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_025",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_026",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_027",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_028",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_029",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_031",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_032",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_033",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_034",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_035",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_036",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_037",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_038",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_039",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_040",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_041",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_043",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_044",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_045",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_046",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_047",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_048",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_049",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_050",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_051",
+      "variant": "gold",
+      "errors": [
+        {
+          "action": "051_7",
+          "error": "Error: A similar request may already exist."
+        }
+      ],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_052",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_053",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_054",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_055",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_056",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_057",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_058",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_059",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_060",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_061",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_062",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_063",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_064",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_065",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_066",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_067",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_068",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_069",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_070",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_071",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_072",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_073",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_074",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_075",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_076",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_077",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_078",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_079",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_080",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_081",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 4
+    },
+    {
+      "task": "task_082",
+      "variant": "pin_unknown",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_082",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": true,
+          "btxn_3bd1ba6ad800:exists": true,
+          "btxn_3bd1ba6ad800:sensitivity_liability_zero": true,
+          "btxn_d74e8a798f95:exists": true,
+          "btxn_d74e8a798f95:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_083",
+      "variant": "gold",
+      "errors": [
+        {
+          "action": "083_6",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_7",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_8",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_9",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        }
+      ],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_ACTION"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_083",
+      "variant": "required_argument_repair",
+      "errors": [],
+      "reward": 0.0,
+      "disputes": 4
+    },
+    {
+      "task": "task_083",
+      "variant": "broken_then_repaired",
+      "errors": [
+        {
+          "action": "083_6",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_7",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_8",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        },
+        {
+          "action": "083_9",
+          "error": "Error: Invalid arguments: KnowledgeTools.file_debit_card_transaction_dispute_6281() missing 1 required positional argument: 'customer_max_liability_amount'"
+        }
+      ],
+      "reward": 1.0,
+      "disputes": 4
+    },
+    {
+      "task": "task_084",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 4
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_0",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_50",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_084",
+      "variant": "extra_claim",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_084",
+      "variant": "combined",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_084",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_e8c3b09d2c45:exists": true,
+          "btxn_e8c3b09d2c45:sensitivity_liability_zero": true,
+          "btxn_f9d4c10e3d56:exists": true,
+          "btxn_f9d4c10e3d56:sensitivity_liability_zero": true,
+          "btxn_c2g7f43h6g89:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_085",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 3
+    },
+    {
+      "task": "task_085",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": true,
+          "btxn_a1b2c3d4e501:sensitivity_liability_zero": true,
+          "btxn_b2c3d4e5f602:exists": true,
+          "btxn_b2c3d4e5f602:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_086",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 6
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_0",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_50",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_086",
+      "variant": "extra_claim",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_086",
+      "variant": "combined",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_086",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_c671c90e2724:exists": true,
+          "btxn_c671c90e2724:sensitivity_liability_zero": true,
+          "btxn_0fae026130ee:exists": true,
+          "btxn_0fae026130ee:sensitivity_liability_zero": true,
+          "btxn_5690acdd3de5:sensitivity_liability_zero": true,
+          "btxn_0788d2513c8c:exists": true,
+          "btxn_0788d2513c8c:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_087",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 1
+    },
+    {
+      "task": "task_087",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": true,
+          "btxn_70fb52ef4e29:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_088",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 1
+    },
+    {
+      "task": "task_088",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_28eee7145c29:exists": true,
+          "btxn_28eee7145c29:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_089",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_090",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_091",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 2
+    },
+    {
+      "task": "task_091",
+      "variant": "sensitivity",
+      "errors": [],
+      "reward": 0.0,
+      "alternative": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_92867e549ff2:exists": true,
+          "btxn_92867e549ff2:sensitivity_liability_zero": true,
+          "btxn_e5341d2942ef:exists": true,
+          "btxn_e5341d2942ef:sensitivity_liability_zero": true,
+          "unaffected_state_equal": true
+        }
+      }
+    },
+    {
+      "task": "task_092",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_093",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_094",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_095",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_096",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_097",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_098",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_099",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_100",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_101",
+      "variant": "gold",
+      "errors": [],
+      "reward": 1.0,
+      "reward_source": [
+        "pinned_DB"
+      ],
+      "disputes": 0
+    },
+    {
+      "task": "task_102",
+      "variant": "gold",
+      "errors": [],
+      "reward": null,
+      "reward_source": [
+        "pinned_DB",
+        "missing_NL_component"
+      ],
+      "disputes": 0
+    }
+  ]
+}

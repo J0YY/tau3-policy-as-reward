@@ -1,0 +1,17 @@
+.venv
+vendor
+data/trajectories/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.toc
+*.synctex.gz
+paper/rendered/
+paper/main.txt
+logs/

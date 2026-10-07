@@ -1,0 +1,190 @@
+{
+  "published_reproduced": {
+    "r1": {
+      "n": 26,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    },
+    "r1s": {
+      "n": 26,
+      "kendall_tau_b": 0.9751740901874082,
+      "strict_order_reversals": [
+        [
+          "claude-opus-4-7_sierra_2026-05-05",
+          "muse-spark-1-1_sierra_2026-08-04"
+        ],
+        [
+          "claude-opus-4-8_sierra_2026-08-04",
+          "gpt-5-4_sierra_2026-03-25"
+        ],
+        [
+          "claude-sonnet-4-5_sierra_2026-02-26",
+          "inkling_sierra_2026-08-04"
+        ]
+      ],
+      "tie_changes": [
+        [
+          "claude-opus-4-6_sierra_2026-05-05",
+          "gemini-3-flash_sierra_2026-03-02"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "gpt-live-1-astra-high-banking_openai_2026-09-16"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "kimi-k3_sierra_2026-08-04"
+        ],
+        [
+          "gpt-live-1-astra-high-banking_openai_2026-09-16",
+          "kimi-k3_sierra_2026-08-04"
+        ]
+      ]
+    },
+    "r2": {
+      "n": 26,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    },
+    "r3": {
+      "n": 26,
+      "kendall_tau_b": 0.9751740901874082,
+      "strict_order_reversals": [
+        [
+          "claude-opus-4-7_sierra_2026-05-05",
+          "muse-spark-1-1_sierra_2026-08-04"
+        ],
+        [
+          "claude-opus-4-8_sierra_2026-08-04",
+          "gpt-5-4_sierra_2026-03-25"
+        ],
+        [
+          "claude-sonnet-4-5_sierra_2026-02-26",
+          "inkling_sierra_2026-08-04"
+        ]
+      ],
+      "tie_changes": [
+        [
+          "claude-opus-4-6_sierra_2026-05-05",
+          "gemini-3-flash_sierra_2026-03-02"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "gpt-live-1-astra-high-banking_openai_2026-09-16"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "kimi-k3_sierra_2026-08-04"
+        ],
+        [
+          "gpt-live-1-astra-high-banking_openai_2026-09-16",
+          "kimi-k3_sierra_2026-08-04"
+        ]
+      ]
+    },
+    "r4": {
+      "n": 26,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    }
+  },
+  "all_replayed": {
+    "r1": {
+      "n": 32,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    },
+    "r1s": {
+      "n": 32,
+      "kendall_tau_b": 0.9797240863210079,
+      "strict_order_reversals": [
+        [
+          "claude-fable-5_sierra_2026-08-04",
+          "gpt-5-5_sierra_2026-05-05"
+        ],
+        [
+          "claude-opus-4-7_sierra_2026-05-05",
+          "muse-spark-1-1_sierra_2026-08-04"
+        ],
+        [
+          "claude-opus-4-8_sierra_2026-08-04",
+          "gpt-5-4_sierra_2026-03-25"
+        ],
+        [
+          "claude-sonnet-4-5_sierra_2026-02-26",
+          "inkling_sierra_2026-08-04"
+        ]
+      ],
+      "tie_changes": [
+        [
+          "claude-opus-4-6_sierra_2026-05-05",
+          "gemini-3-flash_sierra_2026-03-02"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "gpt-live-1-astra-high-banking_openai_2026-09-16"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "kimi-k3_sierra_2026-08-04"
+        ],
+        [
+          "gpt-live-1-astra-high-banking_openai_2026-09-16",
+          "kimi-k3_sierra_2026-08-04"
+        ]
+      ]
+    },
+    "r2": {
+      "n": 32,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    },
+    "r3": {
+      "n": 32,
+      "kendall_tau_b": 0.9837809148357947,
+      "strict_order_reversals": [
+        [
+          "claude-opus-4-7_sierra_2026-05-05",
+          "muse-spark-1-1_sierra_2026-08-04"
+        ],
+        [
+          "claude-opus-4-8_sierra_2026-08-04",
+          "gpt-5-4_sierra_2026-03-25"
+        ],
+        [
+          "claude-sonnet-4-5_sierra_2026-02-26",
+          "inkling_sierra_2026-08-04"
+        ]
+      ],
+      "tie_changes": [
+        [
+          "claude-opus-4-6_sierra_2026-05-05",
+          "gemini-3-flash_sierra_2026-03-02"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "gpt-live-1-astra-high-banking_openai_2026-09-16"
+        ],
+        [
+          "glm-5-2_sierra_2026-08-04",
+          "kimi-k3_sierra_2026-08-04"
+        ],
+        [
+          "gpt-live-1-astra-high-banking_openai_2026-09-16",
+          "kimi-k3_sierra_2026-08-04"
+        ]
+      ]
+    },
+    "r4": {
+      "n": 32,
+      "kendall_tau_b": 1.0,
+      "strict_order_reversals": [],
+      "tie_changes": []
+    }
+  }
+}

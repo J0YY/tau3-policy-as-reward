@@ -1,0 +1,6894 @@
+{
+  "provenance": {
+    "host": "cnode403",
+    "slurm_job": "420845",
+    "seconds": 54.47633099555969,
+    "source": "data/trajectories/glm-5-think_sierra_2026-03-02/trajectories.json",
+    "embedded_commit": "unknown",
+    "embedded_task_differences": [
+      "task_053",
+      "task_074",
+      "task_077",
+      "task_078",
+      "task_079",
+      "task_080",
+      "task_081",
+      "task_082",
+      "task_084",
+      "task_085",
+      "task_086"
+    ],
+    "termination_gate_verified": true,
+    "shared_database_gate_corrected": true
+  },
+  "rows": [
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "67c15ee3-1224-4f1c-adbf-20571ff34f8e",
+      "task": "task_006",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f03ae5af-8e31-4f0c-8e9a-3c659a15846d",
+      "task": "task_035",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0e749bde-3878-46f5-b4a6-d3eb75d8dfb3",
+      "task": "task_099",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a74f1ec2-e77a-4a44-a308-dfbed3c18a26",
+      "task": "task_002",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0cca566a-9451-448b-b2ae-1fab43bf3878",
+      "task": "task_001",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ec6ca30a-ff21-467e-8451-537ff8c28f57",
+      "task": "task_003",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6b8e58aa-5c9e-4374-a647-3ca52cb706e2",
+      "task": "task_023",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b32ca310-c8c6-4ac9-b3d9-d2d772b28e13",
+      "task": "task_003",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a9abc13d-9189-4480-871c-1452ab21c5b2",
+      "task": "task_001",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a0c6c5d4-d279-4ecc-be20-1839bd92923c",
+      "task": "task_032",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "68a75c7c-8b94-49ef-a347-b1e1e3a4ddaa",
+      "task": "task_002",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 9,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "87b061f2-e9a7-487a-976f-54f197586d9b",
+      "task": "task_016",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3417e556-3da7-4440-99ef-1a82207fc5fc",
+      "task": "task_102",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 9,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4fb8526c-d452-4387-b3b6-745d0626c672",
+      "task": "task_006",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b2540f39-dc2e-4d7f-873c-b73770d62da2",
+      "task": "task_076",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c0e2c17d-67de-491c-9432-adad5b10203f",
+      "task": "task_004",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2a413b6b-059d-430c-b4dd-e7cfc593a94f",
+      "task": "task_022",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 30,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "149a83dc-05e7-40c6-8223-aebaf986fb9b",
+      "task": "task_007",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 13,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "99db06c5-b334-4a92-be6c-c77d66671b11",
+      "task": "task_048",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e610bbdb-dd53-4320-8db3-6ec3cc880001",
+      "task": "task_052",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "56951a53-8dc7-48a6-bf09-0dfec582d351",
+      "task": "task_098",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 9,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "99affead-5b47-44be-82dd-32ce9bd25042",
+      "task": "task_018",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "09889679-dd56-4a11-91ba-3fb15988db28",
+      "task": "task_024",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "91007bba-ca07-429b-8e29-c7af40c8f9c6",
+      "task": "task_034",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4df1f1d0-78f8-4fb2-a602-2610757f2ed6",
+      "task": "task_060",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "96b9351c-2abb-47b1-b0c2-5fac59cdf988",
+      "task": "task_079",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a657f45b-d584-4510-9db8-ad87cd6eb8e9",
+      "task": "task_033",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "eb358f11-0366-46b2-88e6-076d32d92d30",
+      "task": "task_015",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "42cf05ee-60a0-4c33-b5e1-eb4315c9334c",
+      "task": "task_007",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "090c9a17-dc00-4b79-a6b2-cb65dae31866",
+      "task": "task_068",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "1f74d56a-e1c5-4bba-b4d0-d375269b9cc4",
+      "task": "task_025",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "66be04ea-30c2-46a4-b4ec-92a8b21bb276",
+      "task": "task_028",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e1ab4e83-8c3b-4ed1-bb94-18b24f3f5d84",
+      "task": "task_095",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "41f1285e-7361-4f5e-8ef1-d79c3786246c",
+      "task": "task_093",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c76507ea-a3b0-480a-983d-c0adfdbf3157",
+      "task": "task_012",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7bf39d16-2935-4a2b-9396-8d52e49c8bbb",
+      "task": "task_005",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3da997af-4ce2-4ade-a764-479b6ac7cfe8",
+      "task": "task_049",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "1abd07a6-f525-40d2-85a2-124b06ecc352",
+      "task": "task_089",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7d040694-f246-43bd-9776-ad2159de68c2",
+      "task": "task_014",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "75874ba2-74d5-4b4b-8d51-b4abec9cef9a",
+      "task": "task_061",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "44dfeab6-515e-447b-801f-520876ccfe6d",
+      "task": "task_062",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6236fcf5-5dbe-4383-b409-a8b9a8366e54",
+      "task": "task_087",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a8d3d2e9-1be4-452e-82e4-c267a9d966b4",
+      "task": "task_078",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b03b72e1-b72e-4141-8288-4698bd0d4d1e",
+      "task": "task_008",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4ff24ff7-a904-41c3-80bf-6c7663d18f5b",
+      "task": "task_086",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": false,
+          "btxn_0fae026130ee:exists": false,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "206ee468-962a-4847-a0c0-e0f7e4135133",
+      "task": "task_088",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "13ed01fb-6817-4dca-ae8c-d3b43b00f0cb",
+      "task": "task_092",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d19a8ba8-6449-464d-9425-d7a8a6be7b65",
+      "task": "task_047",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2516f907-8f51-4021-aee8-6b861f693bec",
+      "task": "task_053",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d9589e91-685d-477a-9630-b6eeebf32ec5",
+      "task": "task_054",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f378e6b5-4d49-42fd-b3be-d2966807c2ba",
+      "task": "task_090",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "74bbc59a-50db-4599-b60a-f5acc0167312",
+      "task": "task_080",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e6548d91-5559-49fb-a3ec-733783da2f1e",
+      "task": "task_085",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": false,
+          "btxn_b2c3d4e5f602:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3ad1de47-d5c0-4d73-b04f-68bd90993e50",
+      "task": "task_010",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 9,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c201088e-7fa1-4292-9f00-2ff42fd9f5c2",
+      "task": "task_044",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b0f24a34-0a56-41c1-9e98-197840e63bd2",
+      "task": "task_020",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "98db511b-d5f8-44aa-9bb6-282f47c6f600",
+      "task": "task_073",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bc5e226d-865b-4315-980f-08644a17b4c3",
+      "task": "task_046",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d46da94b-b14b-4c38-b55e-1db2f0ccef8e",
+      "task": "task_043",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "83468ec7-d5c3-401d-b7be-378080270a49",
+      "task": "task_072",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4a67e345-89ee-4a4f-9343-511550461988",
+      "task": "task_014",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "25d7963b-8147-439b-8895-b9cacc8f9cfa",
+      "task": "task_094",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6d37179f-6579-4b32-940e-3c4b79a9ee3d",
+      "task": "task_070",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f9201f0a-6928-4c30-a041-d1cd0051571c",
+      "task": "task_082",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f680448d-d4d3-4da2-b77d-cba77d35657f",
+      "task": "task_004",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "64599522-42bb-4a31-9ffd-ca5941d983f9",
+      "task": "task_012",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "487116ab-c2f5-4c5f-8c5f-545766764616",
+      "task": "task_091",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": false,
+          "btxn_e5341d2942ef:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "94bc876e-5b56-44b0-9c9f-6fce444d5660",
+      "task": "task_066",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 25,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4bad9637-8677-4f0c-a075-3c9a036e188b",
+      "task": "task_065",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e294d6e1-1c05-4d2d-8048-4b0fbda10eee",
+      "task": "task_096",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0156131a-922d-48e6-99bd-b5f10b077df0",
+      "task": "task_077",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "beb4ee2a-3121-4b18-b553-2101f4fed2ca",
+      "task": "task_024",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b60c3ec0-441a-46dc-8ab1-e468efd232f4",
+      "task": "task_100",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f7ae8a8c-f857-43f9-bf61-4b2182de7cb4",
+      "task": "task_029",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8938724c-0e5b-43f1-adb6-eeedb725da00",
+      "task": "task_101",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f10646ac-1a61-4c97-a250-44af504a3839",
+      "task": "task_064",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "50047ded-9666-4501-b245-30314cc9da88",
+      "task": "task_037",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "50b21d9d-d616-43b8-98e9-76d7888c0ccb",
+      "task": "task_036",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b5b7fec5-909a-44b7-a422-224f9130f039",
+      "task": "task_045",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f5175dc8-e633-4f8e-9195-6bdb1ff95d15",
+      "task": "task_010",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "31ba3019-8a4a-46db-be42-39f98dcbf00b",
+      "task": "task_040",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e30604c0-3d93-40d5-a88f-5ca57b5fb720",
+      "task": "task_038",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "54ffaa7b-d96a-4515-8d67-1501cef483bb",
+      "task": "task_069",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7e2cd3d5-6dd0-44d6-bf8f-65f9cfb67f85",
+      "task": "task_039",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b8bd103d-9eb2-41b8-bf70-81f2a5a4f73d",
+      "task": "task_067",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 29,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a4a59e80-c7a1-4fad-a503-cb0e97b9e07c",
+      "task": "task_035",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bcd43e6f-324e-4bf8-aa99-0692f9260a08",
+      "task": "task_097",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8f7a180b-9d59-407e-830c-60a9c6fba4ff",
+      "task": "task_021",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c2a0700b-ff1e-465f-a89e-e42f3dec6473",
+      "task": "task_084",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "btxn_e8c3b09d2c45:exists": false,
+          "btxn_f9d4c10e3d56:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "aebf1236-ac65-41cb-afe1-980dc4b46bf7",
+      "task": "task_050",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "55755e04-b648-47d7-98db-ba0057364c1d",
+      "task": "task_083",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e12cc023-00dc-4726-ac6a-efe84972f5f3",
+      "task": "task_031",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9e4d18aa-0b3b-4bd4-aaa6-a59612d97415",
+      "task": "task_056",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ba2b6769-c82e-4cc2-a868-4209beae8103",
+      "task": "task_081",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 27,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "efacbfc0-8500-4ffb-931f-a075e4746382",
+      "task": "task_041",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8f83d4a6-9f97-4a17-9eac-c681988db292",
+      "task": "task_055",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3ea008bf-7381-43b1-a61a-0afde4a01c04",
+      "task": "task_032",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ab375356-7921-4622-969d-1c19b48c5f2e",
+      "task": "task_075",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b1af8eda-64ca-4fba-a1e2-1e13695aa635",
+      "task": "task_026",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "97d5922e-80f5-4d4d-b39e-547fe21774c6",
+      "task": "task_017",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "359058f1-90f6-4202-847e-c2e1492c2d98",
+      "task": "task_022",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 27,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "759aa7ee-518b-413f-a54e-0dd585887f3f",
+      "task": "task_074",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 25,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "afdf0499-7fe8-4a03-a778-fe2e18f1677f",
+      "task": "task_019",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 30,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4fe65eca-f047-4178-a527-9fd7ab0a4ef5",
+      "task": "task_100",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7abbd2f0-afc0-4cc3-a606-5ee33bf057e4",
+      "task": "task_023",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b5de5e95-3285-4f36-8b46-5e8255074ca5",
+      "task": "task_002",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9fdba0a3-e655-46d7-800b-dc78e0f19654",
+      "task": "task_033",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b5544383-b857-42d9-a3a4-5102d6d7b0bb",
+      "task": "task_063",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 33,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "42ca17b6-b373-477d-99e0-1451d38b5693",
+      "task": "task_099",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6edfa711-8083-4429-9bce-f8aadccce588",
+      "task": "task_021",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c85a754e-3c74-4b5a-94b7-463803b3b505",
+      "task": "task_026",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "52e807ef-7d67-4ab0-9dda-1482ac54a2c3",
+      "task": "task_070",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3010d2bd-2534-49ba-8475-48239fd36e2e",
+      "task": "task_016",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b8a17e4b-46c2-44b2-9c4e-9a99ad87bc7c",
+      "task": "task_059",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 27,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "abf0495f-6ab8-401d-a5e5-431721a576c4",
+      "task": "task_051",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "166f5e25-c2e3-474f-a084-a72f4525805d",
+      "task": "task_071",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 35,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bf4686ea-1cf6-4919-a37a-56e44f6101d5",
+      "task": "task_027",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "edcbb185-d778-4654-b720-320ef9260dfa",
+      "task": "task_006",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fdd184dc-1296-44f9-84c6-45b6ab11e833",
+      "task": "task_047",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9fcbb033-2649-4e94-b850-8e24eb7dba70",
+      "task": "task_049",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "77efedf0-309b-416d-b8df-f4d58084714e",
+      "task": "task_015",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "09405a93-7355-47ba-8ada-01d3c3f5c742",
+      "task": "task_017",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cd103c89-d0d0-40fa-bf7a-0df6c21c484a",
+      "task": "task_003",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "882b83d5-5c36-4b08-862f-2ce351b5e35e",
+      "task": "task_052",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d3f72070-4424-4263-ab43-337910880bb7",
+      "task": "task_048",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3130bc3a-3c34-43a9-ab37-68cf5b5b84b6",
+      "task": "task_057",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6af32b4c-eab0-4109-84a7-1cee75e62513",
+      "task": "task_001",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d2e28ddf-b0c1-49cb-8ffc-3fc05c611d8a",
+      "task": "task_050",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fe638aeb-3e83-439c-94c2-f07ab3767083",
+      "task": "task_025",
+      "trial": 1,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c99b06f1-fcac-4e46-8142-beb06f7fbcfd",
+      "task": "task_007",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 6,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cc1c1b3f-ee5c-4a68-8510-371af8cd0dd4",
+      "task": "task_018",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "75de9863-9585-4b6f-bcb1-9783980e16cd",
+      "task": "task_020",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ddff230f-c60e-4f1d-911b-5fdf4a71fdb5",
+      "task": "task_044",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "26cb02aa-479a-4463-88cb-22418dd86ff3",
+      "task": "task_054",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d92fd479-d3c3-4756-ac61-76741139786e",
+      "task": "task_051",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e0988b27-feb7-44b2-a5fb-e7bda4073ad9",
+      "task": "task_027",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f547e74c-32fa-4cd4-8e49-311eb9302cf5",
+      "task": "task_031",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fbc9ec45-8927-4684-8c2f-8fb7dd634d3a",
+      "task": "task_060",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2f41a410-e6f3-4a35-8ccb-8b9d4b014555",
+      "task": "task_061",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b31a14aa-6e0c-4ab3-b5cd-edbf2e3ad6bb",
+      "task": "task_028",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "993ed2ae-8999-4917-947d-267a3c23479c",
+      "task": "task_004",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "1255d7ea-8ac5-42c7-977c-8adca1ab3c1e",
+      "task": "task_046",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8ef9e199-63e3-4476-aa67-2134c1b8f172",
+      "task": "task_037",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c9161698-61fa-4615-ace5-108b98734433",
+      "task": "task_098",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2983515a-2807-484e-ab7a-40de6c5ffcc3",
+      "task": "task_101",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c51df398-4297-417d-933f-83f1b11c1289",
+      "task": "task_034",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 9,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "10695235-fefe-4f22-a4f0-2b8cf78a464f",
+      "task": "task_078",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "5bef09a1-d72f-4c0a-ba8d-ced66d55effd",
+      "task": "task_005",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "09f735d3-0b4c-45c2-9a0a-1573d10c52dd",
+      "task": "task_043",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3736edcd-9ee5-4d83-b9b0-63b2eb644fce",
+      "task": "task_036",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "79560fd7-3905-4789-b18c-1af05ebc48b4",
+      "task": "task_068",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "18ae36e5-8f68-47da-ad31-70f609fb6462",
+      "task": "task_038",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b42b3b61-1287-464f-829a-9ce388b133c2",
+      "task": "task_008",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d1bcab38-3f1d-4c97-8fc8-9d28aef747ce",
+      "task": "task_074",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c78dad07-4a54-42a8-860a-eca10a6f5793",
+      "task": "task_024",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7ab6654f-04c8-4043-992c-2c15b3c5ede3",
+      "task": "task_053",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 27,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "897902e7-176c-41da-afab-66817a7a76b3",
+      "task": "task_088",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8b35b109-06c6-4fdf-acce-c9e1db5dbb02",
+      "task": "task_010",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d6dc1a54-0e7a-44ce-902d-cea45e45119d",
+      "task": "task_041",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6737dbbb-c232-40b8-bc19-3a2c312b402f",
+      "task": "task_079",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9ab53bb8-368e-48ef-83ba-e8aa7279f4e4",
+      "task": "task_029",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "54d403bd-645e-4bac-9c28-cdb9ee642ae5",
+      "task": "task_089",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fa82b872-a262-487d-96fb-fb0f26d27798",
+      "task": "task_091",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": false,
+          "btxn_e5341d2942ef:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "46faee09-4c41-47ce-9698-6e80d0d6856c",
+      "task": "task_065",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "102e438e-251f-4cff-a5cc-6e5ef6fc7ae9",
+      "task": "task_035",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9b3383e9-bc3f-4476-a515-dec92954e0ac",
+      "task": "task_062",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e59b2620-73e4-465f-b600-c21a0b5b3b92",
+      "task": "task_005",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 4,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "64584f2e-3543-47a0-9572-87c715234a17",
+      "task": "task_040",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 15,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cca04c9a-e5d6-4512-8c64-197ba33cbaca",
+      "task": "task_076",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "72c73767-edbc-488d-a169-6b9ade37f21f",
+      "task": "task_094",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 12,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9c333535-4189-47ce-8757-c4ba441ebfd1",
+      "task": "task_085",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": false,
+          "btxn_b2c3d4e5f602:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bb27577a-9355-4ac4-a71a-53990ed09fd6",
+      "task": "task_019",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 29,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f983cd09-6536-4d90-9fd7-bd33d4d146de",
+      "task": "task_057",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9ef3206e-b4ea-47f6-90d2-cf89931f69c7",
+      "task": "task_096",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8a24fe85-9b58-450a-8092-87fbaa08d3f7",
+      "task": "task_077",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "876fc9e0-ecf2-4f74-9c50-717ff795dd7e",
+      "task": "task_082",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "5e27b14d-08e6-4b81-8304-6c60a5a14c7f",
+      "task": "task_093",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3fcd5fc5-cedd-4391-acb7-2c226f71cf15",
+      "task": "task_102",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "941be77e-2aef-43c2-954b-d7261b599f09",
+      "task": "task_084",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "btxn_e8c3b09d2c45:exists": false,
+          "btxn_f9d4c10e3d56:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "99833b8d-4fc3-42ce-9b76-701d995561e3",
+      "task": "task_067",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 28,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b2a82c7d-f21f-4e19-b5b0-63825b255f80",
+      "task": "task_073",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "85acd363-ce0c-4425-868b-11cb08f4c593",
+      "task": "task_081",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ce236e1b-2425-4142-ba9d-3b3baac884cf",
+      "task": "task_032",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "5b146a63-98cc-430a-8529-38e78890d179",
+      "task": "task_097",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ea6e18a1-bc9f-4c87-a709-c2713d13b759",
+      "task": "task_039",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "41b43951-408d-4cbe-b461-f5d6d3bc27be",
+      "task": "task_058",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 45,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "86109fae-16de-47fd-a378-bacd2b32b677",
+      "task": "task_087",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "13f02b58-0d03-4e54-89db-c85fef7625cb",
+      "task": "task_023",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "371c7e22-3570-4571-9892-b6cade32a55b",
+      "task": "task_012",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 14,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "11509955-1d6e-4160-8fe9-9c714af91be9",
+      "task": "task_066",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 28,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b59127d2-c86b-4e0c-93e2-2323e08c8bb1",
+      "task": "task_029",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "427cd382-d3fe-4e65-b8a6-194cef476078",
+      "task": "task_053",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 25,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d5842269-12a4-4c3c-8378-956301634eab",
+      "task": "task_075",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "1147875c-7c38-4c79-84e0-c128c82642e9",
+      "task": "task_014",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 13,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "12a862da-1dcf-4943-84b9-4319dc19e351",
+      "task": "task_056",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e1026f41-7c83-4d10-95ea-3fbda25fcbf4",
+      "task": "task_026",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8d7eb331-8772-43d3-ab95-5f2183663712",
+      "task": "task_072",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b38fcfbf-038a-49f8-a56e-8b0abb0aa70f",
+      "task": "task_016",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "70b70a13-91d5-4ccb-b164-5d013bb6595d",
+      "task": "task_080",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2b9df9a5-0167-4148-ad02-8b8f73628a93",
+      "task": "task_033",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9ae8e558-56b9-4e47-9355-69f0c9f45650",
+      "task": "task_015",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c407e4fb-561c-4502-86f7-e1fd8d947670",
+      "task": "task_071",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 31,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4a3b8446-8c48-4a33-8ad6-b9515bf2695a",
+      "task": "task_047",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0aba07c3-4b23-47eb-af25-0777dce5e75e",
+      "task": "task_055",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 29,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7b91500a-032e-478a-a86b-378ad979dc02",
+      "task": "task_018",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e01e3e8b-8a43-4b2a-b515-7299978af922",
+      "task": "task_025",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 12,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f2d814a8-20b2-4f9a-b2e8-5965202e8fda",
+      "task": "task_028",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fb4b5aaa-6962-4d80-ae50-dedc3dd8f032",
+      "task": "task_058",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 32,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "76962343-b43e-4fea-83c7-a2bed11f2ae5",
+      "task": "task_054",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "31ec8d92-f68d-4007-a50b-4a5d1d6af8aa",
+      "task": "task_045",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "533b48be-f45a-41be-93f0-90f67774a7ae",
+      "task": "task_052",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4f4111f1-7c2f-40ad-9c23-3d057655054a",
+      "task": "task_086",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": false,
+          "btxn_0fae026130ee:exists": false,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "afcf1f8c-2425-4ff6-8fad-bc60ef958ec1",
+      "task": "task_048",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b1d641d0-c087-444c-9c17-b17662b14373",
+      "task": "task_099",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "66d8d286-0f80-4d89-bf06-4940f2f28202",
+      "task": "task_083",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 28,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0fe0d827-186a-4def-bf2d-602760b5aca0",
+      "task": "task_021",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c377f56f-df5c-426d-825a-1bdd4a58a615",
+      "task": "task_020",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "45572016-a1e6-4323-a85b-e82715643045",
+      "task": "task_095",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "19bcfe3b-2809-42d7-8d59-091a289b6ede",
+      "task": "task_049",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "84f2aea0-c0b6-4906-b259-6b5d5e8e3168",
+      "task": "task_050",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7b0a2d66-1b0c-42e1-aa19-d460908311dc",
+      "task": "task_037",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d6374e4d-598c-476b-9e0d-7bde61748364",
+      "task": "task_027",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2b7f3873-6b17-4eb1-b710-4489448d9f8d",
+      "task": "task_043",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "957bc757-f461-471d-a925-b257fd708911",
+      "task": "task_059",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 33,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "afe2e254-b84f-4275-8093-8cfdbfd54a11",
+      "task": "task_051",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "16b03f3f-525e-4f4a-8a2f-cb0b74ab935c",
+      "task": "task_060",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8cf67c90-027c-4d31-96e1-4fbedf9c5ddd",
+      "task": "task_061",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e2127fe0-9e4e-4273-90e0-5b3b265ed9c2",
+      "task": "task_036",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b32bf274-f81f-4e1c-8699-70d2a4a6a981",
+      "task": "task_003",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "eea1e10a-18f1-48da-8d39-b7a81d164141",
+      "task": "task_046",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "68107ad8-5f2b-4b8b-bc7b-040fe21a0ccb",
+      "task": "task_062",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "60409edd-8bd5-4fc7-acbb-e2049406908b",
+      "task": "task_045",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4db5dff9-0cf8-4349-b371-7c8393ba1925",
+      "task": "task_031",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8e759b84-e199-4618-8d1f-ee693e791674",
+      "task": "task_006",
+      "trial": 3,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 3,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "946e8f10-03d6-4b98-bd57-e49f8e43b452",
+      "task": "task_067",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "569d87f2-0da3-4f39-8cc5-2910befa24aa",
+      "task": "task_038",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "fa2ff6e0-b30e-455e-940d-e5ad4693f27d",
+      "task": "task_090",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8952f161-8fe6-4418-9feb-ff73a55a685d",
+      "task": "task_039",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8fcee116-ae75-4b7e-81ee-cce8244c48ae",
+      "task": "task_044",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "080b7188-ceb4-4c06-af53-c19fb8ce3e3a",
+      "task": "task_077",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0205cfdc-eb78-4341-b674-a2e196ca01fe",
+      "task": "task_017",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cfdb0bb7-e7d2-45e0-a61b-08d0dc2d9662",
+      "task": "task_001",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6baeec80-21b5-462e-bd1d-24ca1dd0bbba",
+      "task": "task_069",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "835e8173-eb6e-4e7c-b104-463208904e0d",
+      "task": "task_068",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "9c33b0ce-3b73-49b9-9adb-5053cc52791f",
+      "task": "task_100",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6b433a93-c8e6-4908-a2b6-868906b91485",
+      "task": "task_057",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "782e410d-ad31-4f7f-925a-f6c1d5b184c5",
+      "task": "task_022",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b62d8f61-cbb8-4a3d-a92d-767fc3a1f68c",
+      "task": "task_082",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "aafe90a9-377e-45c7-a7f1-54acca533d0c",
+      "task": "task_034",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "99cd5091-c2c0-43d5-b79e-b3936e10bdcf",
+      "task": "task_079",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "12cea7eb-55cb-49b0-a242-08e822d542c6",
+      "task": "task_002",
+      "trial": 3,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a20eb35d-09d0-42b8-b8d7-2df3a63bb4d1",
+      "task": "task_072",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a669310f-d74a-4a85-9c30-3db496865cd2",
+      "task": "task_073",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2a8adcd0-a726-4273-a7c5-005c4814509a",
+      "task": "task_078",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8f068fc2-7e0c-4942-a771-171c193cc89a",
+      "task": "task_084",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "btxn_e8c3b09d2c45:exists": false,
+          "btxn_f9d4c10e3d56:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "8c66d25e-50d9-4f2d-b155-058af42581f8",
+      "task": "task_010",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 5,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "84d16cb2-c713-459c-9b42-641f79436c64",
+      "task": "task_087",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "079ca002-f20b-4086-8738-f97b3ea6d323",
+      "task": "task_090",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "7547b5d5-7721-46df-9752-8aff94a1ea13",
+      "task": "task_064",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 40,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "0b33fcf0-6fdc-4a34-b862-22ced9c9f96b",
+      "task": "task_007",
+      "trial": 3,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ed8e843f-dd91-40ad-9c02-44097458f418",
+      "task": "task_004",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 2,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4d211094-2599-4d8e-a458-d29e96a75aec",
+      "task": "task_092",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c244881a-d6dd-4e8c-949c-4ded0ba78402",
+      "task": "task_066",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "433adc01-7799-4ec0-a08c-81038dc274b0",
+      "task": "task_012",
+      "trial": 3,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3b09b12c-6011-4f9e-a21b-00202b6c31e9",
+      "task": "task_008",
+      "trial": 2,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 21,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2065ddf3-b3e9-410c-ae1c-3ee552596bfa",
+      "task": "task_074",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "a5e111b8-d14e-42e4-9e45-9b3ebf5159e6",
+      "task": "task_069",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 39,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "86a6e22e-9b94-4a48-aec6-3a3fa24acb14",
+      "task": "task_041",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "3c31def5-fb7e-44d9-9303-eacf2e9982bf",
+      "task": "task_093",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ed30c277-0b2d-468b-a808-1520f2c5bebf",
+      "task": "task_098",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 10,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "c1d3e18e-2027-4072-94de-1fa847ac1957",
+      "task": "task_083",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f7eaabc7-83e1-494a-8cbd-556e00c0e071",
+      "task": "task_088",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "88a4a822-35e6-4a47-b366-320c4e191f9c",
+      "task": "task_085",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": false,
+          "btxn_b2c3d4e5f602:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "113729e2-4a52-43bf-97a2-b1dc15da4525",
+      "task": "task_080",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f11027e6-9641-44f1-958e-1fe134f12647",
+      "task": "task_081",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 20,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d98053af-4c5b-4fbf-9b2d-42713358c5a8",
+      "task": "task_091",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": false,
+          "btxn_e5341d2942ef:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "84216140-c09d-4ada-a79a-19d2551aa390",
+      "task": "task_101",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d4c43773-a6ae-460e-bed0-7c2b71b0c063",
+      "task": "task_089",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "316a2020-5f40-4f58-864a-cf9ddd8b702e",
+      "task": "task_086",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 17,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": false,
+          "btxn_0fae026130ee:exists": false,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "eeb429b9-a6fb-4f8b-a738-4009391ff925",
+      "task": "task_056",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 22,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "e548e1a2-72ca-47ad-a2c5-9a4900c844b8",
+      "task": "task_092",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 31,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d957a540-c90f-470a-8244-63917f1d5c48",
+      "task": "task_055",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "187ae44c-af0d-4ffa-89c4-7033c080052b",
+      "task": "task_063",
+      "trial": 1,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 43,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "12192118-a18c-4e27-833d-7a02b1a44134",
+      "task": "task_094",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2a99463d-16ee-4b75-9c16-1f197c3b598f",
+      "task": "task_070",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 25,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "28c2e1be-f9c7-45c5-85c5-cf7bc005bcd9",
+      "task": "task_075",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 19,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ee2c6b19-b927-4912-8206-b8cc23b026af",
+      "task": "task_065",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d2025bcd-0970-4bf1-b053-1ecf0a50a458",
+      "task": "task_076",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 24,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "4704c465-ea3f-4f32-8997-46e5bd58883c",
+      "task": "task_064",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 29,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bc2249a1-5e91-42c4-b64d-55f58bde6e08",
+      "task": "task_097",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "d1f6ae4a-efe0-4a6c-80a1-69aa265d7755",
+      "task": "task_014",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 11,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "20f31a1d-a7a5-480e-b5ff-85ddd75f18aa",
+      "task": "task_015",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 16,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ac4a6b61-92cc-4227-aa38-6c099f7d74a5",
+      "task": "task_102",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 12,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "b37288ed-50a0-4f54-8888-3f359f38711c",
+      "task": "task_017",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 18,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "757dc6ae-c238-47ce-991a-c64cb8d68d27",
+      "task": "task_019",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 34,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cf5c7967-341a-4f2e-9284-e388565d551e",
+      "task": "task_063",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 31,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "ebd70c62-979d-42b5-a344-ffe9d5c976f1",
+      "task": "task_005",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 7,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "cfc44290-19ca-44c6-8c4b-0cf58eae9c70",
+      "task": "task_016",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 8,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "07134fca-0186-4697-b0bc-5c53496f6421",
+      "task": "task_018",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 26,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "abb4c791-7f1e-4ad5-ade1-78211d1a6094",
+      "task": "task_096",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 23,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "829790c0-49bd-4198-88ac-b6601616d3ba",
+      "task": "task_040",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 34,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "2c828e02-43c2-47a9-83eb-60e4d883ae6c",
+      "task": "task_059",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 36,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "6241d59f-716b-4018-bc55-d32d22e81f6c",
+      "task": "task_008",
+      "trial": 3,
+      "stored_reward": 1.0,
+      "legacy_response_ids_restored": 13,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "5eb5b94f-a79c-4665-8d37-b872948ba2f9",
+      "task": "task_071",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 35,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "bc657170-63b5-48e5-b9cc-8b75da9b5d20",
+      "task": "task_019",
+      "trial": 3,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 28,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "f0640d6a-9c38-436d-8a1b-c942714e3ec3",
+      "task": "task_095",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 35,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "simulation": "62aad40e-9816-433d-83ba-6c9932e1d225",
+      "task": "task_058",
+      "trial": 2,
+      "stored_reward": 0.0,
+      "legacy_response_ids_restored": 36,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "too_many_errors",
+      "termination_gated": true
+    }
+  ]
+}

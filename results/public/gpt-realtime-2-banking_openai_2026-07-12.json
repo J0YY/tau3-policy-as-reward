@@ -1,0 +1,2213 @@
+{
+  "provenance": {
+    "host": "cnode404",
+    "slurm_job": "420838",
+    "seconds": 54.15258193016052,
+    "source": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/results.json",
+    "embedded_commit": "aaf879fdeb4a38d551f6d604f8da817a10235163",
+    "embedded_task_differences": [],
+    "termination_gate_verified": true,
+    "shared_database_gate_corrected": true
+  },
+  "rows": [
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "00b0c26a-7885-498e-b6b0-feca7c2e78ba",
+      "task": "task_053",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "02a6ac81-948d-408f-9ac4-d3db783e1a47",
+      "task": "task_027",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "07ac70f9-3b23-4752-83b9-e7c3f89500b9",
+      "task": "task_032",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "0807ff8e-3e1b-4b47-87ca-d45326700bf2",
+      "task": "task_082",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "0cf4cd68-0051-489a-ab40-3d41818b19e1",
+      "task": "task_051",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "147caaba-f9a0-4fcb-9f97-e99f960f4fda",
+      "task": "task_088",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "15b134a5-f94e-4559-965b-a201cea84e64",
+      "task": "task_029",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "19c4526a-2cd3-4adc-abb9-11ac2aa6a6ea",
+      "task": "task_087",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "1c78ae9b-d463-4ef4-8a28-65841598c62a",
+      "task": "task_055",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "20a71785-3c14-42a4-84d1-f2d1e7d3e245",
+      "task": "task_040",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "231901e2-cc52-442b-940b-3e2246819971",
+      "task": "task_004",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "2616d272-c37a-4dc2-a874-ec8eb7ef4745",
+      "task": "task_041",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "2900bd63-df80-48c8-9640-2fbc776aaf3e",
+      "task": "task_019",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "294ec0d4-b628-404b-83b8-fb75c1cc2f8c",
+      "task": "task_038",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "301d501b-548d-4d55-a6e1-9e7896420a59",
+      "task": "task_056",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "30fe44f1-88d7-4681-a636-4d6295500132",
+      "task": "task_093",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "31c2c1eb-035c-4050-925f-e32c582777f2",
+      "task": "task_039",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "34bd4845-f8e2-49bd-a2a8-83999f619199",
+      "task": "task_054",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "354da3e4-797e-48e0-bc14-a2b0df395d01",
+      "task": "task_022",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "372a3e73-9378-4a4b-a101-6417dbfd4e8a",
+      "task": "task_097",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "37a1382f-db37-4585-87f7-b4d8217f1512",
+      "task": "task_057",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "39f0a559-65f5-4a5d-be7d-cc0a2020c8d1",
+      "task": "task_043",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "3c994ee8-e564-46da-b2c6-d715cb03153c",
+      "task": "task_003",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "3cbf69ad-8953-49aa-9f2a-1010af2d3de8",
+      "task": "task_048",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "40818a43-004b-49e9-8f83-847af793ae28",
+      "task": "task_068",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "47a76369-0690-49f5-8267-05f42abe94ec",
+      "task": "task_092",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "47cd829c-5709-4eee-9194-d8bdf7dd97c4",
+      "task": "task_098",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "482a3baf-a0f4-43f6-a64a-b725d3535ed0",
+      "task": "task_047",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "4bc22664-d6a0-46fe-956b-0e915a3fe82b",
+      "task": "task_015",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "51f80ac8-90f1-4e6f-9a4a-c21eea45c5b9",
+      "task": "task_081",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "53d75b68-c368-4b08-8cf3-588c7b7af312",
+      "task": "task_074",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "5619f4f1-0455-4989-9185-fd20e2a4f609",
+      "task": "task_005",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "56e3fca1-e905-491e-8871-6e853e3bc223",
+      "task": "task_018",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "57645517-d2bb-41ef-ae09-064e1a4d11c1",
+      "task": "task_007",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "5b123846-b696-4bbc-b56d-037756b9a7c7",
+      "task": "task_069",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "5d96df83-e6a9-4ebc-963f-44403f1bc8f6",
+      "task": "task_067",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "5ef5d55c-39f5-4163-965a-0f76fe29dd1b",
+      "task": "task_046",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "608ef6de-d528-4ea5-b3ea-385a8f76a043",
+      "task": "task_050",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "6461b613-5099-419a-b8d3-8f97d4f1719a",
+      "task": "task_028",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "68b98667-9868-4084-920d-e35ca243a3e4",
+      "task": "task_001",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "6ac09475-cdb5-4c01-89eb-005190402b6d",
+      "task": "task_002",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "6dc7810e-a22f-43a0-9b59-87a199fe7dec",
+      "task": "task_026",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "6df8f286-8f18-4926-9114-f5e5a4c84e00",
+      "task": "task_017",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "706bc5eb-1b77-45a2-aeea-e7ec9e3ac36e",
+      "task": "task_086",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": false,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": false,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_c671c90e2724:exists": true,
+          "btxn_c671c90e2724:sensitivity_liability_zero": false,
+          "btxn_0fae026130ee:exists": true,
+          "btxn_0fae026130ee:sensitivity_liability_zero": true,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_3c585e9afa44",
+          "transaction_id": "btxn_c671c90e2724",
+          "account_id": "chk_cr47f8d2a1_gff",
+          "card_id": "card_green_c3_4738",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/07/2025",
+          "discovery_date": "11/07/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_b8816dca68de",
+          "transaction_id": "btxn_85b8c13c1173",
+          "account_id": "chk_cr47f8d2a1_gff",
+          "card_id": "dbc_cr47f8d2a1_gff",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "card_not_present_fraud",
+          "transaction_date": "11/10/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 350.0,
+          "transaction_type": "online_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 350.0,
+          "customer_max_liability_amount": 500.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_b6f75628c914",
+          "transaction_id": "btxn_0fae026130ee",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "incorrect_amount",
+          "transaction_date": "11/08/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 200.0,
+          "transaction_type": "signature_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "756b31ba-18d9-4071-81d2-8ef963937132",
+      "task": "task_031",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "78f48238-9347-4d7a-930b-6b62654bcbf8",
+      "task": "task_044",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "7c5d855d-d00e-4c76-aee0-8098431fa04c",
+      "task": "task_094",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "81425e51-f3f5-4ed8-b678-2734e148da0a",
+      "task": "task_020",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "82953211-f0db-4cb9-992c-8be8762b277c",
+      "task": "task_085",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": true,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": true,
+          "btxn_a1b2c3d4e501:sensitivity_liability_zero": true,
+          "btxn_b2c3d4e5f602:exists": true,
+          "btxn_b2c3d4e5f602:sensitivity_liability_zero": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_bccea0241d92",
+          "transaction_id": "btxn_a1b2c3d4e501",
+          "account_id": "chk_b4d92f7c28",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/05/2025",
+          "discovery_date": "11/06/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 100.0,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_a038ee699324",
+          "transaction_id": "btxn_b2c3d4e5f602",
+          "account_id": "chk_b4d92f7c28",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "duplicate_charge",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/06/2025",
+          "disputed_amount": 89.99,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_ec1103a59394",
+          "transaction_id": "btxn_f6g7h8i9j006",
+          "account_id": "chk_e8a31c9d47",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "recurring_charge_after_cancellation",
+          "transaction_date": "11/09/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 14.99,
+          "transaction_type": "recurring_payment",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "82c96876-c996-4aa5-a685-fec313b0daa7",
+      "task": "task_090",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "82ecd772-1cb1-44cd-a5d9-28d58a76d385",
+      "task": "task_072",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "845bf963-230b-420c-b05e-059dc17f48a0",
+      "task": "task_033",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "87765f35-da3d-4456-88a9-73639d70da01",
+      "task": "task_025",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "8c266a4f-91bb-4291-b33d-a444f0a6ebee",
+      "task": "task_010",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "911900b1-960d-4cac-83e9-9a7bf8e33276",
+      "task": "task_095",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "983c5474-0b73-4183-8d91-f1ff618235a5",
+      "task": "task_049",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "9b4e0c1d-a515-482e-acec-252e5740dc0b",
+      "task": "task_076",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "9d6b67f1-9a24-4925-a90b-15838fdd0dc4",
+      "task": "task_089",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "9e35e36a-b6b9-40ba-98f2-40199503945e",
+      "task": "task_024",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "9fb0d19a-3f40-49b9-a7f0-629250626aef",
+      "task": "task_063",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "a0ae4095-9457-451f-9df9-64e3965e3d4a",
+      "task": "task_008",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "a20c26ba-9bf8-4c28-b68f-f2e0331d2468",
+      "task": "task_091",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": false,
+          "btxn_e5341d2942ef:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "a44f1598-9ff1-42d3-b605-191917011e80",
+      "task": "task_037",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "a4ccc490-6290-448a-9cce-60918cd1b4a0",
+      "task": "task_034",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "a7e22153-1ab1-4281-acaa-ee30b42cde91",
+      "task": "task_021",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "aae201ce-dc71-45d9-8b26-bca543be525d",
+      "task": "task_101",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "aaf7a328-347a-4294-8c7d-c7efcc749a56",
+      "task": "task_065",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "aede122e-3286-4932-8915-91ec18e43520",
+      "task": "task_061",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "b1abda55-65c1-4c9a-8c4c-27e82e553a50",
+      "task": "task_012",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "bb51bcaf-d759-4e65-890b-6e2a0ea1cca7",
+      "task": "task_073",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "bbbc4d64-10ad-49ca-a4d0-a9fc563fec0f",
+      "task": "task_066",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "bc2add7a-32f1-4ca5-a5c1-1313e50d3f23",
+      "task": "task_096",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "be6b439a-fd69-4b70-a1da-739e336cc649",
+      "task": "task_100",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "bfa2e797-1073-4daa-a9f3-9b5d8453a5e6",
+      "task": "task_064",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "c25ef2fe-f190-4b13-8c46-a59b834d31c3",
+      "task": "task_060",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "c398db63-aecc-4bda-bafc-7b950688e2c7",
+      "task": "task_006",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "c81b276e-aa12-4280-994c-46ebe6d249ab",
+      "task": "task_070",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "cfe3237f-4b2b-4134-bb7d-17dbaa5dc828",
+      "task": "task_014",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d1183a85-4e7a-4e62-a058-0db9079efc01",
+      "task": "task_045",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d2030c47-1691-4229-895a-6acaaf23b4f0",
+      "task": "task_099",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d2cccb65-c452-43f6-a0c1-306aaab59386",
+      "task": "task_036",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d4226729-bef8-446b-b9c3-1baadc9b4d37",
+      "task": "task_059",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d5183529-a022-48d3-8786-4deafb42ca42",
+      "task": "task_077",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d618250d-3146-43f5-a23a-262cd593d993",
+      "task": "task_058",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "d81365ba-f0a5-4755-8b82-9cde47c88b01",
+      "task": "task_016",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "da6e9c8e-43f3-44e0-b55a-0209ed703579",
+      "task": "task_078",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "dc9acb27-127f-4d47-add4-c0536104b1f7",
+      "task": "task_083",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "df9a37bb-e316-4ccf-acb5-900592f163b0",
+      "task": "task_023",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "e120f2eb-7bcd-4830-9c63-23095c2dd15b",
+      "task": "task_102",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "e5469fc0-92f9-43fa-a64d-0755e9baa4c2",
+      "task": "task_035",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "e59b886a-5b02-4e0b-a9f5-c8d96e8b7192",
+      "task": "task_080",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "e9cbb602-c76c-4085-8208-845bbc77c15c",
+      "task": "task_062",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "edcee095-f220-42ca-ae4e-d04609a8673d",
+      "task": "task_071",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "f439726f-3dda-44c6-8ea9-b32b5650139b",
+      "task": "task_079",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "f73141cd-92a5-4e7d-972e-e7845f1a25fc",
+      "task": "task_052",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "f92a9e48-8790-4896-aac3-9ad8f8351e68",
+      "task": "task_075",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "simulation": "fc15f279-b66f-4f12-a87c-4edc38e6d608",
+      "task": "task_084",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": true,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_e8c3b09d2c45:exists": true,
+          "btxn_e8c3b09d2c45:sensitivity_liability_zero": false,
+          "btxn_f9d4c10e3d56:exists": true,
+          "btxn_f9d4c10e3d56:sensitivity_liability_zero": false,
+          "btxn_c2g7f43h6g89:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_f0b84f2935a6",
+          "transaction_id": "btxn_e8c3b09d2c45",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "duplicate_charge",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/10/2025",
+          "disputed_amount": 47.5,
+          "transaction_type": "pin_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 47.5,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_4c15bbe02fde",
+          "transaction_id": "btxn_f9d4c10e3d56",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "incorrect_amount",
+          "transaction_date": "11/08/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "signature_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 100.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_6d9e26750b70",
+          "transaction_id": "btxn_b1f6e32g5f78",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "card_not_present_fraud",
+          "transaction_date": "11/11/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 275.0,
+          "transaction_type": "person_to_person",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 275.0,
+          "customer_max_liability_amount": 47.5,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_fbc04e705365",
+          "transaction_id": "btxn_c2g7f43h6g89",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "card_not_present_fraud",
+          "transaction_date": "10/05/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 412.88,
+          "transaction_type": "online_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 412.88,
+          "customer_max_liability_amount": 47.5,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    }
+  ]
+}

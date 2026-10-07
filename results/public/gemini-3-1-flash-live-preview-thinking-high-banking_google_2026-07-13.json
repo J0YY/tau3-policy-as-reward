@@ -1,0 +1,1908 @@
+{
+  "provenance": {
+    "host": "cnode404",
+    "slurm_job": "420825",
+    "seconds": 52.22223496437073,
+    "source": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/results.json",
+    "embedded_commit": "aaf879fdeb4a38d551f6d604f8da817a10235163",
+    "embedded_task_differences": [],
+    "termination_gate_verified": true,
+    "shared_database_gate_corrected": true
+  },
+  "rows": [
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "00e2002b-290e-4c75-be4a-3e02ff593e8a",
+      "task": "task_061",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "012acd84-9345-45bf-b09d-93f1061a5d0b",
+      "task": "task_002",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "013115a1-e2a9-4aea-9317-d2f23e5486ed",
+      "task": "task_014",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "056d9986-358c-4836-9bd1-51aca43873fb",
+      "task": "task_032",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "0c097d59-a422-4ea8-81a6-fd0421b7d729",
+      "task": "task_052",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "0ccbafb6-7327-47b2-80f9-3a180842746a",
+      "task": "task_099",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "0ee72344-d21d-4cfa-83b8-d1e8a04fb734",
+      "task": "task_041",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "14211271-adf3-4d1f-9b7b-3e2665968f59",
+      "task": "task_056",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "167b15f2-f12d-491e-961c-93bb261811e2",
+      "task": "task_050",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "16aaf2e6-ebf7-4b36-a25c-6a7b1dbc2419",
+      "task": "task_100",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "1c6ed021-64e1-4b6f-81fb-4440db112583",
+      "task": "task_063",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "29c0e86b-4d2e-4068-9638-4628501e7d2a",
+      "task": "task_096",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "2bf43884-acef-4f2e-8a26-75a91f8db1be",
+      "task": "task_043",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "2e65d4dd-f848-446c-bef0-8b9128eac005",
+      "task": "task_003",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "337c01fc-1d25-420d-b2e3-1d81e4d6828f",
+      "task": "task_040",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "346e327e-ddca-4e70-a309-9023c0e9cd6d",
+      "task": "task_092",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "34c62173-c760-4d5c-aa62-3b7962010c88",
+      "task": "task_058",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "34df0aac-fa2d-4b01-bcfa-078740f1d15a",
+      "task": "task_038",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "37dccbb5-b125-48b6-8cb8-a035a8e10bcb",
+      "task": "task_031",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "3d32a472-5c64-462e-b6a3-9de724ecd080",
+      "task": "task_077",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "3d4c275a-79a9-4d9f-a8b6-d5b4a4bfbad7",
+      "task": "task_101",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "3ebc71d3-9809-4060-80f5-81fdad93b39c",
+      "task": "task_075",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "42e85954-550a-49d3-a152-995e654b9d76",
+      "task": "task_085",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": false,
+          "btxn_b2c3d4e5f602:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "43a36255-8c57-4294-8028-624b6a05bbf3",
+      "task": "task_020",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "43bb0085-b95f-488f-88b1-8941648def00",
+      "task": "task_095",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "466a30b5-0def-4317-94c6-9cba1eaf18c0",
+      "task": "task_019",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "46f657bc-215a-40d3-9ff9-7f0ab82fe9fd",
+      "task": "task_074",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "4cedf79b-dbef-4049-b6ce-d7c0955be7eb",
+      "task": "task_010",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "4eb72dbf-e7a1-43eb-b822-10527d40a7cd",
+      "task": "task_016",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "50ffad65-31ed-4503-a6b2-16feab148a76",
+      "task": "task_069",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "51b3cf7b-c9ba-41b7-978c-0c9279150b6c",
+      "task": "task_026",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "51d129d2-d632-4869-a6d4-2e813690adb2",
+      "task": "task_025",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "52725291-17d3-4065-b9ae-5008860d798f",
+      "task": "task_090",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "52c0ce9f-2088-4030-88ec-a7f9bf66403d",
+      "task": "task_047",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "532b6cdc-e8e5-4cef-b2ad-0c73488243ab",
+      "task": "task_033",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "541766e2-9766-4939-9cc8-3895f8034812",
+      "task": "task_012",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "5487e446-f951-4823-a1e0-da0c07c5fda0",
+      "task": "task_048",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "56ed89ce-3501-41d2-b31a-a3cf6e94aff3",
+      "task": "task_037",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "584b296f-8589-41a1-8b9d-5264772a7ab9",
+      "task": "task_018",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "58a537fc-9a08-47f8-9aa7-69704c8e15c4",
+      "task": "task_098",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "67a1ba52-5dbb-4d4f-85e5-1cbe0924e21e",
+      "task": "task_055",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6845c626-e4cf-452e-afe3-0285d7871202",
+      "task": "task_062",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "69477aaf-b7c0-4685-a015-df4db66b859b",
+      "task": "task_093",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6987de5d-1ff9-4283-b294-77658b21b844",
+      "task": "task_057",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6987f87b-14d1-447e-8592-91bfc09043fa",
+      "task": "task_028",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6ab082d7-7bff-4d61-9b91-4fcb96a4c78f",
+      "task": "task_034",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6ab3e814-d4f4-4c7e-a364-b2cbc1b36921",
+      "task": "task_066",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6beb5497-e73c-4043-a877-5f2fdc1bf75d",
+      "task": "task_039",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "6f987518-d015-488e-81a4-24cd5eaf23bd",
+      "task": "task_005",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "7018c3c5-edac-4c00-ac22-8086f17e8224",
+      "task": "task_053",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "71f2a13b-7e56-4631-8326-aeb844c0b926",
+      "task": "task_007",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "722f4d52-63e1-4444-a2d2-b12e393c3c65",
+      "task": "task_067",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "756f9bc2-f553-4085-9aab-d86688374eeb",
+      "task": "task_079",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "78eeb271-a61a-478b-ae18-255b4870a70f",
+      "task": "task_060",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "7a420f79-8b49-4bf4-b6b7-1f7b076cca46",
+      "task": "task_084",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": false,
+          "btxn_e8c3b09d2c45:exists": false,
+          "btxn_f9d4c10e3d56:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "7a8c8024-1b7f-4602-952a-2ca8abb3c69e",
+      "task": "task_081",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "7b0f3b34-eafb-4302-b4ce-4a48b985886f",
+      "task": "task_094",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "803b1f56-fcb2-4369-b12d-925047de8886",
+      "task": "task_051",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "8e9eb680-49dd-4216-a020-e780b4487e80",
+      "task": "task_097",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "8f3fc3b4-b7c2-4085-a84d-55092e93be7e",
+      "task": "task_083",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "913da452-e0eb-4343-aaac-09b75875f5b8",
+      "task": "task_008",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "92548ab5-2ecd-47c2-87b7-8ab1264e6783",
+      "task": "task_059",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "935b9bbe-e10b-4699-a504-eee93fb1e805",
+      "task": "task_004",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "96f6b252-9c56-414d-b756-2ce7bb4dbd16",
+      "task": "task_001",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "996e1dc8-bf0e-431d-8c69-eeb42d0897d7",
+      "task": "task_089",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "9cc71462-72c4-492c-8f17-1d76cbcd2246",
+      "task": "task_006",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "9cdbfb85-9dec-4e4d-914e-b5d8eb1eafe8",
+      "task": "task_091",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": false,
+          "btxn_e5341d2942ef:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "9e46371e-8a40-4171-ab63-e2f305838b2a",
+      "task": "task_022",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "ad3f054e-8828-4eeb-8d52-bae7b466e030",
+      "task": "task_027",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "b5cb40d6-9f9c-49c5-a270-ff7b8fe949e4",
+      "task": "task_045",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "b75f186f-4ea0-4fc3-8363-2caf47145289",
+      "task": "task_046",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "b8061e5a-17d5-458e-90ee-93f52f1cbf0a",
+      "task": "task_029",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "bdf15e6e-997a-4b1f-9d2b-fa08f427c9e6",
+      "task": "task_064",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "c32901ac-321c-43f5-b793-2c730d24664d",
+      "task": "task_080",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "c5c2fac5-985c-49e2-adef-eef65f25684c",
+      "task": "task_073",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "c5ec5ddd-3ebd-4f93-bbb1-3376cfb98c42",
+      "task": "task_082",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "d3fc196c-2dc6-489f-b052-ef19fe81d53d",
+      "task": "task_044",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "d5d34a15-ccca-4a57-9777-cf0024805532",
+      "task": "task_035",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "d625cb79-bf17-4888-b919-2cef173e1478",
+      "task": "task_023",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "d9363c72-49f2-4c8b-905b-6ea699705ec3",
+      "task": "task_054",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "da561bcb-cfc2-4da4-acfb-38e3de017108",
+      "task": "task_087",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "db2319d2-f4f1-4fc6-90aa-5c971675eb6d",
+      "task": "task_078",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "dc2fc198-0b09-45f3-9a97-f36cde5d59cb",
+      "task": "task_071",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "df7372f0-ae20-4cde-bd7c-84533b1a06f0",
+      "task": "task_102",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "e0ce5d4d-392d-4edb-af9c-de3647c4bd33",
+      "task": "task_072",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "e234a28f-98d4-4caa-802b-035ac4399062",
+      "task": "task_024",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "e264420d-157d-44b2-b4d9-e2decbb6e35d",
+      "task": "task_076",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "e359c4b4-0da4-405a-ac4f-df5b36b1ece5",
+      "task": "task_017",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "e7a8cc85-a28b-490a-8f75-fc78bb7b2457",
+      "task": "task_068",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "eef196b0-ee35-4605-9854-aa1e5dc4915e",
+      "task": "task_070",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "f4db49ea-6522-4a8a-9318-be9df4d6b4d6",
+      "task": "task_015",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fb6a8c16-0dcc-40b4-8003-4708c749e732",
+      "task": "task_049",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fbc2c35a-314f-4388-b5dd-ae53eaa3ca13",
+      "task": "task_086",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": false,
+          "btxn_0fae026130ee:exists": false,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fc337a24-4ade-49bc-a8a6-16ed7b0b2ef4",
+      "task": "task_088",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fc372509-e301-444a-8cd4-4627aafd6d59",
+      "task": "task_036",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fda67281-0798-407f-834b-186b050893f3",
+      "task": "task_065",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "simulation": "fecc7db3-6bc0-49ff-b73c-26bb4ffbae19",
+      "task": "task_021",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    }
+  ]
+}

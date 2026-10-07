@@ -1,0 +1,2257 @@
+{
+  "provenance": {
+    "host": "cnode404",
+    "slurm_job": "420837",
+    "seconds": 61.20575523376465,
+    "source": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/results.json",
+    "embedded_commit": "e458e69c0a60711b7edce921fe149492601856ce",
+    "embedded_task_differences": [],
+    "termination_gate_verified": true,
+    "shared_database_gate_corrected": true
+  },
+  "rows": [
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "00bfb948-c324-46d6-9dac-fa9e621385c0",
+      "task": "task_045",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "00d89285-da77-4fb6-b38f-3c0ee7cf7bda",
+      "task": "task_039",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "04038520-c6ca-4d50-969c-7ec397a69b74",
+      "task": "task_098",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "05553bc2-82d0-48b6-a975-a6c205cb8327",
+      "task": "task_037",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "05fd5a8b-f721-4755-9e3d-0e0225c8425e",
+      "task": "task_100",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "07b8ed97-87ff-4ff8-89d3-322aad51a52d",
+      "task": "task_088",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "0906d408-c11b-4a73-ad1b-5de17fb6418b",
+      "task": "task_012",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "0a03d1ca-2b2f-4e49-b191-0e79eb5424e8",
+      "task": "task_053",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "0b92aca9-4d7b-4113-a97e-6ef8dfc21727",
+      "task": "task_068",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "0effa424-2849-47be-b6b2-36941e860c46",
+      "task": "task_085",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": true,
+          "btxn_a1b2c3d4e501:sensitivity_liability_zero": true,
+          "btxn_b2c3d4e5f602:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_bccea0241d92",
+          "transaction_id": "btxn_a1b2c3d4e501",
+          "account_id": "chk_b4d92f7c28",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/05/2025",
+          "discovery_date": "11/05/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 100.0,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "14b2202f-1a8b-4e9e-b8d7-d53240cb9a9c",
+      "task": "task_089",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "16f80de1-0ee1-41df-a25e-3bd3a27d55b8",
+      "task": "task_061",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "19be762f-41cb-46bd-ae77-b821199853bc",
+      "task": "task_058",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "1f242254-24a9-4011-93a5-cd46b6e00867",
+      "task": "task_047",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "1f98a6ec-f88d-4a3a-b087-ca7f2b828190",
+      "task": "task_024",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "24b2aabd-5133-406b-8111-72f36c781d8e",
+      "task": "task_031",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "2712b05c-8b97-4ba8-b7ce-a8ca0ec4e9b7",
+      "task": "task_050",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "29a9d461-16e0-4581-a235-5dce97737245",
+      "task": "task_076",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "29af9375-07d7-4c34-a7e5-e864a05fab00",
+      "task": "task_074",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "29dd3ecc-dc3c-4374-ad3c-a341fa93a02e",
+      "task": "task_015",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "2a2afa19-fa7a-42e2-840e-c17a75a16772",
+      "task": "task_060",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "3077a34f-b9e5-4dd8-b59f-151b45654f57",
+      "task": "task_080",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "33dbc4be-f68c-45e2-b38b-2a37e9a9cd09",
+      "task": "task_003",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "36a88c71-e5a1-40bf-aa84-d0fa66dfac15",
+      "task": "task_056",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4769715a-70df-434b-81fe-7077e31daf4a",
+      "task": "task_020",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4963f2fb-f1bc-419c-94d0-a843809d0385",
+      "task": "task_051",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4be6c0d3-d4a2-4e9b-ac38-735e7340bdfa",
+      "task": "task_067",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4c685603-8312-451d-834f-324807f3d3b4",
+      "task": "task_007",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4e636cc3-2bdc-49f0-a4ed-e90ba87f7efe",
+      "task": "task_071",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4f5b7508-7ae1-42bf-8af1-b6fbaf608825",
+      "task": "task_014",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "4f5c21ef-d870-4d26-9f4f-685bc3597c84",
+      "task": "task_006",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "513ab421-0d77-4fe7-b89d-6b518add89bd",
+      "task": "task_002",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "531119bf-038b-43d3-961e-1b23c81f4ac7",
+      "task": "task_022",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "5494f257-0640-4c1f-a263-e9a1b093dcbe",
+      "task": "task_091",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": true,
+          "btxn_92867e549ff2:sensitivity_liability_zero": false,
+          "btxn_e5341d2942ef:exists": true,
+          "btxn_e5341d2942ef:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_215c254f5cb8",
+          "transaction_id": "btxn_92867e549ff2",
+          "account_id": "chk_tw34a7d9e2_evergreen",
+          "card_id": "dbc_tw34a7d9e2_evergreen",
+          "user_id": "tw34a7d9e2",
+          "dispute_category": "card_present_fraud",
+          "transaction_date": "11/14/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 400.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 400.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_1ec6cc1b785a",
+          "transaction_id": "btxn_e5341d2942ef",
+          "account_id": "chk_tw34a7d9e2_evergreen",
+          "card_id": "dbc_tw34a7d9e2_evergreen",
+          "user_id": "tw34a7d9e2",
+          "dispute_category": "card_present_fraud",
+          "transaction_date": "11/14/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 300.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 300.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "54965740-092b-4062-9fc5-479c970cf180",
+      "task": "task_017",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "54ef17fa-fb69-462f-9b72-d18f5fd5f94d",
+      "task": "task_005",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "58713b99-7ca4-4df9-b8f9-a453cdb971c8",
+      "task": "task_054",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "5b5228cf-3237-4b0f-864e-34fa5d96a162",
+      "task": "task_065",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "5f6665b9-e9bb-41a2-b68d-67693aa516d7",
+      "task": "task_073",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "607a8891-9a39-4f1e-86c9-3b48d8ff0f65",
+      "task": "task_066",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "61336f47-52c0-43bb-9fda-59654abdfde4",
+      "task": "task_049",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "63985bf6-ad0a-49f0-92c9-0aa273a7ef5a",
+      "task": "task_032",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "63f1d70b-28a6-4771-9220-25676a5984b6",
+      "task": "task_010",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "691c9f21-3cb6-4f84-8cac-9a475a2316f7",
+      "task": "task_001",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "6c167ca4-da94-46d6-b7a0-8383ddebc4c8",
+      "task": "task_041",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "6c9212f2-4566-4499-b9b4-3bf8d7185577",
+      "task": "task_048",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "70a71946-c536-4ccc-827b-2454761a0581",
+      "task": "task_040",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "75328b44-41ec-477b-b12b-5072fcbb6b08",
+      "task": "task_092",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "7aace5bc-92ac-4250-9692-b66ab7b3bac2",
+      "task": "task_087",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "7fc87c45-d24f-4b1c-bc90-b40de43a7c18",
+      "task": "task_083",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "80fa5c1a-ba25-415b-a2ca-e17c60710c81",
+      "task": "task_096",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "81796abf-594e-444b-a725-9e2337d9d81e",
+      "task": "task_028",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "81df7833-9e2f-49c2-9598-3b15ec9d7f41",
+      "task": "task_036",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "869ff2cb-baa3-49d8-ad74-17a6eddbc659",
+      "task": "task_027",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "870d8de3-819c-433b-8b5e-c10a9381f902",
+      "task": "task_029",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "898c75b0-3bc5-4eb2-996d-aeb424878fed",
+      "task": "task_063",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "8c0fd83b-fc1f-4b9e-a388-84f8cb1bbbb7",
+      "task": "task_090",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "8edf74e6-d32b-4445-9853-09d0312e8f2a",
+      "task": "task_102",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "8eec0709-5e94-4d0c-a123-66d4e24a0f76",
+      "task": "task_081",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "91f3cf72-d6dc-40be-9330-0bd429087297",
+      "task": "task_075",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "9421b91c-fd4d-404a-8a08-272d1a29a9f4",
+      "task": "task_097",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "994ee4c2-c174-4d41-96d4-df995f2a0a60",
+      "task": "task_046",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "9956a29b-e18f-4ec1-9295-197c9fea7ee8",
+      "task": "task_069",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "9d665313-ee40-42b3-9650-8d6d9b836436",
+      "task": "task_086",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": true,
+          "btxn_c671c90e2724:sensitivity_liability_zero": false,
+          "btxn_0fae026130ee:exists": true,
+          "btxn_0fae026130ee:sensitivity_liability_zero": false,
+          "btxn_0788d2513c8c:exists": true,
+          "btxn_0788d2513c8c:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_3c585e9afa44",
+          "transaction_id": "btxn_c671c90e2724",
+          "account_id": "chk_cr47f8d2a1_gff",
+          "card_id": "dbc_cr47f8d2a1_gff",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/07/2025",
+          "discovery_date": "11/07/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 100.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_24a0475d1aa9",
+          "transaction_id": "btxn_a917670d8aaa",
+          "account_id": "chk_cr47f8d2a1_gff",
+          "card_id": "dbc_cr47f8d2a1_gff",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "goods_services_not_received",
+          "transaction_date": "10/31/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 189.99,
+          "transaction_type": "online_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 189.99,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_b6f75628c914",
+          "transaction_id": "btxn_0fae026130ee",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "incorrect_amount",
+          "transaction_date": "11/08/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 200.0,
+          "transaction_type": "signature_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 200.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_b50ebf8cd6b4",
+          "transaction_id": "btxn_0788d2513c8c",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "atm_deposit_not_credited",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/08/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_deposit",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 100.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "a1c89505-ae43-4cc2-bb2b-b55b68eff557",
+      "task": "task_021",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "a295da9d-588f-4085-a51c-89ba0e31d64a",
+      "task": "task_038",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "a4607bd0-2b0d-4270-84d8-bb2ba59493dd",
+      "task": "task_055",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "a4b4e1af-3ecb-4011-8d13-f6dea363aaf8",
+      "task": "task_095",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "a81900a8-4167-4c32-ae0a-9165964bb0b6",
+      "task": "task_064",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "ac3d7a1d-2166-450f-b0cf-52178e15f2f4",
+      "task": "task_004",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "ad34a2eb-61b4-42e3-b4a1-e0e4d86d51ee",
+      "task": "task_052",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "ae6da532-48ea-4eb3-aa74-283e950f6618",
+      "task": "task_078",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "af356398-1940-4dd5-adaa-81867d735243",
+      "task": "task_043",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "b0cf89f9-fa59-4080-b686-4e316ed97490",
+      "task": "task_019",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "b4f71624-9508-4ccc-a0de-37e43a57fe1c",
+      "task": "task_033",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "b56e38b8-688e-4145-a798-59d41175c3db",
+      "task": "task_026",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "b603a145-1c49-4903-9792-0d2e6d83caa9",
+      "task": "task_018",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "bb321ed5-151e-4ed9-8f0e-cb68d9f43a52",
+      "task": "task_094",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "bcfbe3e1-4b8f-4368-99ac-7aa508111079",
+      "task": "task_079",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "c164a1e8-7a00-4470-817e-0387e4e62f59",
+      "task": "task_025",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "ca92e854-ed94-43d7-9952-40e6967bcb89",
+      "task": "task_093",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "cc44b5e5-e96f-4aa4-90cf-355437ffe16b",
+      "task": "task_016",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "cdf53043-db6c-4b96-a17a-070d5eab17a2",
+      "task": "task_057",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "d35dd477-4a3b-4494-96e6-00498ac169fb",
+      "task": "task_008",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "d70fbbb7-311f-4ed1-8317-adf5665ed94a",
+      "task": "task_077",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "d74daf23-f7ca-4100-b917-64a6115a6ff5",
+      "task": "task_023",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "dc4127b4-4802-4952-aa37-b5a792757483",
+      "task": "task_034",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "e2bd05ee-0f88-4f87-b854-c40c64c8573c",
+      "task": "task_099",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "e550ea5d-59e0-4f22-8e1d-a507d427f6ff",
+      "task": "task_035",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "e693ac8e-c41b-4176-be68-e991f5066330",
+      "task": "task_059",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "e7d34b70-0fad-4c6d-8140-e97ba82d931e",
+      "task": "task_062",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "e9f80494-980c-4561-97e8-8000bb5bf8a8",
+      "task": "task_044",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "eb6a9b8d-0643-4530-9d33-87874ba8b8bc",
+      "task": "task_084",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_e8c3b09d2c45:exists": true,
+          "btxn_e8c3b09d2c45:sensitivity_liability_zero": false,
+          "btxn_f9d4c10e3d56:exists": true,
+          "btxn_f9d4c10e3d56:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_f0b84f2935a6",
+          "transaction_id": "btxn_e8c3b09d2c45",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "duplicate_charge",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/10/2025",
+          "disputed_amount": 47.5,
+          "transaction_type": "pin_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 47.5,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_4c15bbe02fde",
+          "transaction_id": "btxn_f9d4c10e3d56",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "incorrect_amount",
+          "transaction_date": "11/08/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "signature_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 100.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_6d9e26750b70",
+          "transaction_id": "btxn_b1f6e32g5f78",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "card_not_present_fraud",
+          "transaction_date": "11/11/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 275.0,
+          "transaction_type": "person_to_person",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 275.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "f3f3340d-feb4-4c09-8d60-28762fb5652a",
+      "task": "task_072",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "fb9c33c6-8b13-4bff-8b97-22adcfd7849f",
+      "task": "task_082",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": true,
+          "btxn_3bd1ba6ad800:sensitivity_liability_zero": true,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_d3627614b43e",
+          "transaction_id": "btxn_d1f51e0a0db9",
+          "account_id": "chk_mc47a2b9e1_blue",
+          "card_id": "dbc_mc47a2b9e1_blue",
+          "user_id": "mc47a2b9e1",
+          "dispute_category": "recurring_charge_after_cancellation",
+          "transaction_date": "11/10/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 89.99,
+          "transaction_type": "recurring_payment",
+          "card_in_possession": false,
+          "pin_compromised": "yes_observed",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_ce4ea4d90d11",
+          "transaction_id": "btxn_3bd1ba6ad800",
+          "account_id": "chk_mc47a2b9e1_gff",
+          "card_id": "dbc_mc47a2b9e1_gff",
+          "user_id": "mc47a2b9e1",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/09/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "fef9d4b0-ddff-4810-803b-ff5e0c88a876",
+      "task": "task_101",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "simulation": "ff404e06-d6b4-48ac-83a2-c87ff745ad89",
+      "task": "task_070",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    }
+  ]
+}

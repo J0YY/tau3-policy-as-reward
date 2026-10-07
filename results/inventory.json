@@ -1,0 +1,27 @@
+{
+  "tasks": 97,
+  "documents": 698,
+  "gold_actions": 955,
+  "reward_basis": {
+    "DB": 87,
+    "ACTION": 9,
+    "DB,NL_ASSERTION": 1
+  },
+  "stale_task_differences": [
+    "task_027",
+    "task_046",
+    "task_048",
+    "task_053",
+    "task_056",
+    "task_061",
+    "task_062",
+    "task_081",
+    "task_083",
+    "task_084",
+    "task_085",
+    "task_088",
+    "task_102"
+  ],
+  "document_keyword_hits": 326,
+  "debit_filings": 23
+}

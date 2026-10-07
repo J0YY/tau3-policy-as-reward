@@ -1,0 +1,2183 @@
+{
+  "provenance": {
+    "host": "cnode404",
+    "slurm_job": "420836",
+    "seconds": 64.08946990966797,
+    "source": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/results.json",
+    "embedded_commit": "a9c94817b043023990f499a5c5b72e033d280de6",
+    "embedded_task_differences": [],
+    "termination_gate_verified": true,
+    "shared_database_gate_corrected": true
+  },
+  "rows": [
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "01d30575-27d6-4314-a0eb-1ad5ec04d227",
+      "task": "task_089",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "080c26f3-a944-4dc1-9b7b-5b8698bea517",
+      "task": "task_058",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "0ac62fb2-f71b-405b-a92b-fdc2d4dfb2ae",
+      "task": "task_090",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "0dbd3fcd-cbc8-4194-b3bb-5ec597c11e66",
+      "task": "task_093",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "0e8e907f-3b4e-46bb-8da6-7e8ac2e0298c",
+      "task": "task_068",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "100b5052-ceec-463a-9fdd-c20e7f32070c",
+      "task": "task_061",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "1040aa95-d6cb-4eb6-a6ba-4e9bafef04b4",
+      "task": "task_082",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": false,
+          "btxn_3bd1ba6ad800:exists": false,
+          "btxn_d74e8a798f95:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "1138a524-2d02-4dad-8e6c-4515ff8ab451",
+      "task": "task_056",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "134f52c7-d093-4bdc-ae59-1065a9d9c292",
+      "task": "task_043",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "17b61759-2575-4038-8bf6-9d8d3e0b66d9",
+      "task": "task_083",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "1805bbd0-7f08-45a0-8064-29975a051723",
+      "task": "task_059",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "1941bf7d-8b21-43ff-a5fb-38bc59c247fb",
+      "task": "task_100",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "19872a30-1afc-4293-a1fd-c4c9ae4e5f03",
+      "task": "task_028",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "1d36ec1b-a598-4461-b625-1a90459cb230",
+      "task": "task_033",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "205d58da-e63d-424f-ad27-34973da076f0",
+      "task": "task_019",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "22b11d38-34f5-4f96-94db-977acf167fca",
+      "task": "task_047",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "24772ed9-9d0a-47d9-9f9a-31fc19a27aea",
+      "task": "task_084",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "btxn_e8c3b09d2c45:exists": false,
+          "btxn_f9d4c10e3d56:exists": true,
+          "btxn_f9d4c10e3d56:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_5a5e134f5b86",
+          "transaction_id": "btxn_e34be6244638",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "goods_services_not_received",
+          "disputed_amount": 189.99,
+          "filing_date": "11/07/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": 0,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_1520c35c05b8",
+          "transaction_id": "btxn_d7f2a98c1b34",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "duplicate_charge",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/10/2025",
+          "disputed_amount": 47.5,
+          "transaction_type": "pin_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 47.5,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_4c15bbe02fde",
+          "transaction_id": "btxn_f9d4c10e3d56",
+          "account_id": "chk_b8d92f4c17",
+          "card_id": "dbc_f4a72c9e55",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "incorrect_amount",
+          "transaction_date": "11/08/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "signature_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 100.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_6d9e26750b70",
+          "transaction_id": "btxn_b1f6e32g5f78",
+          "account_id": "chk_e5a31c7d82",
+          "card_id": "dbc_82b5d1a6f3",
+          "user_id": "a7c2f85d91",
+          "dispute_category": "card_not_present_fraud",
+          "transaction_date": "11/11/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 275.0,
+          "transaction_type": "person_to_person",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 275.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "28ffcc8e-52c3-4da1-a1ab-bab5192a8de5",
+      "task": "task_039",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "2fda2250-bcbd-4cee-a1e4-31fd674cc386",
+      "task": "task_041",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "37e8df60-6d99-4d1a-b082-1993bef2d381",
+      "task": "task_014",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "39027313-879a-4548-a3f8-3753390fbff6",
+      "task": "task_094",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "3940c1ff-f746-4178-b45d-2e2206eae60e",
+      "task": "task_081",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "39885896-a751-4710-bb1c-3d18dedc7d59",
+      "task": "task_074",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "41f65ae3-2f71-43a0-860f-fd0ea9d53b20",
+      "task": "task_034",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "421ae44f-3a75-4395-94d3-55a8d1c91fda",
+      "task": "task_098",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "434e383f-f94c-4261-9380-5e0c682781c9",
+      "task": "task_015",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "4791d729-93f3-4ebf-ad2f-0e8e86fb2bdc",
+      "task": "task_040",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "49163a83-3a16-4f94-8af5-04c878545fcb",
+      "task": "task_037",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "4d3815d6-f653-45d8-bc81-e89f46dd5098",
+      "task": "task_018",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "4e10ae82-0482-4ea5-891a-f79bb229edc1",
+      "task": "task_071",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "4f080515-5f30-49df-86fa-959f0a7caff4",
+      "task": "task_055",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "542af70a-0592-4b25-bc16-1bb3edfced88",
+      "task": "task_025",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "592ca116-1630-449f-8557-9152cab03aed",
+      "task": "task_044",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "5e099b36-f0c3-4395-a9e6-f478a39050ca",
+      "task": "task_097",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "5e76e2af-6ee9-44a1-abe1-f8a7e6c65483",
+      "task": "task_036",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "686abd99-0ece-4ef8-aa87-5f34d87edcf6",
+      "task": "task_008",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "68adef40-4e7f-42bc-9b1e-66a6489faee6",
+      "task": "task_050",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "6d4f7512-db3e-46ed-a951-03bc1620139e",
+      "task": "task_012",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "74db7f1f-348c-43e7-8acb-455956c792f6",
+      "task": "task_029",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "76657f85-72eb-48a3-a8db-7c57a2e8e8de",
+      "task": "task_060",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "78f8cd05-60b7-465f-bd0e-f8bc0de2cf04",
+      "task": "task_005",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "79cf96b5-b6e3-4132-b7d5-ecf0cb9d467a",
+      "task": "task_092",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "7a23f105-d679-43ed-bd54-50c5f7923d6e",
+      "task": "task_096",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "8076da27-9e6c-4623-90dd-5b4ee6889098",
+      "task": "task_007",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "8c26c704-34c4-46b3-b0e2-b32a47acb640",
+      "task": "task_048",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "8d6a452a-e304-428d-861c-02be762e5c0d",
+      "task": "task_085",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": true,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_a1b2c3d4e501:exists": true,
+          "btxn_a1b2c3d4e501:sensitivity_liability_zero": true,
+          "btxn_b2c3d4e5f602:exists": true,
+          "btxn_b2c3d4e5f602:sensitivity_liability_zero": true,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_bccea0241d92",
+          "transaction_id": "btxn_a1b2c3d4e501",
+          "account_id": "chk_b4d92f7c28",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "atm_cash_discrepancy",
+          "transaction_date": "11/05/2025",
+          "discovery_date": "11/05/2025",
+          "disputed_amount": 100.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_a038ee699324",
+          "transaction_id": "btxn_b2c3d4e5f602",
+          "account_id": "chk_b4d92f7c28",
+          "card_id": "dbc_c4a72d9f66",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "duplicate_charge",
+          "transaction_date": "11/06/2025",
+          "discovery_date": "11/08/2025",
+          "disputed_amount": 89.99,
+          "transaction_type": "recurring_payment",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_ec1103a59394",
+          "transaction_id": "btxn_f6g7h8i9j006",
+          "account_id": "chk_e8a31c9d47",
+          "card_id": "dbc_92b5d2a7g4",
+          "user_id": "f7d3a82c91",
+          "dispute_category": "recurring_charge_after_cancellation",
+          "transaction_date": "11/09/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 14.99,
+          "transaction_type": "recurring_payment",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "8de4bd74-543b-45c4-8f97-bee25e5c54a9",
+      "task": "task_003",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "8ee7b467-f8de-4c27-b259-0f63e6706fc1",
+      "task": "task_053",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "90534b6c-d54a-435e-9731-d7b6168ad866",
+      "task": "task_038",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "91d9d781-4db7-4eb1-af87-9fa02ac1b8cc",
+      "task": "task_054",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "92d5ff9d-8f21-4e2c-9ba2-fdda97144d8f",
+      "task": "task_020",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "98350f94-3cd6-4b7d-8be7-d9ec06158ef4",
+      "task": "task_001",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "986fd9d7-fda0-403f-80cf-64b674b3eae3",
+      "task": "task_080",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "99535f9f-ca9f-40a7-baed-1ffbf232192c",
+      "task": "task_062",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "9c2edb54-c447-4b3d-a0cb-ba56a42579d9",
+      "task": "task_046",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a0491353-167b-4cc7-b90d-da5f511deae9",
+      "task": "task_016",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a24a88eb-aee4-445a-ac11-f9efa4078bae",
+      "task": "task_067",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a3b20158-673a-4b88-a33b-fcadb82b5b42",
+      "task": "task_102",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "archived_NL_component"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a4482b1d-c806-4fc6-b045-659c0c11849d",
+      "task": "task_057",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a4d62d5c-58d3-40cd-96fe-cc190bb9336a",
+      "task": "task_086",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": null,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r2_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": false,
+          "extra:exists": false,
+          "btxn_c671c90e2724:exists": false,
+          "btxn_0fae026130ee:exists": false,
+          "btxn_0788d2513c8c:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_1ff4032fa4fb",
+          "transaction_id": "btxn_e139a180b899",
+          "account_id": "chk_cr47f8d2a1_evergreen",
+          "card_id": "dbc_cr47f8d2a1_evergreen",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "duplicate_charge",
+          "disputed_amount": 127.5,
+          "filing_date": "11/08/2025",
+          "status": "OPEN",
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 127.5,
+          "expected_resolution_date": "12/22/2025"
+        },
+        {
+          "dispute_id": "dsp_24a0475d1aa9",
+          "transaction_id": "btxn_a917670d8aaa",
+          "account_id": "chk_cr47f8d2a1_gff",
+          "card_id": "dbc_cr47f8d2a1_gff",
+          "user_id": "cr47f8d2a1",
+          "dispute_category": "goods_services_not_received",
+          "transaction_date": "10/31/2025",
+          "discovery_date": "11/09/2025",
+          "disputed_amount": 189.99,
+          "transaction_type": "online_purchase",
+          "card_in_possession": true,
+          "pin_compromised": "no",
+          "contacted_merchant": true,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": false,
+          "provisional_credit_issued": false,
+          "provisional_credit_amount": null,
+          "customer_max_liability_amount": 0.0,
+          "card_action": "keep_active",
+          "is_fraud_category": false,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a778a19e-cc84-4251-86cf-5235dc7e1e00",
+      "task": "task_079",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "a95c1876-a26d-40d3-a1e4-6283a38fa1db",
+      "task": "task_070",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "aacf2054-8f39-46de-afcb-fd272361da6a",
+      "task": "task_010",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "ac3b3ffa-0888-40f2-aa0d-7e72db3153a1",
+      "task": "task_031",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "ad7a5c8f-b49c-456b-80f9-edab6b4832e6",
+      "task": "task_021",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "afac5537-d66d-47a1-87d6-43315d92e546",
+      "task": "task_006",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "b0795d72-0141-468a-9d4b-04fe9b80d154",
+      "task": "task_051",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "b2388409-1be5-45ab-9b59-94344084762e",
+      "task": "task_045",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "b4e9aa9c-ec88-4df4-91d0-ffa0b830ca88",
+      "task": "task_004",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "b6b27c49-08ef-454d-ab64-05151510fd66",
+      "task": "task_063",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "b789b016-d196-4661-bd45-c01e6c4fdbb0",
+      "task": "task_027",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB",
+        "official_premature_stop_gate",
+        "official_premature_stop_gate"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "max_steps",
+      "termination_gated": true
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "bd250080-d32f-428d-bb55-b4379581b3ba",
+      "task": "task_065",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "bedb2de2-9427-4105-8aec-d84c49fd20f4",
+      "task": "task_002",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "c00e988f-2f5e-468a-a31e-680b37385f0e",
+      "task": "task_064",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "c0ceb3e7-8552-4397-9fc8-9d9b626f3ace",
+      "task": "task_095",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "c5329149-3624-499b-8630-b5e362f5180b",
+      "task": "task_017",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "c733dd31-0ee5-4c94-84a1-787a67d76c56",
+      "task": "task_035",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "c8a18686-d973-4c8d-979b-2a4f92bbc581",
+      "task": "task_076",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "ca37dc43-36fe-4579-b762-ffa4715833b5",
+      "task": "task_075",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "ca8b4d60-514e-4e46-8d4e-341e9ffe84c0",
+      "task": "task_023",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "cb1ad0eb-10ca-4fb6-afd8-6c1a6340f8fd",
+      "task": "task_072",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "cf240c64-bf2b-413a-99d9-5196267b21b9",
+      "task": "task_087",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_70fb52ef4e29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "d7837f89-fe03-473a-9951-fafe2a1de2b8",
+      "task": "task_099",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "d8497502-b66b-438e-975d-43750de47c98",
+      "task": "task_077",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "db0055a0-4cfd-4c8c-abed-1deba9a7c4db",
+      "task": "task_069",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "db6fd04c-ac50-48b1-b328-32e321f699d0",
+      "task": "task_026",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "dce44a2c-eaf7-4fb5-a997-cd150303a9cd",
+      "task": "task_073",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "de32952f-3366-48ec-bd95-8d077935e372",
+      "task": "task_101",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "e15da5ac-4078-41ce-b957-38a5e9b0d5f4",
+      "task": "task_022",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "e39d8ddd-2e3c-4ff5-8cb3-24a7fee46851",
+      "task": "task_049",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "e49c3696-3c4d-4cda-8764-1571ba507e1b",
+      "task": "task_091",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_92867e549ff2:exists": true,
+          "btxn_92867e549ff2:sensitivity_liability_zero": false,
+          "btxn_e5341d2942ef:exists": true,
+          "btxn_e5341d2942ef:sensitivity_liability_zero": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [
+        {
+          "dispute_id": "dsp_215c254f5cb8",
+          "transaction_id": "btxn_92867e549ff2",
+          "account_id": "chk_tw34a7d9e2_evergreen",
+          "card_id": "dbc_tw34a7d9e2_evergreen",
+          "user_id": "tw34a7d9e2",
+          "dispute_category": "card_present_fraud",
+          "transaction_date": "11/14/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 400.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 400.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        },
+        {
+          "dispute_id": "dsp_1ec6cc1b785a",
+          "transaction_id": "btxn_e5341d2942ef",
+          "account_id": "chk_tw34a7d9e2_evergreen",
+          "card_id": "dbc_tw34a7d9e2_evergreen",
+          "user_id": "tw34a7d9e2",
+          "dispute_category": "card_present_fraud",
+          "transaction_date": "11/14/2025",
+          "discovery_date": "11/14/2025",
+          "disputed_amount": 300.0,
+          "transaction_type": "atm_withdrawal",
+          "card_in_possession": true,
+          "pin_compromised": "unknown",
+          "contacted_merchant": false,
+          "police_report_filed": false,
+          "written_statement_provided": true,
+          "provisional_credit_eligible": true,
+          "provisional_credit_issued": true,
+          "provisional_credit_amount": 300.0,
+          "customer_max_liability_amount": 50.0,
+          "card_action": "close_and_reissue",
+          "is_fraud_category": true,
+          "pin_shared_voluntarily": false,
+          "submitted_at": "11/14/2025",
+          "status": "OPEN"
+        }
+      ],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "e5e2858b-769a-48de-9293-e59c1f509c60",
+      "task": "task_052",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "f0bd2aa0-3bc5-4da4-98f2-98210debb46c",
+      "task": "task_032",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_ACTION"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "f26717c4-3fcf-49b6-a304-6a74be8d52f7",
+      "task": "task_078",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "fb35b43e-ab6e-409c-93ee-a6e62bc40a66",
+      "task": "task_024",
+      "trial": 0,
+      "stored_reward": 1.0,
+      "r0": 1.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 1.0,
+      "r1s": 1.0,
+      "r2": 1.0,
+      "r3": 1.0,
+      "r4": 1.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "fbfb55f2-fffa-4331-9df3-6d19897edd29",
+      "task": "task_088",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": null,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "r3_details": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_28eee7145c29:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "disputes": [],
+      "speech_review": "unannotated",
+      "status": "ok",
+      "termination_reason": "agent_stop"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "simulation": "fe18dabc-3288-4b05-885b-7e117f901280",
+      "task": "task_066",
+      "trial": 0,
+      "stored_reward": 0.0,
+      "r0": 0.0,
+      "r0_provenance": [
+        "pinned_DB"
+      ],
+      "r1": 0.0,
+      "r1s": 0.0,
+      "r2": 0.0,
+      "r3": 0.0,
+      "r4": 0.0,
+      "status": "ok",
+      "termination_reason": "user_stop"
+    }
+  ]
+}

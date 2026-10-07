@@ -1,0 +1,486 @@
+{
+  "host": "cnode403",
+  "slurm_job": "420858",
+  "rows": [
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_006",
+      "simulation": "ded16871-3f33-4abc-822e-20d4761078ad",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_002",
+      "simulation": "fcde4204-e33c-490d-b9fd-8b9173b9a410",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_001",
+      "simulation": "be07d4f6-dde5-46b3-94d7-afed06a16fa5",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_015",
+      "simulation": "19fd3c53-89b7-487a-b733-dfbe9c0d4ef0",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_007",
+      "simulation": "fb9d90e3-9c7c-4ad1-8371-f6f2d5098636",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_004",
+      "simulation": "eddd8d20-29f3-430a-abad-873506d33e6a",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_003",
+      "simulation": "a5ef4444-e31e-45d7-9c77-12fb8bb6687b",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_019",
+      "simulation": "4bbdb534-85d6-407c-bae0-478a3455a44f",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_014",
+      "simulation": "da047783-7be5-4acf-a76b-03b4b089b0c7",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_024",
+      "simulation": "91b8d1cc-2b94-49bc-9003-b80222f5b4d9",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_017",
+      "simulation": "a3b5eaff-4864-4383-9514-eaff6d833b86",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_012",
+      "simulation": "8be9558d-5e1d-4c98-8c25-dd00e99c7cab",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_082",
+      "simulation": "97fed250-a3d7-49d0-88e9-57a5599fe480",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_083",
+      "simulation": "3d151a3b-ae34-47b5-9397-90ef5b6e19e4",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_086",
+      "simulation": "91072919-8069-49cc-8e7e-59f1e84e25b1",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_087",
+      "simulation": "07c36566-f795-40ff-afe5-e126788027d5",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_084",
+      "simulation": "42831544-c309-4e15-b1a2-041956e4216b",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_088",
+      "simulation": "9ea66a84-953a-4dcd-b67a-2394cd7325b4",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_085",
+      "simulation": "fdc10c57-96b9-46c0-b134-58d3482aaf6a",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "task": "task_091",
+      "simulation": "322679a5-30ac-49ef-97df-af64e3040831",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_033",
+      "simulation": "3ee42910-894d-466f-a8a8-5c50e8427c23",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_012",
+      "simulation": "d5b97dc0-cef5-438c-979c-fc0fb5a407d9",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_002",
+      "simulation": "62aafbe2-fc3a-4275-b1c7-5f903d7a3d5e",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_001",
+      "simulation": "a5940add-9df4-423d-9389-7482115f5a92",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_035",
+      "simulation": "0d73d186-f970-455a-a10d-bdb02c96d12f",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_031",
+      "simulation": "28fd90ec-d428-4fa4-b4a9-68d4f983b7ab",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_034",
+      "simulation": "2e6f7306-5b95-4d89-ad41-711433d8bbb8",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_006",
+      "simulation": "dba63397-e9ae-4359-8d11-7680efa91174",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_032",
+      "simulation": "cbd70b78-5e03-4ca4-8fec-c1134bce6384",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_003",
+      "simulation": "f3dcce88-15e3-44ad-80b1-05ed81048d40",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_021",
+      "simulation": "23a164d7-1efe-48e0-a228-29f37c5c0393",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_007",
+      "simulation": "2843e697-e611-4993-937e-4c56120dbf0a",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_084",
+      "simulation": "129f57e8-b54a-458a-b479-a2ae00d3ec3c",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_087",
+      "simulation": "7e026263-982d-44c6-8285-4ac5e6059c44",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_085",
+      "simulation": "3f695549-0e9d-4c1f-bd0d-6f7aa5d5cb5a",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_086",
+      "simulation": "5bb089fa-2fbe-4a5a-b6c1-8b6e601a516c",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_083",
+      "simulation": "53430e32-12a4-4014-9084-78e52dc1ec7b",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_088",
+      "simulation": "e94721a4-6020-4b7a-aec3-f191dcf2886d",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_082",
+      "simulation": "794567a2-b8e4-4503-9bb4-d9bf5dcb6467",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "task": "task_091",
+      "simulation": "7389d3cd-a718-48de-a95f-f8e5b34847cc",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_061",
+      "simulation": "00e2002b-290e-4c75-be4a-3e02ff593e8a",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_002",
+      "simulation": "012acd84-9345-45bf-b09d-93f1061a5d0b",
+      "official": 1.0,
+      "ours": 1.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_014",
+      "simulation": "013115a1-e2a9-4aea-9317-d2f23e5486ed",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_032",
+      "simulation": "056d9986-358c-4836-9bd1-51aca43873fb",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_052",
+      "simulation": "0c097d59-a422-4ea8-81a6-fd0421b7d729",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_099",
+      "simulation": "0ccbafb6-7327-47b2-80f9-3a180842746a",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_041",
+      "simulation": "0ee72344-d21d-4cfa-83b8-d1e8a04fb734",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_056",
+      "simulation": "14211271-adf3-4d1f-9b7b-3e2665968f59",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_050",
+      "simulation": "167b15f2-f12d-491e-961c-93bb261811e2",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_100",
+      "simulation": "16aaf2e6-ebf7-4b36-a25c-6a7b1dbc2419",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_063",
+      "simulation": "1c6ed021-64e1-4b6f-81fb-4440db112583",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_096",
+      "simulation": "29c0e86b-4d2e-4068-9638-4628501e7d2a",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_085",
+      "simulation": "42e85954-550a-49d3-a152-995e654b9d76",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_084",
+      "simulation": "7a420f79-8b49-4bf4-b6b7-1f7b076cca46",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_083",
+      "simulation": "8f3fc3b4-b7c2-4085-a84d-55092e93be7e",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_091",
+      "simulation": "9cdbfb85-9dec-4e4d-914e-b5d8eb1eafe8",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_082",
+      "simulation": "c5ec5ddd-3ebd-4f93-bbb1-3376cfb98c42",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_087",
+      "simulation": "da561bcb-cfc2-4da4-acfb-38e3de017108",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_086",
+      "simulation": "fbc2c35a-314f-4388-b5dd-ae53eaa3ca13",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "task": "task_088",
+      "simulation": "fc337a24-4ade-49bc-a8a6-16ed7b0b2ef4",
+      "official": 0.0,
+      "ours": 0.0,
+      "equal": true
+    }
+  ]
+}

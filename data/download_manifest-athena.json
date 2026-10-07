@@ -1,0 +1,3045 @@
+{
+  "retrieved_utc": "2026-10-07T06:15:46.126694+00:00",
+  "submissions": [
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "model": "Claude Fable 5",
+      "modality": "text",
+      "published": {
+        "pass_1": 39.69072164948454,
+        "pass_2": 32.817869415807564,
+        "pass_3": 30.15463917525773,
+        "pass_4": 28.865979381443296,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-fable-5_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-fable-5_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/claude-fable-5_sierra_2026-08-04/trajectories.json",
+      "sha256": "8c5381f4e73036b7abcb51991fe2a9fbd66240dc3165fed96c2cffbb4db1f376",
+      "bytes": 172236267,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-opus-4-5_sierra_2026-02-26",
+      "model": "Claude Opus 4.5",
+      "modality": "text",
+      "published": {
+        "pass_1": 24.74,
+        "pass_2": 17.18,
+        "pass_3": 13.66,
+        "pass_4": 11.34,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-opus-4-5_sierra_2026-02-26/trajectories/claude-opus-4-5_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/claude-opus-4-5_sierra_2026-02-26/trajectories.json",
+      "sha256": "b77a1bfdd35b35c9721551469a3d9d2f03d53961f07b83c7237cc66dafcc2ae4",
+      "bytes": 94536159,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-opus-4-6_sierra_2026-05-05",
+      "model": "Claude Opus 4.6",
+      "modality": "text",
+      "published": {
+        "pass_1": 27.32,
+        "pass_2": 18.73,
+        "pass_3": 14.18,
+        "pass_4": 11.34,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-6_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-opus-4-6_sierra_2026-05-05/trajectories/claude-opus-4-6_max_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/claude-opus-4-6_sierra_2026-05-05/trajectories.json",
+      "sha256": "07424064bd05a39f6316f281b4c3f45d1b1dc3e067624875fa6f98502ab57296",
+      "bytes": 110444414,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-opus-4-7_sierra_2026-05-05",
+      "model": "Claude Opus 4.7",
+      "modality": "text",
+      "published": {
+        "pass_1": 40.20618556701031,
+        "pass_2": 31.099656357388323,
+        "pass_3": 27.061855670103093,
+        "pass_4": 24.742268041237114,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-7_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-opus-4-7_sierra_2026-05-05/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/claude-opus-4-7_sierra_2026-05-05/trajectories.json",
+      "sha256": "9efab5cbb9cede6554d2f65791e3d1608fa074fd69bda472530aafeefd7d33b6",
+      "bytes": 202290255,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-opus-4-8_sierra_2026-08-04",
+      "model": "Claude Opus 4.8",
+      "modality": "text",
+      "published": {
+        "pass_1": 39.69072164948454,
+        "pass_2": 31.271477663230247,
+        "pass_3": 26.288659793814436,
+        "pass_4": 22.68041237113402,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-8_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-opus-4-8_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/claude-opus-4-8_sierra_2026-08-04/trajectories.json",
+      "sha256": "9342f9757f8c546f10ed32750ce5129da162acef58bd0cc22e7eff1163b90785",
+      "bytes": 268570362,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-opus-5_sierra_2026-08-04",
+      "model": "Claude Opus 5",
+      "modality": "text",
+      "published": {
+        "pass_1": 48.71134020618557,
+        "pass_2": 39.175257731958766,
+        "pass_3": 34.5360824742268,
+        "pass_4": 31.958762886597935,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-5_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-opus-5_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/claude-opus-5_sierra_2026-08-04/trajectories.json",
+      "sha256": "80bd60cd0dc19855e685b85ef2c40efcbc2dabae1ffa16988b40b781cbeee2a3",
+      "bytes": 242829847,
+      "status": "downloaded"
+    },
+    {
+      "submission": "claude-sonnet-4-5_sierra_2026-02-26",
+      "model": "Claude Sonnet 4.5",
+      "modality": "text",
+      "published": {
+        "pass_1": 25.26,
+        "pass_2": 15.81,
+        "pass_3": 12.63,
+        "pass_4": 10.31,
+        "cost": 4.04814,
+        "retrieval_config": "terminal"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/claude-sonnet-4-5_sierra_2026-02-26/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/claude-sonnet-4-5_sierra_2026-02-26/trajectories/claude-sonnet-4-5_enabled_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/claude-sonnet-4-5_sierra_2026-02-26/trajectories.json",
+      "sha256": "3731e75d867d6a9e85aa8aaf4d45c025515a2950be78c3a77df24e75dbf36585",
+      "bytes": 87574584,
+      "status": "downloaded"
+    },
+    {
+      "submission": "distyl-buttonagent_distyl_2026-03-25",
+      "model": "Distyl ButtonAgent",
+      "modality": "text",
+      "published": {
+        "pass_1": 31.19,
+        "pass_2": 21.47,
+        "pass_3": 16.19,
+        "pass_4": 13.4,
+        "cost": null,
+        "retrieval_config": "mixedbread"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/distyl-buttonagent_distyl_2026-03-25/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/distyl-buttonagent_distyl_2026-03-25/trajectories/distyl-buttonagent_banking_knowledge_4trials.json",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "submission": "gemini-2-5-pro_sierra_2026-05-05",
+      "model": "Gemini 2.5 Pro",
+      "modality": "text",
+      "published": {
+        "pass_1": 13.66,
+        "pass_2": 6.01,
+        "pass_3": 2.58,
+        "pass_4": 1.03,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gemini-2-5-pro_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gemini-2-5-pro_sierra_2026-05-05/trajectories/gemini-2.5-pro_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/gemini-2-5-pro_sierra_2026-05-05/trajectories.json",
+      "sha256": "c8ff953311af772347cc8603a74a1d7724518a5c0b7d42518f0d048e959cbd73",
+      "bytes": 144740985,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13",
+      "model": "gemini-3.1-flash-live-preview-thinking-high",
+      "modality": "voice",
+      "published": {
+        "pass_1": 11.34020618556701,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/trajectories/gemini-3-1-flash-live-preview_voice_high_usersim-gpt55xhigh_banking/results.json",
+      "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/results.json",
+      "sha256": "b9b19085a0db72c7f2128ee8f277cd35bad4d25e113eb6f177e693d2c53d541b",
+      "bytes": 1287877,
+      "status": "downloaded",
+      "simulation_files": [
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/00e2002b-290e-4c75-be4a-3e02ff593e8a.json",
+          "sha256": "eac810678041e96f4831d302edbcaae810e87064324a0af09ab67e9c7885fd6e",
+          "bytes": 10640591
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/013115a1-e2a9-4aea-9317-d2f23e5486ed.json",
+          "sha256": "b2d4986e1a2797c6060c11d9a6ef44b4212d3073d16fe9102d7c1b8365b92475",
+          "bytes": 4770680
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/056d9986-358c-4836-9bd1-51aca43873fb.json",
+          "sha256": "94e77b9e397591d7c621ebe067a9057802759fc923b2e7326a166a756a83f134",
+          "bytes": 1977769
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/0c097d59-a422-4ea8-81a6-fd0421b7d729.json",
+          "sha256": "de0f225a2d866febb1de5c784e1083ad5633bc5b7d8688193ba9ab541f3720ca",
+          "bytes": 10620727
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/0ccbafb6-7327-47b2-80f9-3a180842746a.json",
+          "sha256": "f636adfdacbd6fc925968d6b443188d45b6dc46edf6d047955b1e766561f3c3d",
+          "bytes": 3166658
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/0ee72344-d21d-4cfa-83b8-d1e8a04fb734.json",
+          "sha256": "1723ff83abe72fb21bba1ef10de20155f14890e97cd03569bc4611c8a79fdd2f",
+          "bytes": 14328519
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/14211271-adf3-4d1f-9b7b-3e2665968f59.json",
+          "sha256": "25c23f5191f2712a35bf8a74e019eeb53abbcf0ef780c8ffdce362c1ed8b2969",
+          "bytes": 14337293
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/167b15f2-f12d-491e-961c-93bb261811e2.json",
+          "sha256": "cc6cb46857fc8ff0b6cba5ab527c01223ab8dfe127159ca858f7a44c29b10c55",
+          "bytes": 5144702
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/16aaf2e6-ebf7-4b36-a25c-6a7b1dbc2419.json",
+          "sha256": "c2f049781184fe662b254a757b4eb72fff15a8d486ca24c989d2789ba6e79de7",
+          "bytes": 4493903
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/1c6ed021-64e1-4b6f-81fb-4440db112583.json",
+          "sha256": "62bec4a5b2c8890afb3d5c8fd29602d63058fd21665711f8eb4765526b436e40",
+          "bytes": 1380682
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/29c0e86b-4d2e-4068-9638-4628501e7d2a.json",
+          "sha256": "c79c5e332f526f278e66c7bd1334840407654ff6e0a7a6f99acc3005326dae26",
+          "bytes": 7260311
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/2bf43884-acef-4f2e-8a26-75a91f8db1be.json",
+          "sha256": "e9c08b652bf6e68fedaa273d8a5139e8353c4734ccf857d8b0f335966af6e942",
+          "bytes": 4227033
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/2e65d4dd-f848-446c-bef0-8b9128eac005.json",
+          "sha256": "b69d2286c2112cd6c2e36c5f4a96115ebe611d86f11c28134722bc1acfeab20d",
+          "bytes": 2003018
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/346e327e-ddca-4e70-a309-9023c0e9cd6d.json",
+          "sha256": "af8a6e29344bc51d217a00acadbb95f7e53c423fb473243ceea0bc00936187e9",
+          "bytes": 3610814
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/34df0aac-fa2d-4b01-bcfa-078740f1d15a.json",
+          "sha256": "07eda1637e1e673b7434930c3a709179720d7e0b71701c13a75a715075ef4aa8",
+          "bytes": 8391027
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/37dccbb5-b125-48b6-8cb8-a035a8e10bcb.json",
+          "sha256": "5a1d7ee3cffccb6b4374e513208f2eec9b69fa8324aadc1199e37acb357271b6",
+          "bytes": 5370176
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/3d32a472-5c64-462e-b6a3-9de724ecd080.json",
+          "sha256": "2af44c6f019e49ad7db6c046e7465072965a4c28e3aec0852f196b99fa67a283",
+          "bytes": 12626893
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/3d4c275a-79a9-4d9f-a8b6-d5b4a4bfbad7.json",
+          "sha256": "1ba5752495c46d983fa73544ff9e27bdd5cd283a725cbe6730194a61fe081912",
+          "bytes": 9245015
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/3ebc71d3-9809-4060-80f5-81fdad93b39c.json",
+          "sha256": "795c13f2049d9ef0c2c3763a17ee02f56edb6eda927536e5218db1912a3a6ae6",
+          "bytes": 7625140
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/42e85954-550a-49d3-a152-995e654b9d76.json",
+          "sha256": "cc42b452c67c4d45b65066d1730618e8e593d8a102b53613b1e512ac2b1a5b7a",
+          "bytes": 4014566
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/43a36255-8c57-4294-8028-624b6a05bbf3.json",
+          "sha256": "bf70a5c2c9939b414da4299b871dd3e2186bd439f6e49c4b362e62b407b33ce7",
+          "bytes": 4619017
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/466a30b5-0def-4317-94c6-9cba1eaf18c0.json",
+          "sha256": "294105ff7e4bcd8127123f36bbb1a76f4162ab03924768797a81a07145ab3d1b",
+          "bytes": 6989324
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/4cedf79b-dbef-4049-b6ce-d7c0955be7eb.json",
+          "sha256": "867ea189871610a5264436595e22dbd480e43fb708373459e0f3259773faedd3",
+          "bytes": 7091711
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/4eb72dbf-e7a1-43eb-b822-10527d40a7cd.json",
+          "sha256": "e3caff17571f26e2ca8a076c84ff0f83db06c573f3a57c410f7cc03398fc9306",
+          "bytes": 5693040
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/50ffad65-31ed-4503-a6b2-16feab148a76.json",
+          "sha256": "9faf6abcaf2bbf3f7e0daa8866fdc6d7995d31b0e768ea8dd9103eb9b0ccbf4c",
+          "bytes": 2752458
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/51b3cf7b-c9ba-41b7-978c-0c9279150b6c.json",
+          "sha256": "63d8a3c7fd45e117647cead65f725c18d153b3cb1db03110c37717e699e7bb22",
+          "bytes": 2315163
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/51d129d2-d632-4869-a6d4-2e813690adb2.json",
+          "sha256": "1670488e6f72d2cc68760306f3dc40dae394ef9a3bbc8393699d6b06ac072209",
+          "bytes": 5452000
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/532b6cdc-e8e5-4cef-b2ad-0c73488243ab.json",
+          "sha256": "30ddaf838f8966d5a09a052819a32c0dd673250d2ffa80b373a264aee1019d61",
+          "bytes": 4136904
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/541766e2-9766-4939-9cc8-3895f8034812.json",
+          "sha256": "36702740fbf1effa267f8de537764d1ca0d88f3b62cecba30cca871c5b362a81",
+          "bytes": 1077411
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/5487e446-f951-4823-a1e0-da0c07c5fda0.json",
+          "sha256": "73de919cb548a2c42ce10409ab3584f6d670deae825846dfdd4a295a282cf720",
+          "bytes": 4259678
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/56ed89ce-3501-41d2-b31a-a3cf6e94aff3.json",
+          "sha256": "7ef806044269856142fc809697fe075b323df2d4cefa5e8613321b52747445c2",
+          "bytes": 9837150
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6ab082d7-7bff-4d61-9b91-4fcb96a4c78f.json",
+          "sha256": "caae77baa814c31b19fc5b8cf605997ba5eeed76965b7e9ab0f976d37d599d02",
+          "bytes": 4195928
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6ab3e814-d4f4-4c7e-a364-b2cbc1b36921.json",
+          "sha256": "880ea0d6c1fce89a83da6a436b0ef215aa0c23909a4e85f9cfe5d320e5131c12",
+          "bytes": 5553107
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6beb5497-e73c-4043-a877-5f2fdc1bf75d.json",
+          "sha256": "50d4a125ecee136d5f22fbc5ec58601ea121dea3e40c12369c4b730145fbee1e",
+          "bytes": 16962118
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6f987518-d015-488e-81a4-24cd5eaf23bd.json",
+          "sha256": "778c4bb9c8e73449b0d2624309005da863e4de8863dbaf959d3d95cb8d03d930",
+          "bytes": 1752588
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/7018c3c5-edac-4c00-ac22-8086f17e8224.json",
+          "sha256": "c1f24b76bde2eaaeac11e33edc1a9f827df8862c859890f5c753a852ee464876",
+          "bytes": 12853919
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/71f2a13b-7e56-4631-8326-aeb844c0b926.json",
+          "sha256": "8178a0a60bec70d7859526540f47a618ceb733c307139811d5db7af6391c3a4c",
+          "bytes": 1045349
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/722f4d52-63e1-4444-a2d2-b12e393c3c65.json",
+          "sha256": "800457b90ead276b7ea39054856a0f2e31d127c5d657c41bc659c8e84434a501",
+          "bytes": 12436129
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/756f9bc2-f553-4085-9aab-d86688374eeb.json",
+          "sha256": "c188b32b2e7df3b1007cfb66fe90d883415a3c9ad7ec6b6c37163cda08d821c3",
+          "bytes": 4235858
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/78eeb271-a61a-478b-ae18-255b4870a70f.json",
+          "sha256": "1ee915c99a4c251ae03c0acb46d04f9e98c8cd4b4091133dd94d7b80cf90075d",
+          "bytes": 4100827
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/7a420f79-8b49-4bf4-b6b7-1f7b076cca46.json",
+          "sha256": "b470b7a009189f9e092256c105bcacbb4485364c25bd1d4be2bdc9c930d2b0ee",
+          "bytes": 4998864
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/7a8c8024-1b7f-4602-952a-2ca8abb3c69e.json",
+          "sha256": "40ab5ef51593dbd46b1b46b087a17ba9d5213ef0b2982f3edb5023f2f39de9ee",
+          "bytes": 5523138
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/803b1f56-fcb2-4369-b12d-925047de8886.json",
+          "sha256": "b9cc4c940259d2300a636fc50b645f28f7c6a0763517aa40242b4845462db9ba",
+          "bytes": 4545530
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/913da452-e0eb-4343-aaac-09b75875f5b8.json",
+          "sha256": "6a3900840a436d621b61d3edbde2b02eabe21baf01b7d589f55966dfdc6ddc93",
+          "bytes": 6717820
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/92548ab5-2ecd-47c2-87b7-8ab1264e6783.json",
+          "sha256": "312aa7a9e41b81b7271ecdd64fa8a4e768df7a07287d49c2cc0055cc12b54d6a",
+          "bytes": 6568237
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/935b9bbe-e10b-4699-a504-eee93fb1e805.json",
+          "sha256": "f33be7be28f3313ada50affc57af6485cc42c1d86d888ba4755baa73d0dc972d",
+          "bytes": 3344765
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/9cc71462-72c4-492c-8f17-1d76cbcd2246.json",
+          "sha256": "77a5edd707eef9b33c3f72c55f08be3851c4c3879594a1b07a54d4c0f37bbd6d",
+          "bytes": 1884127
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/9cdbfb85-9dec-4e4d-914e-b5d8eb1eafe8.json",
+          "sha256": "23a26244d0b06e018de967f8fdd1f591df88ba6a1d36f1a24f5e06ff0d43f069",
+          "bytes": 4382483
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/ad3f054e-8828-4eeb-8d52-bae7b466e030.json",
+          "sha256": "4d68937a1dcf7dffcca9b0d16f1d4817651dc5005bde9d3dab0d544cbd1bd68d",
+          "bytes": 7197187
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/b75f186f-4ea0-4fc3-8363-2caf47145289.json",
+          "sha256": "d8fa1be28f1a97d49db151e536ba57445bc77bac5fb3b30e926a5fc74468f324",
+          "bytes": 3972606
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/b8061e5a-17d5-458e-90ee-93f52f1cbf0a.json",
+          "sha256": "fea0e1b15340db73f99ef7382273f6fe66eba4cba3646373f69072b0bd36f69d",
+          "bytes": 7796603
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/c32901ac-321c-43f5-b793-2c730d24664d.json",
+          "sha256": "28232d2d5c5c582a1e1bf5b3a29f2b7bb048f0603cb89a8132cc027e6d64d23b",
+          "bytes": 12103833
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/c5c2fac5-985c-49e2-adef-eef65f25684c.json",
+          "sha256": "b17a9d9d54e23340799efd020b6c4483435e38779d2e18cd306596541e0bbacb",
+          "bytes": 5328790
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/c5ec5ddd-3ebd-4f93-bbb1-3376cfb98c42.json",
+          "sha256": "cf4da50d586cdf366e753c532fb13cec128d6a66c27729d5f9f54a5a621474d7",
+          "bytes": 8551017
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/d3fc196c-2dc6-489f-b052-ef19fe81d53d.json",
+          "sha256": "ce4f93bdfe3bd36f603dead9a7ba792a4af08ec5efd8bfca062c91234ddb8132",
+          "bytes": 4479642
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/d5d34a15-ccca-4a57-9777-cf0024805532.json",
+          "sha256": "eaacf2e8cdc465fc81e44a4cd9c3b26b7386f88e436256c4e2ff2d15a4eb9140",
+          "bytes": 2769740
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/d625cb79-bf17-4888-b919-2cef173e1478.json",
+          "sha256": "85ea7760f843de72d9d1ee4402c452e9d5b23cba66139873452434809ac167d3",
+          "bytes": 5407731
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/da561bcb-cfc2-4da4-acfb-38e3de017108.json",
+          "sha256": "98e877d5ece5116b1b667cfeb9fda9187ff49d39a1ca0efd34806e9ec1a1e94e",
+          "bytes": 6610801
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/db2319d2-f4f1-4fc6-90aa-5c971675eb6d.json",
+          "sha256": "4bdc79d80612dc3f6a68536d0fec230f5c65b028156577efd20df27aac571faa",
+          "bytes": 4531433
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/dc2fc198-0b09-45f3-9a97-f36cde5d59cb.json",
+          "sha256": "95f83f82eda1c7552f14028cd5a7ae6c3eb8e584c24133ab26c194cce2b9ca1a",
+          "bytes": 12413876
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/df7372f0-ae20-4cde-bd7c-84533b1a06f0.json",
+          "sha256": "7d6630046cd6601c0c1af7a082c8b226a66df15154e7053168d039de8add963a",
+          "bytes": 12057734
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/e234a28f-98d4-4caa-802b-035ac4399062.json",
+          "sha256": "5134941512ded49c6e8b4bfe715b7693595af562e91d2e24b2754c8a081d245e",
+          "bytes": 3861546
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/e264420d-157d-44b2-b4d9-e2decbb6e35d.json",
+          "sha256": "b60c9ca6ef9619450bbcecfc5e1bf32b28ef6056f06cb3fb3305a3b7afd9e557",
+          "bytes": 5399588
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/e359c4b4-0da4-405a-ac4f-df5b36b1ece5.json",
+          "sha256": "0547eb626632767838a850483f01cf5b0b0274534f6dead49234dc516e730a15",
+          "bytes": 8906054
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/eef196b0-ee35-4605-9854-aa1e5dc4915e.json",
+          "sha256": "41342b60703059975481da2d97158d06a55a2adfdbc62d3aa8c715a97585a7a8",
+          "bytes": 8121137
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/f4db49ea-6522-4a8a-9318-be9df4d6b4d6.json",
+          "sha256": "c410ca7eb185dd25234c717ec4de6cbce2e34f997fc6ea29e1d06526ce606466",
+          "bytes": 4316220
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fb6a8c16-0dcc-40b4-8003-4708c749e732.json",
+          "sha256": "df265a06d79673eec4819c9001740893b6bd07827cd0c40d3736b6e51ecb909f",
+          "bytes": 3372107
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fbc2c35a-314f-4388-b5dd-ae53eaa3ca13.json",
+          "sha256": "2369548b3768e80fdcfb161ab734e3394b57a73fbcf84f8df49ab9aac66533d2",
+          "bytes": 3834732
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fc372509-e301-444a-8cd4-4627aafd6d59.json",
+          "sha256": "d608c24f9b11b996bedfe003db5e30cd41597eaa1bba71fd557cd0c54b414d74",
+          "bytes": 7302700
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fda67281-0798-407f-834b-186b050893f3.json",
+          "sha256": "6deaa6f71a95933ed6233dc8102b2bfbacab1b33bea91a7e63c777b465ed88bb",
+          "bytes": 3602730
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/012acd84-9345-45bf-b09d-93f1061a5d0b.json",
+          "sha256": "b1a54f3beee94da395b689c5d3e7fdae5a6a44b6ece9afba241689b8bc1b9942",
+          "bytes": 1072433
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/337c01fc-1d25-420d-b2e3-1d81e4d6828f.json",
+          "sha256": "fc8e4aec000070075d6e474cf21508751c80a82aca95bb2ff68280222b05b3db",
+          "bytes": 18187721
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/34c62173-c760-4d5c-aa62-3b7962010c88.json",
+          "sha256": "7dd30d16a401f78209e4edae7d8eff6b99f9c1a788bb48d315c8a978d2c089a4",
+          "bytes": 17163741
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/43bb0085-b95f-488f-88b1-8941648def00.json",
+          "sha256": "d1bfd985b16220ef18cc91105d21bb110b9c0b3358465a71bcef8fedecde9f86",
+          "bytes": 4571518
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/46f657bc-215a-40d3-9ff9-7f0ab82fe9fd.json",
+          "sha256": "d3f6f055d2f2e6edcccb414a0d6167ecb707de50819d7c2517ce9f92ce227e44",
+          "bytes": 6251844
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/52725291-17d3-4065-b9ae-5008860d798f.json",
+          "sha256": "f97a4831e18fb369dcfb151723d3c1babf37e9995728fa99ba9b15f6a7af7ba7",
+          "bytes": 3242893
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/52c0ce9f-2088-4030-88ec-a7f9bf66403d.json",
+          "sha256": "0cbe00ece5cd8f86f405d40c1c130da2895b71abf3f3252ca626b2da3190e788",
+          "bytes": 10890240
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/584b296f-8589-41a1-8b9d-5264772a7ab9.json",
+          "sha256": "c43e7a574dbf06e26d967d0c2af76cdb2f6ea381bd2c45f69fb1a7b631bfe147",
+          "bytes": 7426430
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/58a537fc-9a08-47f8-9aa7-69704c8e15c4.json",
+          "sha256": "d07d8ccdd01fe96a5b766d907d9720dccae930c3afce2337d1f4dd463ad5e3cb",
+          "bytes": 4854246
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/67a1ba52-5dbb-4d4f-85e5-1cbe0924e21e.json",
+          "sha256": "e05280f742068433e5481fce6cdc0dd006a2983f6f08a59d31803dae3621a46c",
+          "bytes": 6532343
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6845c626-e4cf-452e-afe3-0285d7871202.json",
+          "sha256": "93f22b31fadc680206693a79af34e58ef0cb04d25f63988a1c4b6ebb8f5589bd",
+          "bytes": 8731151
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/69477aaf-b7c0-4685-a015-df4db66b859b.json",
+          "sha256": "57c97387f743cf850984787210c4b0ced028f3ac7970e5a54ffa06a6a571b1df",
+          "bytes": 3876945
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6987de5d-1ff9-4283-b294-77658b21b844.json",
+          "sha256": "eeca6498ff75078bd119ba250a8e20bd40d983180039216d4f35e2411cf2158d",
+          "bytes": 20743572
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/6987f87b-14d1-447e-8592-91bfc09043fa.json",
+          "sha256": "ca009300167e1d93fdf3dc7df43de2f1c0797320d24be0f41032c2784a33d08c",
+          "bytes": 3318377
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/7b0f3b34-eafb-4302-b4ce-4a48b985886f.json",
+          "sha256": "23038bac5883bf8a02e5176cb7b7ac9d9b6007fad6e16e3d912c126242bc0ac8",
+          "bytes": 8068285
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/8e9eb680-49dd-4216-a020-e780b4487e80.json",
+          "sha256": "25a0d5a4b70348ce043418da0da705ae5f564990e437b84d2c20cfd966d84478",
+          "bytes": 9263779
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/8f3fc3b4-b7c2-4085-a84d-55092e93be7e.json",
+          "sha256": "ea6bec852838582ca2e327f290504557ae2286c2b57158a66f9e43d44d381634",
+          "bytes": 13572008
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/96f6b252-9c56-414d-b756-2ce7bb4dbd16.json",
+          "sha256": "0a39a953df315042411af3612afa8995bdc1b9b05cb5563da82042b1dafa539c",
+          "bytes": 1659925
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/996e1dc8-bf0e-431d-8c69-eeb42d0897d7.json",
+          "sha256": "e1d216c3c31cc71578d3f3063465866b8f159dfde9923290150467d78f801244",
+          "bytes": 7813867
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/9e46371e-8a40-4171-ab63-e2f305838b2a.json",
+          "sha256": "2c612c13734d2df6fdb22ccccdeaba61e8302d5c002c7e9e33533d2309787214",
+          "bytes": 9301942
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/b5cb40d6-9f9c-49c5-a270-ff7b8fe949e4.json",
+          "sha256": "fadac5076000140ab517498c18b98716e1a75be0cafbfde216c6c0c271b54b25",
+          "bytes": 3081276
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/bdf15e6e-997a-4b1f-9d2b-fa08f427c9e6.json",
+          "sha256": "88e91b19f0c58ebaa5799a7b349741af4fbbd5920b150b4a4917af980f4a6057",
+          "bytes": 3694920
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/d9363c72-49f2-4c8b-905b-6ea699705ec3.json",
+          "sha256": "25a70019abbd65bdf4deae690c2eea9222b5d79b49a1f21942f7ed189eeb9580",
+          "bytes": 10785225
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/e0ce5d4d-392d-4edb-af9c-de3647c4bd33.json",
+          "sha256": "66e6e0477ad3810cb12c3179c87364c64629095f337c94fba2ea22197e46cd60",
+          "bytes": 4521206
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/e7a8cc85-a28b-490a-8f75-fc78bb7b2457.json",
+          "sha256": "5f8a840cdc5994734589ed77feb8c45ff9bdd9780b543e6a03c34a221f8a2571",
+          "bytes": 2848420
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fc337a24-4ade-49bc-a8a6-16ed7b0b2ef4.json",
+          "sha256": "1fef6d6c54c15bfb7fa1d190b3dad012662f386e3e592c14df77968c9e3b8ed0",
+          "bytes": 2864447
+        },
+        {
+          "path": "data/trajectories/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/simulations/fecc7db3-6bc0-49ff-b73c-26bb4ffbae19.json",
+          "sha256": "46bdec75062ee0caadcee2f9393780d458f4922f8bdb293d1a3ff0a7032d27a4",
+          "bytes": 4475386
+        }
+      ]
+    },
+    {
+      "submission": "gemini-3-1-pro-preview_sierra_2026-05-05",
+      "model": "Gemini 3.1 Pro Preview",
+      "modality": "text",
+      "published": {
+        "pass_1": 26.03,
+        "pass_2": 15.12,
+        "pass_3": 11.08,
+        "pass_4": 9.28,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-1-pro-preview_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gemini-3-1-pro-preview_sierra_2026-05-05/trajectories/gemini-3.1-pro-preview_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/gemini-3-1-pro-preview_sierra_2026-05-05/trajectories.json",
+      "sha256": "3ed65b346480156f98fbed44bea1bed8602b793b438f7919aa6ef112dca14253",
+      "bytes": 153867585,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gemini-3-flash_sierra_2026-03-02",
+      "model": "Gemini 3 Flash",
+      "modality": "text",
+      "published": {
+        "pass_1": 27.32,
+        "pass_2": 15.46,
+        "pass_3": 10.31,
+        "pass_4": 7.22,
+        "cost": null,
+        "retrieval_config": "terminal"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gemini-3-flash_sierra_2026-03-02/trajectories/geminiflash-terminal.json",
+      "path": "data/trajectories/gemini-3-flash_sierra_2026-03-02/trajectories.json",
+      "sha256": "c6a4f395a3b6e064a4ae8ddc196e502d9955bbd8c02b21016c1b4fe3cc19b75e",
+      "bytes": 87195703,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gemini-3-pro_sierra_2026-03-02",
+      "model": "Gemini 3 Pro",
+      "modality": "text",
+      "published": {
+        "pass_1": 18.04,
+        "pass_2": 9.28,
+        "pass_3": 5.67,
+        "pass_4": 4.12,
+        "cost": null,
+        "retrieval_config": "terminal"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-pro_sierra_2026-03-02/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gemini-3-pro_sierra_2026-03-02/trajectories/geminipro-terminal.json",
+      "path": "data/trajectories/gemini-3-pro_sierra_2026-03-02/trajectories.json",
+      "sha256": "408d7aa5ea21032c549a13e56c60a487aeecfa60ca2f3fe57f7ceb4a86ac6b9c",
+      "bytes": 75808374,
+      "status": "downloaded"
+    },
+    {
+      "submission": "glm-5-2_sierra_2026-08-04",
+      "model": "GLM-5.2",
+      "modality": "text",
+      "published": {
+        "pass_1": 37.11340206185567,
+        "pass_2": 25.257731958762886,
+        "pass_3": 18.298969072164947,
+        "pass_4": 13.402061855670103,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/glm-5-2_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/glm-5-2_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/glm-5-2_sierra_2026-08-04/trajectories.json",
+      "sha256": "f6071d4aa6d4245d7399a9adf4439dc6e7324254dda37e22edd11ed537683f90",
+      "bytes": 329570145,
+      "status": "downloaded"
+    },
+    {
+      "submission": "glm-5-think_sierra_2026-03-02",
+      "model": "GLM-5",
+      "modality": "text",
+      "published": {
+        "pass_1": 9.79,
+        "pass_2": 7.22,
+        "pass_3": 5.67,
+        "pass_4": 3.09,
+        "cost": null,
+        "retrieval_config": "text-emb-3-large"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/glm-5-think_sierra_2026-03-02/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/glm-5-think_sierra_2026-03-02/trajectories/glm-5_enabled_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/glm-5-think_sierra_2026-03-02/trajectories.json",
+      "sha256": "fbaf26b4ad3e6169fb71bf2e2b38401fa40df49190bbf6455752f6a37b82dd9a",
+      "bytes": 31464697,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-5-2-none_sierra_2026-02-26",
+      "model": "GPT-5.2",
+      "modality": "text",
+      "published": {
+        "pass_1": 12.63,
+        "pass_2": 7.22,
+        "pass_3": 5.15,
+        "pass_4": 4.12,
+        "cost": 0.2433424974226804,
+        "retrieval_config": "qwen_embeddings"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-2-none_sierra_2026-02-26/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-5-2-none_sierra_2026-02-26/trajectories/gpt-5.2_none_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/gpt-5-2-none_sierra_2026-02-26/trajectories.json",
+      "sha256": "40684fb04bdfc81ef053e73fe40f4b4dd3c0e2761634ff1ea5d3a396e1a7b9dd",
+      "bytes": 41702675,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-5-2_sierra_2026-02-26",
+      "model": "GPT-5.2",
+      "modality": "text",
+      "published": {
+        "pass_1": 32.22,
+        "pass_2": 23.88,
+        "pass_3": 20.62,
+        "pass_4": 18.56,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-2_sierra_2026-02-26/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-5-2_sierra_2026-02-26/trajectories/gpt-5.2_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/gpt-5-2_sierra_2026-02-26/trajectories.json",
+      "sha256": "407fabfd837bc1ebb73055d6c032711fdb04aa2741e138b35183f3fd20a6de7c",
+      "bytes": 216304856,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-5-4_sierra_2026-03-25",
+      "model": "GPT-5.4",
+      "modality": "text",
+      "published": {
+        "pass_1": 39.43,
+        "pass_2": 29.55,
+        "pass_3": 24.48,
+        "pass_4": 21.65,
+        "cost": 1.8423,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-4_sierra_2026-03-25/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-5-4_sierra_2026-03-25/trajectories/gpt-5.4_xhigh_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/gpt-5-4_sierra_2026-03-25/trajectories.json",
+      "sha256": "642d0263af447d923c192e17d4217e1b2f1e487d905f3ac44ed0b9c87ec7843b",
+      "bytes": 232042897,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "model": "GPT-5.5",
+      "modality": "text",
+      "published": {
+        "pass_1": 44.58762886597938,
+        "pass_2": 37.62886597938145,
+        "pass_3": 33.24742268041237,
+        "pass_4": 29.896907216494846,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-5_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-5-5_sierra_2026-05-05/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/gpt-5-5_sierra_2026-05-05/trajectories.json",
+      "sha256": "ed46e521cdcd670fa31528fd729a6ebd881531ace9cf5ba3402c79aef07f9da1",
+      "bytes": 150425560,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-5-6-sol_sierra_2026-08-04",
+      "model": "GPT-5.6-sol",
+      "modality": "text",
+      "published": {
+        "pass_1": 46.90721649484536,
+        "pass_2": 37.28522336769759,
+        "pass_3": 31.958762886597935,
+        "pass_4": 27.835051546391753,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-6-sol_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-5-6-sol_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/gpt-5-6-sol_sierra_2026-08-04/trajectories.json",
+      "sha256": "614cdc47ae910fb97936c839e59cf43ec087f9c3c548af395159ea751759c292",
+      "bytes": 150287419,
+      "status": "downloaded"
+    },
+    {
+      "submission": "gpt-live-1-astra-high-banking_openai_2026-09-16",
+      "model": "gpt-live-1",
+      "modality": "voice",
+      "published": {
+        "pass_1": 37.11340206185567,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-live-1-astra-high-banking_openai_2026-09-16/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-live-1-astra-high-banking_openai_2026-09-16/trajectories/banking-high-elevenlabs/results.json",
+      "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/results.json",
+      "sha256": "63fc65289a19188f6b4c78f9da54117fc801df8267f942fed89bf6fab3442d24",
+      "bytes": 1290144,
+      "status": "downloaded",
+      "simulation_files": [
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/01d30575-27d6-4314-a0eb-1ad5ec04d227.json",
+          "sha256": "70eef21b36d39e5fdcea2266d0f2e4d2118985cd748d34f0271c5a1455d3379c",
+          "bytes": 7156051
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/080c26f3-a944-4dc1-9b7b-5b8698bea517.json",
+          "sha256": "a71455e9e3622fa68d848b81fdb8187b552099a11f3ba6e58a156785dfd3cd78",
+          "bytes": 6588398
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/0ac62fb2-f71b-405b-a92b-fdc2d4dfb2ae.json",
+          "sha256": "25813f0d917e754af20a9ac347c61ee263840440cf74bb2e7aa7c683b3ccc5ad",
+          "bytes": 8659616
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/0dbd3fcd-cbc8-4194-b3bb-5ec597c11e66.json",
+          "sha256": "842eb2f2e2911f9b809437aa0e95be5021c9448057479fff73bc56d40732f927",
+          "bytes": 6807069
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/0e8e907f-3b4e-46bb-8da6-7e8ac2e0298c.json",
+          "sha256": "c5e9656da549ffd4b4c163ef1133ebb9b5f5af815d19670a015aea7d0edec4ea",
+          "bytes": 12018031
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/100b5052-ceec-463a-9fdd-c20e7f32070c.json",
+          "sha256": "bd2d653cdd56ceba019096feeef721ecfecb119fb54e8eaf25588f62e4507b35",
+          "bytes": 8191052
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/1040aa95-d6cb-4eb6-a6ba-4e9bafef04b4.json",
+          "sha256": "0e578111310316aec0467ad9798f5343ccadeb521a6aeccc5463fde63325717f",
+          "bytes": 16651426
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/1138a524-2d02-4dad-8e6c-4515ff8ab451.json",
+          "sha256": "7bb377bfd5f62b09a722cebdbb3b6a6469c94ac94256713b77acf7e0f3e4e369",
+          "bytes": 14483107
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/134f52c7-d093-4bdc-ae59-1065a9d9c292.json",
+          "sha256": "a6806386e9d7872e5633182db3bdc4d78b31e5e6de962fc6e5d5d73ae72f26e9",
+          "bytes": 4414818
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/17b61759-2575-4038-8bf6-9d8d3e0b66d9.json",
+          "sha256": "f30093da10536df2500cd8ef68842dd9b0ea769b147e4b7c1c571ed2ec9843df",
+          "bytes": 20257773
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/1805bbd0-7f08-45a0-8064-29975a051723.json",
+          "sha256": "4cec3aa7490cd78de6471cc94f6a8b04449c3e577881ccbe135ee33c5436dbfe",
+          "bytes": 7745798
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/1941bf7d-8b21-43ff-a5fb-38bc59c247fb.json",
+          "sha256": "0c593d3d2d1c118ddf7aaaa63129fa554e4f89c71ff357e7e5300a5659cbb36a",
+          "bytes": 4336118
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/19872a30-1afc-4293-a1fd-c4c9ae4e5f03.json",
+          "sha256": "cab7357a0658d5729a2f760edf183d93745cc2fed4b939cf37514ece92dd4610",
+          "bytes": 20083167
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/1d36ec1b-a598-4461-b625-1a90459cb230.json",
+          "sha256": "2fc521f875238da1aba8bd658b717f77c03a4c716ae0c47f013e22a8250d0f6e",
+          "bytes": 2571898
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/205d58da-e63d-424f-ad27-34973da076f0.json",
+          "sha256": "91b9076e8179732034028bdcade6f237340b2024f31cccc4c4298a84a9ccdf76",
+          "bytes": 15675360
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/22b11d38-34f5-4f96-94db-977acf167fca.json",
+          "sha256": "50464b58eccd77ed5c68aca00ab9bcae86f5c7a7b0e8ab7b2bde392bac23c4f5",
+          "bytes": 8884190
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/24772ed9-9d0a-47d9-9f9a-31fc19a27aea.json",
+          "sha256": "1cffcd06aa4751a6a3cc49d637dde8817b5e3002b43fa98b961cd57ce124dd39",
+          "bytes": 13505862
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/28ffcc8e-52c3-4da1-a1ab-bab5192a8de5.json",
+          "sha256": "3d5e5cca472a459003d98bf904e02d9ab6347e57d822707e0382715c3c6017af",
+          "bytes": 20398909
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/2fda2250-bcbd-4cee-a1e4-31fd674cc386.json",
+          "sha256": "3a777e08a6895b965681423d6b2763a4062864b048d97ec4766636910c5b1851",
+          "bytes": 21236030
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/37e8df60-6d99-4d1a-b082-1993bef2d381.json",
+          "sha256": "a1528212cae985b669be07fe7392bf26c9fc15465ba0c2632b1c385d4fb5fd07",
+          "bytes": 3607116
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/39027313-879a-4548-a3f8-3753390fbff6.json",
+          "sha256": "8e21ea69e8fcd900f7fc663f2b9a17545564a95c3fff08f1a54792016ce42e1e",
+          "bytes": 6738031
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/3940c1ff-f746-4178-b45d-2e2206eae60e.json",
+          "sha256": "860f69d795006978842627ea4a3307affc2035f20949401ee3d34375c2df9535",
+          "bytes": 15984240
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/39885896-a751-4710-bb1c-3d18dedc7d59.json",
+          "sha256": "5028f90c42dd2b025870f346c36f638e2b58879ab9139878de2108ebfb13fded",
+          "bytes": 9247460
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/41f65ae3-2f71-43a0-860f-fd0ea9d53b20.json",
+          "sha256": "250eb2c3ec11291c56adef9e2b6b3ede422bd255110f9b182f66311c4a1a469c",
+          "bytes": 6347937
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/421ae44f-3a75-4395-94d3-55a8d1c91fda.json",
+          "sha256": "7c1bf3ffbcabe58d12b474b090936e7a84f0ba4dbee72e0c0b83363c70a9edc3",
+          "bytes": 10124824
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/434e383f-f94c-4261-9380-5e0c682781c9.json",
+          "sha256": "bf2bf232b4fc4fe21492f26b13761b56fb1eae49996792dbc5d9be9944e06c56",
+          "bytes": 8715550
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/4791d729-93f3-4ebf-ad2f-0e8e86fb2bdc.json",
+          "sha256": "5ef957dfe0a14df1701febdb18b14ebb3d8e2f6978192f779ae184aaf5772e36",
+          "bytes": 17472154
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/49163a83-3a16-4f94-8af5-04c878545fcb.json",
+          "sha256": "06c6bcdc20d5fb9fe5a18b59b0da81c94ff02f99a869b1b639765ce1afd5aed4",
+          "bytes": 18617920
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/4d3815d6-f653-45d8-bc81-e89f46dd5098.json",
+          "sha256": "9185c0c00e9867cefbd233cdcf25ca4ec2d096568e713021cb25bf0ad8dbfe84",
+          "bytes": 16777459
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/4e10ae82-0482-4ea5-891a-f79bb229edc1.json",
+          "sha256": "e52cb61599b1717b0a8dc1bb986f77f0e674d5914c62cb7043a4efd30bfd06b1",
+          "bytes": 6873416
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/4f080515-5f30-49df-86fa-959f0a7caff4.json",
+          "sha256": "5b4af2e76f51d3fa8d2cc43b8cc3a51d951685ce18ab950e5d5fdcc4b66f465c",
+          "bytes": 16321838
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/542af70a-0592-4b25-bc16-1bb3edfced88.json",
+          "sha256": "37d9d92bbdf01aee5233d1b1ec694bffb861018b2f335f39c318570cf7fe4463",
+          "bytes": 8367763
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/592ca116-1630-449f-8557-9152cab03aed.json",
+          "sha256": "6631aa76d4a389ada1be130b262c4ee2ac1703e4df2cbb35dd2b696ab740373b",
+          "bytes": 7549486
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/5e099b36-f0c3-4395-a9e6-f478a39050ca.json",
+          "sha256": "88d49d780bb8069ac35511b49c99f6ebb1d3c6c2c297ba2fadcf339d501681b5",
+          "bytes": 11741780
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/5e76e2af-6ee9-44a1-abe1-f8a7e6c65483.json",
+          "sha256": "5295b14884edb6ee9296b1d09675d54c1599a8b1d2e9ddac0a97754f572e89ae",
+          "bytes": 9344770
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/686abd99-0ece-4ef8-aa87-5f34d87edcf6.json",
+          "sha256": "d7413cf19734649e52462fa54aba605f8bf7ef9a77ffe792298fd946b5875b3d",
+          "bytes": 7582183
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/68adef40-4e7f-42bc-9b1e-66a6489faee6.json",
+          "sha256": "550e25b8d6e8e0742a3d2bf57caa088a69f9bb5aff72f7375ce6b9559bda6f0a",
+          "bytes": 3100425
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/6d4f7512-db3e-46ed-a951-03bc1620139e.json",
+          "sha256": "fa627cae382c1d578cb1d15c4e9d46c79bf612dfa0fa4daa401aefd580c16006",
+          "bytes": 1358237
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/74db7f1f-348c-43e7-8acb-455956c792f6.json",
+          "sha256": "f58c54200abe5248135e062667fb078f6c8f4b780d0dadeb8103840f0dbfe2fb",
+          "bytes": 2305023
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/76657f85-72eb-48a3-a8db-7c57a2e8e8de.json",
+          "sha256": "9eaaa3170c4deee1ac7ccb82569d03ccac6b3578a35d6ea13024639fe6bfe9e5",
+          "bytes": 9029247
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/78f8cd05-60b7-465f-bd0e-f8bc0de2cf04.json",
+          "sha256": "277b318f2a2d4d574ac0e38efa30756738d5e945e778bd64f4e89760ac97362f",
+          "bytes": 4759133
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/79cf96b5-b6e3-4132-b7d5-ecf0cb9d467a.json",
+          "sha256": "4d89a5d451b442d3faa6b6dff9ccb42e95fb62ea3057f52a2df3eff09f13f31b",
+          "bytes": 8695548
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/7a23f105-d679-43ed-bd54-50c5f7923d6e.json",
+          "sha256": "087e7c1538fd2aae651c721df6e72d367088f151eebe40573cb8dd755f6255cc",
+          "bytes": 6009145
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/8076da27-9e6c-4623-90dd-5b4ee6889098.json",
+          "sha256": "58c90645312150deec7d88c36b1c52ef2e5e7f780f7eeec6e7226b615a22e0bc",
+          "bytes": 1350833
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/8c26c704-34c4-46b3-b0e2-b32a47acb640.json",
+          "sha256": "4f4ceea966d16d994d928ab68cbdd17f44bd7372914d385b41f348bfb0bc09ba",
+          "bytes": 15717880
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/8d6a452a-e304-428d-861c-02be762e5c0d.json",
+          "sha256": "98bd7aaa7eb9cde3ac5e2b8d415f24c476af1dfa91bb62942d8c55bb12a666a0",
+          "bytes": 15600453
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/8de4bd74-543b-45c4-8f97-bee25e5c54a9.json",
+          "sha256": "7f6158e57ee9e97958faaa65bb8445463c4e90dcf6191d1eb5877473b3786c7e",
+          "bytes": 2880015
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/8ee7b467-f8de-4c27-b259-0f63e6706fc1.json",
+          "sha256": "84b67db7c8f0cd0b68ff0a54dcf4fdbaf8a80d69f266d653cad1ac0095e76c08",
+          "bytes": 10872957
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/90534b6c-d54a-435e-9731-d7b6168ad866.json",
+          "sha256": "78bbb1c65da1dbbd870d7f73a72194ec8ac45902307efdf2a4470d252192898c",
+          "bytes": 17123593
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/91d9d781-4db7-4eb1-af87-9fa02ac1b8cc.json",
+          "sha256": "ef9ac9d0ac747aece0677c6c185e32967cdc6b460ffcee1568e7876b654ecb62",
+          "bytes": 8587077
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/92d5ff9d-8f21-4e2c-9ba2-fdda97144d8f.json",
+          "sha256": "768827994416a699759953141f9942e9aaed7c3af0669c14b9ac43e2ac347c29",
+          "bytes": 7717445
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/98350f94-3cd6-4b7d-8be7-d9ec06158ef4.json",
+          "sha256": "a929f69689fce8420a0fbdbee9507d6c631a9522212f6b9c89145f53e6887625",
+          "bytes": 3594494
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/986fd9d7-fda0-403f-80cf-64b674b3eae3.json",
+          "sha256": "4b17a3766881971e6b128d2a321b0ff498b8b088fbd889e307d86cdd38db5719",
+          "bytes": 16203401
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/99535f9f-ca9f-40a7-baed-1ffbf232192c.json",
+          "sha256": "464c3d5d1047e1ab06e130125423cbfff572dffd1e094589f4b329be630cadcc",
+          "bytes": 13923150
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/9c2edb54-c447-4b3d-a0cb-ba56a42579d9.json",
+          "sha256": "9aaaf7fe7d5b814958879e5b251d3850ad8fb6964ebc218f54c4737f86d971b3",
+          "bytes": 4754958
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a0491353-167b-4cc7-b90d-da5f511deae9.json",
+          "sha256": "4237716ad58194fbab57c46d8e97c6e0dfc65665e80ce2673a9e1818690d1bb2",
+          "bytes": 7587907
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a24a88eb-aee4-445a-ac11-f9efa4078bae.json",
+          "sha256": "3d93977c244b0a5a4d2e7f1a4bd22f7b26ff60fb4bb7080b79179c783896d601",
+          "bytes": 12107679
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a3b20158-673a-4b88-a33b-fcadb82b5b42.json",
+          "sha256": "38b38892ca01d87a9d824679b6df42dcc1fc9215140a7e5cf817f32ad06d5308",
+          "bytes": 17897693
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a4482b1d-c806-4fc6-b045-659c0c11849d.json",
+          "sha256": "c529602535f6b09f2afda848816c758e494fb1284ef6ea3668a80a26ce37cee7",
+          "bytes": 20072155
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a4d62d5c-58d3-40cd-96fe-cc190bb9336a.json",
+          "sha256": "ebbc53b5e83a56366044fc320d1e5743f417d1ced9afebcf3fdeb9492b32dc8d",
+          "bytes": 21503266
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a778a19e-cc84-4251-86cf-5235dc7e1e00.json",
+          "sha256": "113cb433e44de94835f5c904f000f4a088dd496ae3bc747d0e948faa361ed54d",
+          "bytes": 6941174
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/a95c1876-a26d-40d3-a1e4-6283a38fa1db.json",
+          "sha256": "b7b1940dc878521c669f0b2f62013f811fc5c924ded453013c5adb1f21f2d759",
+          "bytes": 6013614
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/aacf2054-8f39-46de-afcb-fd272361da6a.json",
+          "sha256": "7f78954adb29514f9e9e31786f7c474b2161de76aa8351cead095bed1feda4c6",
+          "bytes": 6587699
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/ac3b3ffa-0888-40f2-aa0d-7e72db3153a1.json",
+          "sha256": "acacc040527938a5f12698c9ebf650d2d60801c625729acd4208f2b1d25529b4",
+          "bytes": 7056153
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/ad7a5c8f-b49c-456b-80f9-edab6b4832e6.json",
+          "sha256": "660427e4e17418f85253a531a92e5e48f5d86f310b04f0c5cad264f3f4eb6d9a",
+          "bytes": 7539749
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/afac5537-d66d-47a1-87d6-43315d92e546.json",
+          "sha256": "db06e4c45b4f81eaacc0e33a22e77249ca91cdf2c188e37e8b6dc49930e4f5e9",
+          "bytes": 1606101
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/b0795d72-0141-468a-9d4b-04fe9b80d154.json",
+          "sha256": "88a673c71d41950dc79c8e285a2cdbcdf50240e9f880c1fb04acb26ed148c6ab",
+          "bytes": 6370765
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/b2388409-1be5-45ab-9b59-94344084762e.json",
+          "sha256": "9a40a5e8c39801ed17f718d77a80f38e9112cb706a8880419319de013b637fce",
+          "bytes": 6179326
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/b4e9aa9c-ec88-4df4-91d0-ffa0b830ca88.json",
+          "sha256": "d42355f2e70da6c66efedb8149f3c64f48a06f6925949cc8a339b64983df0e27",
+          "bytes": 3416624
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/b6b27c49-08ef-454d-ab64-05151510fd66.json",
+          "sha256": "d942d5ce7bf8872ecdce8c0375004548b55c567bd3d37f892573c8dbe029c62b",
+          "bytes": 7811546
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/b789b016-d196-4661-bd45-c01e6c4fdbb0.json",
+          "sha256": "9bf7345915638b240b810776640bd8f082f4473fc7e1e5b394f7628c249f65ef",
+          "bytes": 20390102
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/bd250080-d32f-428d-bb55-b4379581b3ba.json",
+          "sha256": "e0eee2f598280c60d2f26d3e2eb4680bc4eee5955b1f69f9c9c7f302cdae6cea",
+          "bytes": 8782626
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/bedb2de2-9427-4105-8aec-d84c49fd20f4.json",
+          "sha256": "23f1232234745d5552d610016c504aa41c03268fcdcfcd1f2da81f3e0a011e82",
+          "bytes": 1108043
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/c00e988f-2f5e-468a-a31e-680b37385f0e.json",
+          "sha256": "1225089d8709f80c9eec7f5a796294324ac20a22a9cd5ef0a63fe4ddb4b8506c",
+          "bytes": 11162389
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/c0ceb3e7-8552-4397-9fc8-9d9b626f3ace.json",
+          "sha256": "1ce87566425a783c5d4a0f29a1cafc3f6e274cdb71584727146809a6436d7b7d",
+          "bytes": 5040356
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/c5329149-3624-499b-8630-b5e362f5180b.json",
+          "sha256": "a61f5b3ec8bbb8ccf9cc9c16fa3581f2f76ef634324cf8b4224144c3d2124ba1",
+          "bytes": 6582251
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/c733dd31-0ee5-4c94-84a1-787a67d76c56.json",
+          "sha256": "688429e6cae8896851f30419f6b35fb03c54144c42390b7925c6332b0a30f4de",
+          "bytes": 925369
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/c8a18686-d973-4c8d-979b-2a4f92bbc581.json",
+          "sha256": "397606d0625280255ac0b26c9e052eb1ebe4c8089e4619f42919390bfce672b1",
+          "bytes": 6420441
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/ca37dc43-36fe-4579-b762-ffa4715833b5.json",
+          "sha256": "2784c28e089273ffc71e3b49f8bf298b73d0879441235cb1098d85afb98d79ab",
+          "bytes": 7607541
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/ca8b4d60-514e-4e46-8d4e-341e9ffe84c0.json",
+          "sha256": "42dede5ce3d5434313a57152253069f20394826de377608445353f8ec0070b1a",
+          "bytes": 6471218
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/cb1ad0eb-10ca-4fb6-afd8-6c1a6340f8fd.json",
+          "sha256": "009ff318cabe24eb0363414523615b16116c40f99dfc9e55ac8275fb924ac105",
+          "bytes": 4243857
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/cf240c64-bf2b-413a-99d9-5196267b21b9.json",
+          "sha256": "cf3f9add48d40a2a8b0c668ef93891ab244e3e18052daf9f481f616509be75b7",
+          "bytes": 5562715
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/d7837f89-fe03-473a-9951-fafe2a1de2b8.json",
+          "sha256": "47a9f6f843faafef64562fb973e86e6efab0d6eb3f4a4ce40881e8c48c8835b9",
+          "bytes": 4663539
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/d8497502-b66b-438e-975d-43750de47c98.json",
+          "sha256": "90daf726e19c49af0b3121dcc36743ce09f594a5c984bdfbb1b1768c3c881a56",
+          "bytes": 12325908
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/db0055a0-4cfd-4c8c-abed-1deba9a7c4db.json",
+          "sha256": "397eacb3852d4539a4c25ff2986016676ff0740118b0aceb9bf25f0806ede55c",
+          "bytes": 14556599
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/db6fd04c-ac50-48b1-b328-32e321f699d0.json",
+          "sha256": "a45e44bed834c86dfc40005a3caba3b709a0548cbe89aff130182cbbca397522",
+          "bytes": 5744102
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/dce44a2c-eaf7-4fb5-a997-cd150303a9cd.json",
+          "sha256": "48c7aeedec23c6dc48d1fa2f0818c6c22a59ede95cad79f8d902f9e003bc4f68",
+          "bytes": 4316886
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/de32952f-3366-48ec-bd95-8d077935e372.json",
+          "sha256": "204b0c19083382a250c94a77f899aa40168d62e39c836a67e2036a8b66225f44",
+          "bytes": 12116828
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/e15da5ac-4078-41ce-b957-38a5e9b0d5f4.json",
+          "sha256": "b51c0258db5113c249be89c2693e2525e12a100b22c6500c675b7203586ce176",
+          "bytes": 18255805
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/e39d8ddd-2e3c-4ff5-8cb3-24a7fee46851.json",
+          "sha256": "2066f4554af83ab290b026c9d61f88daa236b7f7f67c17f146625438f83203fd",
+          "bytes": 9836086
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/e49c3696-3c4d-4cda-8764-1571ba507e1b.json",
+          "sha256": "965b7dc4bacda421ba7943bcce0a603b800921f0bf8d9e2045a6e3e3f07e082f",
+          "bytes": 19825147
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/e5e2858b-769a-48de-9293-e59c1f509c60.json",
+          "sha256": "a0a2f02599981e83a53ba0bce4446286af84e6715c807638e64e737de4afaf2f",
+          "bytes": 13858876
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/f0bd2aa0-3bc5-4da4-98f2-98210debb46c.json",
+          "sha256": "e690829ed25224789b0380a6a52fe85a48f0458375d73eb3441fc994564d563b",
+          "bytes": 1358897
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/f26717c4-3fcf-49b6-a304-6a74be8d52f7.json",
+          "sha256": "298e413a414012e0989864b5763b4cfb23bf012bbacc08bffa5fc8538b78a2d1",
+          "bytes": 12334485
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/fb35b43e-ab6e-409c-93ee-a6e62bc40a66.json",
+          "sha256": "40fe4f973c8d26f9030c20814da6329705cd4f091c2dcd4d12d0d051b2a9e0b5",
+          "bytes": 4432572
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/fbfb55f2-fffa-4331-9df3-6d19897edd29.json",
+          "sha256": "5afc5d69e5a87d9edf52906c677f6920b2bb6f456f6ff202eba04cefed373b02",
+          "bytes": 16553893
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-astra-high-banking_openai_2026-09-16/simulations/fe18dabc-3288-4b05-885b-7e117f901280.json",
+          "sha256": "17a1619ff246e0c7786370420196ea6331b073eaa21e1639cee8ad95ed17db40",
+          "bytes": 11174027
+        }
+      ]
+    },
+    {
+      "submission": "gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09",
+      "model": "gpt-live-1",
+      "modality": "voice",
+      "published": {
+        "pass_1": 31.958762886597935,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/trajectories/banking_knowledge_regular_openai_live__medium/results.json",
+      "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/results.json",
+      "sha256": "6b6afd06713428abfe66f3bff548a50f65195ca9644a3b86342efe4a43a2b151",
+      "bytes": 1288106,
+      "status": "downloaded",
+      "simulation_files": [
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/00bfb948-c324-46d6-9dac-fa9e621385c0.json",
+          "sha256": "42a78c46be0a80baf15063ae056d038d416cf39e03466cf17d7f214649548733",
+          "bytes": 2650865
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/00d89285-da77-4fb6-b38f-3c0ee7cf7bda.json",
+          "sha256": "aea47b30ce2e269dc8f0f16781ee078b81fe459a3e846bbba213cddc5a46a7a3",
+          "bytes": 9504909
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/04038520-c6ca-4d50-969c-7ec397a69b74.json",
+          "sha256": "192304887136e896a9db5a9ebb5281c6458c38aa4f3d6d2c70bfb9e1a2decb3b",
+          "bytes": 8259410
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/05553bc2-82d0-48b6-a975-a6c205cb8327.json",
+          "sha256": "d0e2e9568728c0abbfdb6f29c1128e035303853ce5e5d8b0176784432e6183b6",
+          "bytes": 10040230
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/05fd5a8b-f721-4755-9e3d-0e0225c8425e.json",
+          "sha256": "35ba2530b5f446c072fb68241c50b10f2b1dcc6e82b6fd4e7d264d9a4e0b781f",
+          "bytes": 5422258
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/07b8ed97-87ff-4ff8-89d3-322aad51a52d.json",
+          "sha256": "80b058a83bd9af00062bb639e88f7165f284ada424cbca329d8739a7db4effce",
+          "bytes": 17849192
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/0906d408-c11b-4a73-ad1b-5de17fb6418b.json",
+          "sha256": "883b597209a5a9874a29a95469e5898e59a1236e9b3f35f29e82b75013d49cd9",
+          "bytes": 1286858
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/0a03d1ca-2b2f-4e49-b191-0e79eb5424e8.json",
+          "sha256": "65617336878585d99ba5134038227b9349c63cfcfcb91f9726e05f90ace04539",
+          "bytes": 7466814
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/0b92aca9-4d7b-4113-a97e-6ef8dfc21727.json",
+          "sha256": "374b17e563caafdb4e822e1b4b3cba2cdaa681a045593d0722d71e2c95748335",
+          "bytes": 12538520
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/0effa424-2849-47be-b6b2-36941e860c46.json",
+          "sha256": "b8ccadceaf665bc16478faa97e3983661138e34cec3a35e36167d2a053d23148",
+          "bytes": 10298831
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/14b2202f-1a8b-4e9e-b8d7-d53240cb9a9c.json",
+          "sha256": "3399b75460da4db54a0fd17daab734a428b9c29c0d68f6f347ba8a99774d8a55",
+          "bytes": 8514378
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/16f80de1-0ee1-41df-a25e-3bd3a27d55b8.json",
+          "sha256": "59333c87066a23f544a10d6dd7535f07c36a04f51c45e935e78d15b518c77b04",
+          "bytes": 7435312
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/19be762f-41cb-46bd-ae77-b821199853bc.json",
+          "sha256": "463a644cb185558072f9917e19ce8bf4d16a97cd1d5a4e249080bffcfce49170",
+          "bytes": 4210763
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/1f242254-24a9-4011-93a5-cd46b6e00867.json",
+          "sha256": "998cea0b1c4bc179a04dc8850eb662653a20c43e78c8431a7aab9c234fc7c5d4",
+          "bytes": 10413102
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/1f98a6ec-f88d-4a3a-b087-ca7f2b828190.json",
+          "sha256": "4709f360d4da0fb19ff0e1ade431d0313fad4e441dd9eb3fd15abc89da53fcee",
+          "bytes": 3700278
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/24b2aabd-5133-406b-8111-72f36c781d8e.json",
+          "sha256": "cb39f18d852483125a82b72b39fc80e1de3cc89b4c7794dc062008a49deeb7d1",
+          "bytes": 8002316
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/2712b05c-8b97-4ba8-b7ce-a8ca0ec4e9b7.json",
+          "sha256": "d6c10d50fc20890aa7ef5a0f0cee13a44e17eb8936b69f436ee092b7e3ae026f",
+          "bytes": 4519561
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/29a9d461-16e0-4581-a235-5dce97737245.json",
+          "sha256": "88273f1519285f954bc72b7cd409c351cd5520ad5407fb30800b66838add33ae",
+          "bytes": 7104265
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/29af9375-07d7-4c34-a7e5-e864a05fab00.json",
+          "sha256": "1ce0057f4d170cd7c4845b2638787d8fa69e6ac8cc093fa0ad8f9ed8b8c00937",
+          "bytes": 5266399
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/29dd3ecc-dc3c-4374-ad3c-a341fa93a02e.json",
+          "sha256": "eded5fbec4cef8d2932255647029c192ed08618472b5741566063b04777e16a2",
+          "bytes": 6381820
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/2a2afa19-fa7a-42e2-840e-c17a75a16772.json",
+          "sha256": "4fe243319fdd81dc18ea4e15295511e2d44dacf4aa0fde089cf830791617aba5",
+          "bytes": 6883307
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/3077a34f-b9e5-4dd8-b59f-151b45654f57.json",
+          "sha256": "bfa17b16cd3e0eef3399f70805052226af78071f27a9f969c1b35e5eb35f891d",
+          "bytes": 6539964
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/33dbc4be-f68c-45e2-b38b-2a37e9a9cd09.json",
+          "sha256": "f9873787d79b828c8715551cafd55214ebe0d247608c6d7b2d774eaeaf24c885",
+          "bytes": 2268356
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/36a88c71-e5a1-40bf-aa84-d0fa66dfac15.json",
+          "sha256": "9ed110431fec97b26fb4dbc755ebf333a0fdafd8323dbfce93b92a65f9805e19",
+          "bytes": 12788880
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4769715a-70df-434b-81fe-7077e31daf4a.json",
+          "sha256": "28aabcf65c101b0b64dbffd5a0f447e6fc558dba556e76b6e920f61b224147c6",
+          "bytes": 12312223
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4963f2fb-f1bc-419c-94d0-a843809d0385.json",
+          "sha256": "97e4657f41be601595187996caf9d5fb280708748a4a3f0868897babae7448ca",
+          "bytes": 7585928
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4be6c0d3-d4a2-4e9b-ac38-735e7340bdfa.json",
+          "sha256": "ca2e432332e8a4ac0097a45cc2dc99798707ff9dbdd22403609192f932864647",
+          "bytes": 7729997
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4c685603-8312-451d-834f-324807f3d3b4.json",
+          "sha256": "23061d95bb845ecf7f9c19e7d2ade987ba82499ab1cec84ee67ab29836a993f5",
+          "bytes": 1498923
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4e636cc3-2bdc-49f0-a4ed-e90ba87f7efe.json",
+          "sha256": "c332097da15806097b392b5ab5c5e6f8007647ad4fc3440eebb41db385998e16",
+          "bytes": 9199994
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4f5b7508-7ae1-42bf-8af1-b6fbaf608825.json",
+          "sha256": "81c33ce8a261ff19cc4fd6e8be092e95c926f2d26b1b239d3d93b4dff9302087",
+          "bytes": 2521861
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/4f5c21ef-d870-4d26-9f4f-685bc3597c84.json",
+          "sha256": "80d8f6a78fa0d74d8c8511abc121382a1fd6eba36728cc33df5dfe93955975a3",
+          "bytes": 2245544
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/513ab421-0d77-4fe7-b89d-6b518add89bd.json",
+          "sha256": "f2abc73616b0b9c1537149a4f6d83733584a17011ad507c045b71f2e2f7f0237",
+          "bytes": 3804092
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/531119bf-038b-43d3-961e-1b23c81f4ac7.json",
+          "sha256": "f7beacae46632d3754d9171ac67710c39973fbc270cace3d3c10702234597e56",
+          "bytes": 8013626
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/5494f257-0640-4c1f-a263-e9a1b093dcbe.json",
+          "sha256": "4551baa02519d272dbb3b38152e0062679869d3c9ee0f91389c74e5ec27a1024",
+          "bytes": 14850154
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/54965740-092b-4062-9fc5-479c970cf180.json",
+          "sha256": "482ab1cb50f3efb44119f7ec4d0abd322723b433904aca05ab4b6d4f66040829",
+          "bytes": 5330963
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/54ef17fa-fb69-462f-9b72-d18f5fd5f94d.json",
+          "sha256": "ecf0cf881c3bf01cc34f6fbaaf0b662b0637c83e0deaa21bec58ad70606147fc",
+          "bytes": 3346534
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/58713b99-7ca4-4df9-b8f9-a453cdb971c8.json",
+          "sha256": "eac4cbcb00ab21830f09af975cb3430e8ba5530f912e91c5f11288a681cf22d8",
+          "bytes": 7564082
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/5b5228cf-3237-4b0f-864e-34fa5d96a162.json",
+          "sha256": "df0fd3889818d8bd7a6f5f3c26a2c13ac1ac6ac596703991ab9bc491b820b649",
+          "bytes": 7092896
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/5f6665b9-e9bb-41a2-b68d-67693aa516d7.json",
+          "sha256": "cadfdf24548fbbfc7d5869456d2e4a253026aa1f8043c6417821d75559bcf7fd",
+          "bytes": 4279050
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/607a8891-9a39-4f1e-86c9-3b48d8ff0f65.json",
+          "sha256": "363bc4b7238dfccf2d589a6761f09f96122dd107c982506fcc7536d21f86b5b8",
+          "bytes": 15613745
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/61336f47-52c0-43bb-9fda-59654abdfde4.json",
+          "sha256": "1f16ebce635efe7c60a450b25f3382504d13ffb58dc92976b27f3bbc0ead1ac9",
+          "bytes": 2588808
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/63985bf6-ad0a-49f0-92c9-0aa273a7ef5a.json",
+          "sha256": "402542533ae937205d882955ec953d8b9e8503881bce4be2cacb9848fff7a753",
+          "bytes": 3076990
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/63f1d70b-28a6-4771-9220-25676a5984b6.json",
+          "sha256": "817243515fd855ea53e9cd671adc96b707e784b2d1be0daeeeb0cd71e74c1b4a",
+          "bytes": 6284616
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/691c9f21-3cb6-4f84-8cac-9a475a2316f7.json",
+          "sha256": "b9f300c2179d972b6dec096655d548b540210a7c7b0eac22867c5bc9264c6a73",
+          "bytes": 3195075
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/6c167ca4-da94-46d6-b7a0-8383ddebc4c8.json",
+          "sha256": "f0869a98d8cfd4381bc5abab5eb36800d9df08b1dc8eb50897b8c89ca7b465ec",
+          "bytes": 21580211
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/6c9212f2-4566-4499-b9b4-3bf8d7185577.json",
+          "sha256": "a120d9326e6a46bdbdd83ee83edf286d5b25bb1f2a57b95a16367c9d63125c1f",
+          "bytes": 11390006
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/70a71946-c536-4ccc-827b-2454761a0581.json",
+          "sha256": "a83b27bdcaf6cc186a53b1b1c0950921ec10b26d4b9359064dcbc3bc3459c801",
+          "bytes": 22334354
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/75328b44-41ec-477b-b12b-5072fcbb6b08.json",
+          "sha256": "4c557476390d88f466afd51d6ab7ed9ce0e8f874999a0a6ba5f60992f1808262",
+          "bytes": 10456710
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/7aace5bc-92ac-4250-9692-b66ab7b3bac2.json",
+          "sha256": "89210e1f719f809f74d87f96c3b9f252b4bb0ab8f481f99fa782feb366f4922a",
+          "bytes": 5855960
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/7fc87c45-d24f-4b1c-bc90-b40de43a7c18.json",
+          "sha256": "8a65d802217cba658336f674a3e0293d6fd4af3be3b697f6cd041efccf3dd511",
+          "bytes": 18652709
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/80fa5c1a-ba25-415b-a2ca-e17c60710c81.json",
+          "sha256": "7d7a17b1305950fe33e4c0c6b8266dede36a8cb9685bfea6a3760c44a988a4d7",
+          "bytes": 6002617
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/81796abf-594e-444b-a725-9e2337d9d81e.json",
+          "sha256": "6f630a9ff939577bf83417ccec4122451747f9d017b4b11aee9587cad45a8e99",
+          "bytes": 6400655
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/81df7833-9e2f-49c2-9598-3b15ec9d7f41.json",
+          "sha256": "6794140ccb44fdf0ad1d342a3453a6346a5c068052569d4ba0fb0c91f458defe",
+          "bytes": 11125642
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/869ff2cb-baa3-49d8-ad74-17a6eddbc659.json",
+          "sha256": "358136cc6d786f9f93f5ee3b5a4bd22071d9e957b7a3c504a4d1ab026f4a8369",
+          "bytes": 6632836
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/870d8de3-819c-433b-8b5e-c10a9381f902.json",
+          "sha256": "4e2ee5f672bc93c22d3624889b501860a1eb12a4e0161f093b60de2d1ef74684",
+          "bytes": 8214404
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/898c75b0-3bc5-4eb2-996d-aeb424878fed.json",
+          "sha256": "d3ad6534658bd3c2759fb950cdd6437fcc966c17db4c08b0e3ab1f6d4c2bf279",
+          "bytes": 18132694
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/8c0fd83b-fc1f-4b9e-a388-84f8cb1bbbb7.json",
+          "sha256": "257379e1aed989d69709bdbc08e618890f5bc5cdc8ef348b93a91b6b34e4640e",
+          "bytes": 9195605
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/8edf74e6-d32b-4445-9853-09d0312e8f2a.json",
+          "sha256": "1124a1b029c392a9d0d7f41d6aee42a4d9fef75090dffa900dc08d11b3e5ef91",
+          "bytes": 11138543
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/8eec0709-5e94-4d0c-a123-66d4e24a0f76.json",
+          "sha256": "079a49d6e85d500662cce7b83801946677741df6d526c011f212cb63bfe8d482",
+          "bytes": 17270387
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/91f3cf72-d6dc-40be-9330-0bd429087297.json",
+          "sha256": "ab7aba11651c92a19c4fd34fa0ceb07c3fe471119bb2a9209c0672d92acfa946",
+          "bytes": 7284877
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/9421b91c-fd4d-404a-8a08-272d1a29a9f4.json",
+          "sha256": "112a7d4bee37f5d204c91e25090fe6e666ac7b8d48c2620a86cf02fa571467a4",
+          "bytes": 6815441
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/994ee4c2-c174-4d41-96d4-df995f2a0a60.json",
+          "sha256": "a3c5d2bdb42ae5e039536975926fe71bd2617205bc41fc88cf268153cd80560d",
+          "bytes": 6613971
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/9956a29b-e18f-4ec1-9295-197c9fea7ee8.json",
+          "sha256": "f6c564c491b8de20eb38c4c342ec9dc9f4f51e6af9d305e918264b5a26748c75",
+          "bytes": 12661224
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/9d665313-ee40-42b3-9650-8d6d9b836436.json",
+          "sha256": "8d3a7de02ea90b7753532502329ed4a879fa937473d5a03772e0663a1c32e0c2",
+          "bytes": 21660039
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/a1c89505-ae43-4cc2-bb2b-b55b68eff557.json",
+          "sha256": "29e96b8a5dc2f8a70fbf03a23b801d8104939563027671449174208f1bfe99a8",
+          "bytes": 5340298
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/a295da9d-588f-4085-a51c-89ba0e31d64a.json",
+          "sha256": "66a07bf70250305ed38aca804a985b1685734635251140954c669e29e1231f2e",
+          "bytes": 12411668
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/a4607bd0-2b0d-4270-84d8-bb2ba59493dd.json",
+          "sha256": "c16cd2bbb9f705ea956749f30b1222ba3731b65e3d2e29293fafc6bb5e8f4d93",
+          "bytes": 21173376
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/a4b4e1af-3ecb-4011-8d13-f6dea363aaf8.json",
+          "sha256": "3754e1fb0c7c3a393c4a91cde69cdff0e3403b19f43bf9e6a99867db41245477",
+          "bytes": 5157833
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/a81900a8-4167-4c32-ae0a-9165964bb0b6.json",
+          "sha256": "6746c15aadc6a47107616504666c3c537476b6bcafd1d94b4f24594c562ccea7",
+          "bytes": 10147439
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/ac3d7a1d-2166-450f-b0cf-52178e15f2f4.json",
+          "sha256": "8ae63a441eeb1899526192cfb76110db823688c6bfdcc8389d90723c700ba477",
+          "bytes": 4019839
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/ad34a2eb-61b4-42e3-b4a1-e0e4d86d51ee.json",
+          "sha256": "ba0ab2b914a2fce043c4ce6a57319b0046ec77a74a473963e81dad52519d95e6",
+          "bytes": 4482864
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/ae6da532-48ea-4eb3-aa74-283e950f6618.json",
+          "sha256": "e221b2a7ffc75de59d146e0a8f6a4c506953632c4e9cfbc7e18d3340c39dbec1",
+          "bytes": 13623523
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/af356398-1940-4dd5-adaa-81867d735243.json",
+          "sha256": "8207e1ddf9748baf1804077b1645323437410087e571fb41f258f09d1add808f",
+          "bytes": 5340331
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/b0cf89f9-fa59-4080-b686-4e316ed97490.json",
+          "sha256": "fdd97e9a8efb0cde5174c485438707c104989d32a2330372fa1a67f85b332e95",
+          "bytes": 5749626
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/b4f71624-9508-4ccc-a0de-37e43a57fe1c.json",
+          "sha256": "5118a439991e5ca30b74e868bed3557f97991ccf5c9b2a5bbf23b191df7dd859",
+          "bytes": 5458956
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/b56e38b8-688e-4145-a798-59d41175c3db.json",
+          "sha256": "205b082f3f69ba92c594dcdd25cd3467eeae3b526035af151c16f9eb5a14762d",
+          "bytes": 6645204
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/b603a145-1c49-4903-9792-0d2e6d83caa9.json",
+          "sha256": "ac0f79d75b09ddfdd9a06d0fe6f0cba46caf02ff43f1409a32e522e836729d46",
+          "bytes": 8417021
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/bb321ed5-151e-4ed9-8f0e-cb68d9f43a52.json",
+          "sha256": "0996db45230d63f56e994766bab0e4203ea611e2fa3c2e6d207398e6c4bcf734",
+          "bytes": 7199708
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/bcfbe3e1-4b8f-4368-99ac-7aa508111079.json",
+          "sha256": "89c5242292042a177b80a64b387c13e0f7698c627ead6532320b4ad8fd244b14",
+          "bytes": 6309472
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/c164a1e8-7a00-4470-817e-0387e4e62f59.json",
+          "sha256": "ad20e65d43aa49b4639a3b49a16fe8d413222ca6f87b3705750d998b700715de",
+          "bytes": 7157806
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/ca92e854-ed94-43d7-9952-40e6967bcb89.json",
+          "sha256": "b337621f05a7c80b45c1acb26dd444360822c904df4a9693cea7e1ea70c1a6ff",
+          "bytes": 8027736
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/cc44b5e5-e96f-4aa4-90cf-355437ffe16b.json",
+          "sha256": "8f414fba26e66c342bd194300586928ce9d6aed8aa7639e3bb12e9becfda198d",
+          "bytes": 6652852
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/cdf53043-db6c-4b96-a17a-070d5eab17a2.json",
+          "sha256": "2e4f75c736905cd3c68a17e77926b31612628f11cd2dbd1d947360e9212fe684",
+          "bytes": 18348330
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/d35dd477-4a3b-4494-96e6-00498ac169fb.json",
+          "sha256": "c42b2b4ca1e2a4f8a15ec177059f43021ef50aec3de8823a9db980a56c254c3b",
+          "bytes": 8145291
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/d70fbbb7-311f-4ed1-8317-adf5665ed94a.json",
+          "sha256": "b8a26defb23043f6502ad486bcc05985ec670e7222c035c1320d92ee2f206c9a",
+          "bytes": 14614896
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/d74daf23-f7ca-4100-b917-64a6115a6ff5.json",
+          "sha256": "6475250204bbea16427c7e1c6f30d7b5a6df2071d095c213cb0840341a1762a9",
+          "bytes": 8122402
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/dc4127b4-4802-4952-aa37-b5a792757483.json",
+          "sha256": "19045323ec46eca9729e854330d45840fa00c187c299b60596d29b53f0b81651",
+          "bytes": 8616488
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/e2bd05ee-0f88-4f87-b854-c40c64c8573c.json",
+          "sha256": "97f6d71c350537dfcc75db68ef5af51308beffc916a489699a0631c5a174b4c4",
+          "bytes": 4734177
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/e550ea5d-59e0-4f22-8e1d-a507d427f6ff.json",
+          "sha256": "aaad5a36906d01f1c1d2c33bb7b5f8af76cc40c3b9162873f826dd3ef7dabe7f",
+          "bytes": 1900626
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/e693ac8e-c41b-4176-be68-e991f5066330.json",
+          "sha256": "1501adb7c35a12d68d5f8857bc35f58da34f7b1e92395099ad2d2e72af3f86eb",
+          "bytes": 7345069
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/e7d34b70-0fad-4c6d-8140-e97ba82d931e.json",
+          "sha256": "a69590a1b33476702e22d97f73f16afa9f53834c31806b7aa2e5246eca5d7414",
+          "bytes": 15357165
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/e9f80494-980c-4561-97e8-8000bb5bf8a8.json",
+          "sha256": "aece5c0ff6d3d67e8b9253fc9891e60c385ff285ac87b76ef4c5f0319b1b37c0",
+          "bytes": 5119317
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/eb6a9b8d-0643-4530-9d33-87874ba8b8bc.json",
+          "sha256": "cc3750149e41306b7ac23f6e66aadad57dc3d1a28f5213ada176121d3451bca5",
+          "bytes": 21242597
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/f3f3340d-feb4-4c09-8d60-28762fb5652a.json",
+          "sha256": "a75c67b9683827e12a56f1302b5b15b8fbc6bfb11416e89a461277d61b555b01",
+          "bytes": 4674085
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/fb9c33c6-8b13-4bff-8b97-22adcfd7849f.json",
+          "sha256": "7170516ba05ffa5830cd2327edf85d2b9a02203492b2047f14fa71d6f622292c",
+          "bytes": 19331073
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/fef9d4b0-ddff-4810-803b-ff5e0c88a876.json",
+          "sha256": "95ee47c7f36913441c054535920a63ea453b8f863c8bda799af8542fcd5244cf",
+          "bytes": 15013132
+        },
+        {
+          "path": "data/trajectories/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/simulations/ff404e06-d6b4-48ac-83a2-c87ff745ad89.json",
+          "sha256": "d84f3c20404cf59f7485560f66d99cbe67897ffd6293014c30de1438190b194d",
+          "bytes": 7631114
+        }
+      ]
+    },
+    {
+      "submission": "gpt-realtime-2-banking_openai_2026-07-12",
+      "model": "gpt-realtime-2",
+      "modality": "voice",
+      "published": {
+        "pass_1": 10.309278350515463,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/gpt-realtime-2-banking_openai_2026-07-12/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/gpt-realtime-2-banking_openai_2026-07-12/trajectories/gpt-realtime-2_voice_xhigh_usersim-gpt55xhigh_banking/results.json",
+      "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/results.json",
+      "sha256": "977c8f14014c3bc67a994ce908b2048659c29f5eb8fd409b28b752e2aef9c65e",
+      "bytes": 1287883,
+      "status": "downloaded",
+      "simulation_files": [
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/00b0c26a-7885-498e-b6b0-feca7c2e78ba.json",
+          "sha256": "89c4e7a090348ab4becef39b54322ab4a0c02f72908e872bfa4edd6acb82e883",
+          "bytes": 8674231
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/02a6ac81-948d-408f-9ac4-d3db783e1a47.json",
+          "sha256": "fa93ef6975eb8be2bd34da16c040a3c93aab3d947de613525c58bc2ecd156428",
+          "bytes": 7859251
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/07ac70f9-3b23-4752-83b9-e7c3f89500b9.json",
+          "sha256": "3033ddd773fe71536468a7d12477cd2300a762d431b6f87f593546ad7f32276a",
+          "bytes": 1144508
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/0807ff8e-3e1b-4b47-87ca-d45326700bf2.json",
+          "sha256": "473780269702e8ee3505bc383bf0649696b047b866c9b0e1fe2aa9696e935fb3",
+          "bytes": 1265876
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/0cf4cd68-0051-489a-ab40-3d41818b19e1.json",
+          "sha256": "c69cbfca1271dba343fd1d39a7de520a71645d4edd2bd67258008be53970cfdb",
+          "bytes": 5843787
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/147caaba-f9a0-4fcb-9f97-e99f960f4fda.json",
+          "sha256": "99b64dc9b5968a380ba17cdd64ecbaecb1cdc49f34438e6f92e4c70b77774d72",
+          "bytes": 3898565
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/15b134a5-f94e-4559-965b-a201cea84e64.json",
+          "sha256": "d59118ae2e251ad1be3d2750b571b454b728a49b90959462996fc57ebf3efaf0",
+          "bytes": 10093377
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/19c4526a-2cd3-4adc-abb9-11ac2aa6a6ea.json",
+          "sha256": "333f886a01aaf5e9c17cedce06e21387f4d59224eb3d6e6e4dfb7dab0c7344d1",
+          "bytes": 4200463
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/1c78ae9b-d463-4ef4-8a28-65841598c62a.json",
+          "sha256": "1cc2b6a8490bb47948cf3e1e1e7bdf6b08b6f673677ef8bf320f39f561cb5181",
+          "bytes": 22934061
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/20a71785-3c14-42a4-84d1-f2d1e7d3e245.json",
+          "sha256": "2dfc2ff3a1cb95e50abbcd4cb046fefda1a8887f215c8f852d6b291c8f5d4be0",
+          "bytes": 18946242
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/231901e2-cc52-442b-940b-3e2246819971.json",
+          "sha256": "17140e6775e771754a43d874dd65fcc0cb834b9fba3c06811de80ab89c798f84",
+          "bytes": 2774495
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/2616d272-c37a-4dc2-a874-ec8eb7ef4745.json",
+          "sha256": "3b3a02391bd306f2a19304e64b4af100ebf9b0febc6eeb146fbf88f1f526ea4b",
+          "bytes": 4237688
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/294ec0d4-b628-404b-83b8-fb75c1cc2f8c.json",
+          "sha256": "0b925c529b7f08e402f608a28dbe8195fc93eef5a2361cf87e4971bc6d79bec5",
+          "bytes": 1427536
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/301d501b-548d-4d55-a6e1-9e7896420a59.json",
+          "sha256": "53d4d1fb111d6f200c7f0ea28c58d7ec56711577bd692dd48ab8902af125ff3d",
+          "bytes": 13046409
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/31c2c1eb-035c-4050-925f-e32c582777f2.json",
+          "sha256": "bb0d5963f39977c54ae7418c55b27244359c01215171af6b4ba0ca2b3e354f78",
+          "bytes": 22664620
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/34bd4845-f8e2-49bd-a2a8-83999f619199.json",
+          "sha256": "6aa0bc57a5de1c510e7b52c56cc5cda75c924b0811a3cd29eed490aabfbdbd55",
+          "bytes": 8753464
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/37a1382f-db37-4585-87f7-b4d8217f1512.json",
+          "sha256": "84be02b57cbfd7b5a52d3f3923243a5b079e239203251afbd5a4be327b1ea5b2",
+          "bytes": 3565711
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/39f0a559-65f5-4a5d-be7d-cc0a2020c8d1.json",
+          "sha256": "c6bf734252a96ae0f668f41506025d80c665f80d51e0c6fcc6a136f9728a0c6c",
+          "bytes": 508531
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/3c994ee8-e564-46da-b2c6-d715cb03153c.json",
+          "sha256": "51096b54f957021d1518745d0572af96240cb6ba39a55bc9f8d96657d77902b8",
+          "bytes": 1580053
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/3cbf69ad-8953-49aa-9f2a-1010af2d3de8.json",
+          "sha256": "b5e4797f8a7ca7fe9e176c22bcb77ccd6a952e125f11bbd45905cdebb4a06a75",
+          "bytes": 7420272
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/40818a43-004b-49e9-8f83-847af793ae28.json",
+          "sha256": "16ae1e3ffa96810f472ce10c0b76cc562b52968850d41986f86997425d40a338",
+          "bytes": 9880515
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/47a76369-0690-49f5-8267-05f42abe94ec.json",
+          "sha256": "8b243bf6eb617282ed9d66972056ae300e64ade81bf64876fa94248b39a51166",
+          "bytes": 1230511
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/47cd829c-5709-4eee-9194-d8bdf7dd97c4.json",
+          "sha256": "d0414a76dc8bd2be09db24f8fa231b10037bb62857ed52e6fb3bdb432a1ac8b7",
+          "bytes": 1532550
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/482a3baf-a0f4-43f6-a64a-b725d3535ed0.json",
+          "sha256": "8d6078a6c3f49a1c2a4ad57baf1be9e5ca21e8e0d1c8e6919fbbb0bb339ab760",
+          "bytes": 5342577
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/4bc22664-d6a0-46fe-956b-0e915a3fe82b.json",
+          "sha256": "43b95ca5a2c61948fd9f8abe06188390fc238bd55dc8360d3de367ab1880e377",
+          "bytes": 5505323
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/51f80ac8-90f1-4e6f-9a4a-c21eea45c5b9.json",
+          "sha256": "1e4b056dbbd0cb97d0cc7e6803acb0365dad27986561270a1bdac990a8fd88b7",
+          "bytes": 1460232
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/5619f4f1-0455-4989-9185-fd20e2a4f609.json",
+          "sha256": "473e87588abf376bee2dd32c802f93314a2297099972851adaa18be6d90ebdfa",
+          "bytes": 3001078
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/56e3fca1-e905-491e-8871-6e853e3bc223.json",
+          "sha256": "6c429513c5a56272460ca39b6832c427829f13ccfc947bdf6e0c4d7fb3b1b779",
+          "bytes": 4853957
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/5d96df83-e6a9-4ebc-963f-44403f1bc8f6.json",
+          "sha256": "06b0ade2dc9ee84ec5883265612264d7263c04d8eda2e6cef941c16e1a5bf87d",
+          "bytes": 7505223
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/5ef5d55c-39f5-4163-965a-0f76fe29dd1b.json",
+          "sha256": "0c0bbdb97088c076caa240ebaa18e36c5647eb6de4d1e861c349f422fc99ea23",
+          "bytes": 4235215
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/608ef6de-d528-4ea5-b3ea-385a8f76a043.json",
+          "sha256": "364b57364070959ba57b3419b6ef9121a586c311191ad9e994ca9361b4a014e7",
+          "bytes": 3871255
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/6461b613-5099-419a-b8d3-8f97d4f1719a.json",
+          "sha256": "b50a614274982f30131921a961995f578ee40375aced9c7fbcc4d388421e4c04",
+          "bytes": 3102576
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/68b98667-9868-4084-920d-e35ca243a3e4.json",
+          "sha256": "9cba4fab7bbbe25484208f128af26ae2743d68281d89a20d2c0eeeb739162c2d",
+          "bytes": 1286733
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/6ac09475-cdb5-4c01-89eb-005190402b6d.json",
+          "sha256": "c8b342864ecbcd6d55eb789f9cbe050ceb71dfd64d17d3f9f42c7c05c73b25a4",
+          "bytes": 657363
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/6dc7810e-a22f-43a0-9b59-87a199fe7dec.json",
+          "sha256": "930c1bd91efc81fd96a8623c8619a362d4228f446c4e59717eedd64475ca935f",
+          "bytes": 3175282
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/6df8f286-8f18-4926-9114-f5e5a4c84e00.json",
+          "sha256": "29d6ee408d1f343bbf14435280c5955768adafa6cfb04f1a0b971df758b2c7ac",
+          "bytes": 3871811
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/756b31ba-18d9-4071-81d2-8ef963937132.json",
+          "sha256": "6aa97dd6d77143ece80604f97064591c4eb48e823ac007722d957aae1c9b905b",
+          "bytes": 8932686
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/78f48238-9347-4d7a-930b-6b62654bcbf8.json",
+          "sha256": "26888fc2491d75728edcd9a631a4b42f9eabdfb74610d3e0cfc38c1391fc4679",
+          "bytes": 3496618
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/81425e51-f3f5-4ed8-b678-2734e148da0a.json",
+          "sha256": "4c5c47d784b9e4476e3ac3f64a786839c2f818f4e56cd6eb9fbd97e5645192f3",
+          "bytes": 3864621
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/82c96876-c996-4aa5-a685-fec313b0daa7.json",
+          "sha256": "d83046c9672af967e1559039a665e39ac8281edd666e07b5780d8505a71d546c",
+          "bytes": 2199200
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/845bf963-230b-420c-b05e-059dc17f48a0.json",
+          "sha256": "edf15a1cf88e4ca7397f1084d1074d2d17c1692ecccab46e7b34eb398ff522f9",
+          "bytes": 2299562
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/87765f35-da3d-4456-88a9-73639d70da01.json",
+          "sha256": "7755dff976a6a80d1f95c35367f13ffdbf2250183f4d64f3db87afc12513e0e9",
+          "bytes": 5299349
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/8c266a4f-91bb-4291-b33d-a444f0a6ebee.json",
+          "sha256": "8b1d3d0eeb5d8dca868342f919eb2320cc7780fa48e7d6b5f772b90d0c7d6d9d",
+          "bytes": 4325520
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/911900b1-960d-4cac-83e9-9a7bf8e33276.json",
+          "sha256": "d69a9cfdffdd367979669c6190520a7b2c5ce6f6fa44de11d1bcbd2a8e7bf68f",
+          "bytes": 2902956
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/983c5474-0b73-4183-8d91-f1ff618235a5.json",
+          "sha256": "8b8b3bce1acc6605768cf6ba1e42afeb092485517de4323023bd24bafe030056",
+          "bytes": 872231
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/9b4e0c1d-a515-482e-acec-252e5740dc0b.json",
+          "sha256": "03f1d7066fd295fdcce2348728e9a1dd91153ebf8ea8301558f86da9f1151436",
+          "bytes": 4293888
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/9d6b67f1-9a24-4925-a90b-15838fdd0dc4.json",
+          "sha256": "5be7bee475861aace3799c263ec7329303e4cd20215db4ccac4c01514e016a88",
+          "bytes": 6300019
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/9e35e36a-b6b9-40ba-98f2-40199503945e.json",
+          "sha256": "e4e8fc1569da28cbb8f5322f70ba3ae5833ed31641035606864442c452b35f1c",
+          "bytes": 4391382
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/9fb0d19a-3f40-49b9-a7f0-629250626aef.json",
+          "sha256": "84ebc9dc384a73f996bcc9e792c857cedb33447ee4be9aa58a7479a85acdebb1",
+          "bytes": 6917364
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/a0ae4095-9457-451f-9df9-64e3965e3d4a.json",
+          "sha256": "a4677bae83665450340542315128de00c7d4f461c562db6f078870ac200e176f",
+          "bytes": 3178561
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/a20c26ba-9bf8-4c28-b68f-f2e0331d2468.json",
+          "sha256": "a42ff22653986a13c2312838b1be80956e8c6a080e6ed4d9f874b1236f8ec41e",
+          "bytes": 1280493
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/a44f1598-9ff1-42d3-b605-191917011e80.json",
+          "sha256": "f580e0dc9fd0d8ee3adbfb88b3ea95d9b7057a5bac12bf743d57442fecd8ad19",
+          "bytes": 10832903
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/a4ccc490-6290-448a-9cce-60918cd1b4a0.json",
+          "sha256": "f97d5cabf24b6b85cebf6472f4f887a7bd93d6e0996ec01dbafe31e56e5c646f",
+          "bytes": 2643787
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/a7e22153-1ab1-4281-acaa-ee30b42cde91.json",
+          "sha256": "131220120629f7b04718bc4ff6945d933e206533b9ae3ad62d8c6a1c8240c41a",
+          "bytes": 2028166
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/aaf7a328-347a-4294-8c7d-c7efcc749a56.json",
+          "sha256": "f5a1079e59833f9ff5b03b3cb2c135499149014fa410bad64e494f926c19befd",
+          "bytes": 5465957
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/aede122e-3286-4932-8915-91ec18e43520.json",
+          "sha256": "c132089a3bc2d929c50e23e46b7eda707ba24aa59675dedc9cd8b527d9d9e50f",
+          "bytes": 6456964
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/b1abda55-65c1-4c9a-8c4c-27e82e553a50.json",
+          "sha256": "509a35a8eb1aa6192c9135f4dcc73c07b2f8376e3393332a0b075717e87f7e31",
+          "bytes": 1283085
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/bbbc4d64-10ad-49ca-a4d0-a9fc563fec0f.json",
+          "sha256": "3b0347502b3d7f80bc2a1d8368bb45b27f58244153a4c41dd30fd491e359939b",
+          "bytes": 4816652
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/be6b439a-fd69-4b70-a1da-739e336cc649.json",
+          "sha256": "951ef67890ebcbe9b0e68dbf95290bdbff78c5c07bb102322100569ff1f9983a",
+          "bytes": 5702852
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/bfa2e797-1073-4daa-a9f3-9b5d8453a5e6.json",
+          "sha256": "e77b2af0f3b261e00a4a5ff0c25670648def44a7d726c183be48531288ff2c85",
+          "bytes": 5296585
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/c25ef2fe-f190-4b13-8c46-a59b834d31c3.json",
+          "sha256": "74b49f1f6f42c94ba2500d6d6dda22e41cf921805bf867acb137f51eceb493d0",
+          "bytes": 2397097
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/c398db63-aecc-4bda-bafc-7b950688e2c7.json",
+          "sha256": "f0c082792d729c424f8436446ae3ffcb5bb27d7e9b718656f3fd99dd66b5b7a7",
+          "bytes": 1417323
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/c81b276e-aa12-4280-994c-46ebe6d249ab.json",
+          "sha256": "2af56d8266efa375e3136665e9fa0007cff76deea1040d80b68b21489b1fcfd2",
+          "bytes": 8098602
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/cfe3237f-4b2b-4134-bb7d-17dbaa5dc828.json",
+          "sha256": "d31e67eec9e9af7d13e894b1e69e16272e03af31c67a4b4686606bdec2cdf7ab",
+          "bytes": 2317365
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d1183a85-4e7a-4e62-a058-0db9079efc01.json",
+          "sha256": "05309bbf7c3c9e0b7db9ff7e8650b26fb4cd77e2dbb8031a4c6343fb57448c39",
+          "bytes": 6534406
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d2030c47-1691-4229-895a-6acaaf23b4f0.json",
+          "sha256": "8bf9670abadce1f7246f1d9a20ca747179101a5a602353cf56f4799c4685c5f2",
+          "bytes": 1438912
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d2cccb65-c452-43f6-a0c1-306aaab59386.json",
+          "sha256": "d295d3769df444c3746f3887a8d43fa2058c15bf2a37f8073523234ce57cd5b2",
+          "bytes": 7096261
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d4226729-bef8-446b-b9c3-1baadc9b4d37.json",
+          "sha256": "c41331de2c3540c4fa46089085d415b335869be341ae6ce9b54110f78975f944",
+          "bytes": 8154043
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d5183529-a022-48d3-8786-4deafb42ca42.json",
+          "sha256": "87f85637d06ebb493f32f67660ecf7b4fd804847376e1dd13f4186c7a0210e30",
+          "bytes": 7431250
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d618250d-3146-43f5-a23a-262cd593d993.json",
+          "sha256": "ebf761bcf5bcd85f9ad9827ebc67e62d096cba39921f6df02128e254b24978d1",
+          "bytes": 7105780
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/d81365ba-f0a5-4755-8b82-9cde47c88b01.json",
+          "sha256": "cfdd6110d67537a70f71f9fa87de3ada108375fc5b2066a632ffbdd698adf5c2",
+          "bytes": 2740257
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/da6e9c8e-43f3-44e0-b55a-0209ed703579.json",
+          "sha256": "22bb7c3e87af8c9206e6673ea8eeb25714dc0670c7a29dbd0eadff7a263d2b76",
+          "bytes": 3155708
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/dc9acb27-127f-4d47-add4-c0536104b1f7.json",
+          "sha256": "498b613b0500139baa369c6e34356cfda6df835ae835693852668292730fed5d",
+          "bytes": 1696709
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/df9a37bb-e316-4ccf-acb5-900592f163b0.json",
+          "sha256": "c2c7c1b95c26354a3005e826a5d489fba85b6611d58c9d0dae1d3135710150e3",
+          "bytes": 2880711
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/e120f2eb-7bcd-4830-9c63-23095c2dd15b.json",
+          "sha256": "f59a4473b7c8c43d14e907561074611003b8f2083fa53c04b4fe645c362928e6",
+          "bytes": 8448023
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/e5469fc0-92f9-43fa-a64d-0755e9baa4c2.json",
+          "sha256": "aae82633cb5727f4f9561f55b34730fd31bb40582695c010b489806f1f0acc69",
+          "bytes": 650730
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/e59b886a-5b02-4e0b-a9f5-c8d96e8b7192.json",
+          "sha256": "5d1434e1c6fd2009425c33a040bcef842bc2115b1b2464add55599fa6a33290b",
+          "bytes": 3137471
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/e9cbb602-c76c-4085-8208-845bbc77c15c.json",
+          "sha256": "f042390e522af3d51a60760ef10ebf8fa0b5b7fc69ebf4334bfc3337c39c09bb",
+          "bytes": 5493547
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/edcee095-f220-42ca-ae4e-d04609a8673d.json",
+          "sha256": "a1820782327a75727728dad12aa81de4a2817934a5e970f31708dc2c0e533f4e",
+          "bytes": 7861481
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/f439726f-3dda-44c6-8ea9-b32b5650139b.json",
+          "sha256": "913a1e476525406e936cb74dfa7ad37f357166441c52af849b0e8485638e2391",
+          "bytes": 4134820
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/f73141cd-92a5-4e7d-972e-e7845f1a25fc.json",
+          "sha256": "8e6ae2f7da32fe870fb8e723a3724d0ce514e6137b069bfacb06f45e0a4347de",
+          "bytes": 12299755
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/f92a9e48-8790-4896-aac3-9ad8f8351e68.json",
+          "sha256": "6c23505fa55843f98005ae0f9566a8741c97de5047291436b685bbe1308f720c",
+          "bytes": 10174660
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/2900bd63-df80-48c8-9640-2fbc776aaf3e.json",
+          "sha256": "c2b050b1eb7d9150935d12158cebc96288851c6782307f0c120010f84afc1632",
+          "bytes": 5386754
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/30fe44f1-88d7-4681-a636-4d6295500132.json",
+          "sha256": "f4dffab9496de5449aaadbdc9f842eb7dcff3a5e92990c5f17d97b88f1bbd9fc",
+          "bytes": 1442694
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/354da3e4-797e-48e0-bc14-a2b0df395d01.json",
+          "sha256": "d6002ded0ea847127377171e7357ec219748fe493c87ac84b395ae1977d356ca",
+          "bytes": 4750809
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/372a3e73-9378-4a4b-a101-6417dbfd4e8a.json",
+          "sha256": "cda12a935b1aed5f49bf1e7f909bb79961f398689a4b996f68adfb9c4482fc15",
+          "bytes": 5630040
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/53d75b68-c368-4b08-8cf3-588c7b7af312.json",
+          "sha256": "ec8d4827387fa75bb38f84671f94644547d22dbe75157e7c908acb56c30ef8b2",
+          "bytes": 4871419
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/57645517-d2bb-41ef-ae09-064e1a4d11c1.json",
+          "sha256": "a19131b910d93e8ddf4159ec4cd3071083ef92212d4651374ed6e2975f37ee0c",
+          "bytes": 1443018
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/5b123846-b696-4bbc-b56d-037756b9a7c7.json",
+          "sha256": "e917c25e996ebd917f0a4911a34e72869e6ca26dcfefb4888a6a8906322012cf",
+          "bytes": 4304075
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/706bc5eb-1b77-45a2-aeea-e7ec9e3ac36e.json",
+          "sha256": "e86dd5d8376cb9be2046173480769b941c33b0b716eb525922cd0036abdb8ab3",
+          "bytes": 13862232
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/7c5d855d-d00e-4c76-aee0-8098431fa04c.json",
+          "sha256": "7e4c376ab775d437d9b681505af0720260fe3bb13fd0986fbd98b5d77ca2cf8f",
+          "bytes": 10691045
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/82953211-f0db-4cb9-992c-8be8762b277c.json",
+          "sha256": "2454e2fcf1a4a28cef6a83af708ead725aebc8a5c8b9597d150a6ed31c288b81",
+          "bytes": 10530130
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/82ecd772-1cb1-44cd-a5d9-28d58a76d385.json",
+          "sha256": "a0ff07d769a99fe8c0de044abe603147be54a1eecce60e4a4a44bc1a488dd7c1",
+          "bytes": 3696336
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/aae201ce-dc71-45d9-8b26-bca543be525d.json",
+          "sha256": "0c3e4cd9b6f5f61c37b16fe98f0d99ee00d58b553ea543f53fd6e37d12d72f4a",
+          "bytes": 8548026
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/bb51bcaf-d759-4e65-890b-6e2a0ea1cca7.json",
+          "sha256": "ef1e9cf565bbdda578fb1677f75c9bfc627805accc041c8610a1b9431ab2c0db",
+          "bytes": 2143806
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/bc2add7a-32f1-4ca5-a5c1-1313e50d3f23.json",
+          "sha256": "fe1ddc6691cb438a257974a3a5e776316d6cb4ccfab47e708739874bed0a12c1",
+          "bytes": 5164698
+        },
+        {
+          "path": "data/trajectories/gpt-realtime-2-banking_openai_2026-07-12/simulations/fc15f279-b66f-4f12-a87c-4edc38e6d608.json",
+          "sha256": "df487ef8e2184da0b6ad019cdbc81f7409b4c21e3d7da7decbeac476f91c857d",
+          "bytes": 15357143
+        }
+      ]
+    },
+    {
+      "submission": "grok-4-1-fast_sierra_2026-05-05",
+      "model": "Grok 4.1 fast",
+      "modality": "text",
+      "published": {
+        "pass_1": 13.14,
+        "pass_2": 7.73,
+        "pass_3": 5.67,
+        "pass_4": 5.15,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/grok-4-1-fast_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/grok-4-1-fast_sierra_2026-05-05/trajectories/grok-4-1-fast_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/grok-4-1-fast_sierra_2026-05-05/trajectories.json",
+      "sha256": "c9cf99ba6b5ad850f3a8c3d1d9f375e89034f8b8d26339715bf2ce97a60be2cf",
+      "bytes": 115942403,
+      "status": "downloaded"
+    },
+    {
+      "submission": "grok-4-2_sierra_2026-05-05",
+      "model": "Grok 4.2",
+      "modality": "text",
+      "published": {
+        "pass_1": 18.04,
+        "pass_2": 12.37,
+        "pass_3": 10.05,
+        "pass_4": 8.25,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/grok-4-2_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/grok-4-2_sierra_2026-05-05/trajectories/grok-4-2_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/grok-4-2_sierra_2026-05-05/trajectories.json",
+      "sha256": "9842309f33a5fddceb305997e8bc14044925e81da729141ca4ce8467c3470f97",
+      "bytes": 100440038,
+      "status": "downloaded"
+    },
+    {
+      "submission": "grok-4-5_sierra_2026-08-04",
+      "model": "Grok 4.5",
+      "modality": "text",
+      "published": {
+        "pass_1": 47.93814432989691,
+        "pass_2": 39.51890034364261,
+        "pass_3": 35.30927835051546,
+        "pass_4": 31.958762886597935,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/grok-4-5_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/grok-4-5_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/grok-4-5_sierra_2026-08-04/trajectories.json",
+      "sha256": "f6a9327bdcd8df56a71ba9f59d23ce6a0ef844eac7753cad5ce0d04b87e849b5",
+      "bytes": 209838313,
+      "status": "downloaded"
+    },
+    {
+      "submission": "grok-4-fast_sierra_2026-05-05",
+      "model": "Grok 4 fast",
+      "modality": "text",
+      "published": {
+        "pass_1": 15.72,
+        "pass_2": 8.42,
+        "pass_3": 5.67,
+        "pass_4": 4.12,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/grok-4-fast_sierra_2026-05-05/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/grok-4-fast_sierra_2026-05-05/trajectories/grok-4-fast_high_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/grok-4-fast_sierra_2026-05-05/trajectories.json",
+      "sha256": "beedff795067f99ffd3322bbc5ae233217d74d38ec530cb9dd6c4e9840e7403b",
+      "bytes": 94966662,
+      "status": "downloaded"
+    },
+    {
+      "submission": "inkling_sierra_2026-08-04",
+      "model": "Inkling",
+      "modality": "text",
+      "published": {
+        "pass_1": 25.0,
+        "pass_2": 16.666666666666664,
+        "pass_3": 13.402061855670103,
+        "pass_4": 11.34020618556701,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/inkling_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/inkling_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/inkling_sierra_2026-08-04/trajectories.json",
+      "sha256": "414e613a7d82a6fd3a228a458098ae603f090f1260a50adde0efdd3e94a276b9",
+      "bytes": 255058890,
+      "status": "downloaded"
+    },
+    {
+      "submission": "kimi-k3_sierra_2026-08-04",
+      "model": "Kimi K3",
+      "modality": "text",
+      "published": {
+        "pass_1": 37.11340206185567,
+        "pass_2": 25.257731958762886,
+        "pass_3": 20.103092783505154,
+        "pass_4": 17.525773195876287,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/kimi-k3_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/kimi-k3_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/kimi-k3_sierra_2026-08-04/trajectories.json",
+      "sha256": "e52dc1001b1c55567d4b9239b0294fa395433637311804b55ed922916b9b3a14",
+      "bytes": 183430917,
+      "status": "downloaded"
+    },
+    {
+      "submission": "muse-spark-1-1_sierra_2026-08-04",
+      "model": "Muse Spark 1.1",
+      "modality": "text",
+      "published": {
+        "pass_1": 40.4639175257732,
+        "pass_2": 29.55326460481099,
+        "pass_3": 23.969072164948454,
+        "pass_4": 20.618556701030926,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/muse-spark-1-1_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/muse-spark-1-1_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/muse-spark-1-1_sierra_2026-08-04/trajectories.json",
+      "sha256": "580e51aca5be857bf9d5a89a9cea366382c4e03e749b31c7c42b9981ef882a21",
+      "bytes": 365539622,
+      "status": "downloaded"
+    },
+    {
+      "submission": "qwen3-8-max_sierra_2026-08-04",
+      "model": "Qwen 3.8 Max",
+      "modality": "text",
+      "published": {
+        "pass_1": 55.154639175257735,
+        "pass_2": 45.18900343642611,
+        "pass_3": 39.69072164948454,
+        "pass_4": 35.051546391752574,
+        "cost": null,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/qwen3-8-max_sierra_2026-08-04/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/qwen3-8-max_sierra_2026-08-04/trajectories/banking_knowledge_results.json",
+      "path": "data/trajectories/qwen3-8-max_sierra_2026-08-04/trajectories.json",
+      "sha256": "8c8191c43dfb2d21c1322cc154740e5e6044151837ab817c2cbbcd13ffeb626e",
+      "bytes": 246971719,
+      "status": "downloaded"
+    },
+    {
+      "submission": "qwen3.5-397b-a17b-think_sierra_2026-03-02",
+      "model": "Qwen3.5-397B-A17B",
+      "modality": "text",
+      "published": {
+        "pass_1": 9.79,
+        "pass_2": 6.36,
+        "pass_3": 5.41,
+        "pass_4": 5.15,
+        "cost": null,
+        "retrieval_config": "text-emb-3-large"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/qwen3.5-397b-a17b-think_sierra_2026-03-02/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories/qwen3.5-397b-a17b_enabled_banking_knowledge_gpt-5.2_4trials.json",
+      "path": "data/trajectories/qwen3.5-397b-a17b-think_sierra_2026-03-02/trajectories.json",
+      "sha256": "93e03e0ff46f2c3d265bd3ed4d7bb2f0e502736da26693a9b988758f5594e241",
+      "bytes": 32483050,
+      "status": "downloaded"
+    },
+    {
+      "submission": "xai-realtime-banking_xai_2026-07-13",
+      "model": "xai-realtime",
+      "modality": "voice",
+      "published": {
+        "pass_1": 16.49484536082474,
+        "retrieval_config": "alltools"
+      },
+      "metadata": "data/leaderboard/web/leaderboard/public/submissions/xai-realtime-banking_xai_2026-07-13/submission.json",
+      "url": "https://sierra-tau-bench-public.s3.amazonaws.com/submissions/xai-realtime-banking_xai_2026-07-13/trajectories/xai-realtime_voice_usersim-gpt55xhigh_banking/results.json",
+      "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/results.json",
+      "sha256": "15c0b399a2d2e3f1529cf772dc4b980f78cdd38f7d6e88fed71f4dd304b8485e",
+      "bytes": 1287850,
+      "status": "downloaded",
+      "simulation_files": [
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/01300085-283b-41b8-9938-88adc90f8e48.json",
+          "sha256": "e1ea6ef5cc6700ce6be848e45392b69144fa8e52619bb0481cfa1dd5ebc47413",
+          "bytes": 5206989
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/034cc19b-0cf9-4560-a957-7c2d908892fe.json",
+          "sha256": "34b162f938fa15fbdce6885b0f76a6196f0e9243b07bb4d09d87c8bc5fc56215",
+          "bytes": 8864690
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/0531eabc-a53b-4c84-9040-c29b393a4bf9.json",
+          "sha256": "7c5b397307bf3da8907339444e92660e2f8be9d76d84e698fe86a55672521659",
+          "bytes": 6784547
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/126294a0-a797-4fe3-8456-a3fc876c8a68.json",
+          "sha256": "1341c165ba6cb0d543c2094fcf0be46401784de2a19025b1e9e1dd38d8a69161",
+          "bytes": 7757535
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/152b3368-546a-4d9d-a3e1-447e59a2fe75.json",
+          "sha256": "ec6f12782a440255bd1b948c448a4e4abde8d570bf8b334cf1b601b32a3de171",
+          "bytes": 10347748
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/18463012-41c6-4466-847f-40ce6f8f68dd.json",
+          "sha256": "20dd5e70ac17dbc1f2f77624f4c79034a7a78d13c874ea169e9478ecf6d4359b",
+          "bytes": 4959084
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/199c1a33-36ad-43ce-8244-a66631b2df2e.json",
+          "sha256": "d60edc31bd25cfd87cf0606cbd5543bfbb6588b18b5361fd7db0f4c3025d1f9c",
+          "bytes": 7289456
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1acb0750-52be-4690-89ee-1347f84a6231.json",
+          "sha256": "1ab30c1470e454c31c7b1b3d9dd23f05274ad538c804fb86cd344ef66d156211",
+          "bytes": 1016631
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1b50e40e-565c-4ba0-9ff1-b9ee11cb2fbc.json",
+          "sha256": "081e46142d5cb3e825858bfe8aab5e6e150f865c5bd72f6d779f73161c4853eb",
+          "bytes": 3169015
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1e1c63a8-4e3e-432b-9c49-2ab0d18c26f6.json",
+          "sha256": "ec1b85e028e146deba8b28505f3defb84910e13e415734480881d9d87d0e6764",
+          "bytes": 1368614
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/21d45bc7-5cb1-45fa-adb2-c1fa0a7d57ed.json",
+          "sha256": "f6eb17959c408948b7a2f7b00b5f0098275e52d7fc699ae5339d1120b9d8ffaf",
+          "bytes": 13944996
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/22ca8220-2b82-443d-b174-a8b78b67ce83.json",
+          "sha256": "c944658fb201e28cd2348ff7063a8e8ee0d543793ba370208c33fa7d272f0be2",
+          "bytes": 6653591
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/2e9baca9-0641-4923-8c9e-0b6ea8a4e8f5.json",
+          "sha256": "2522caadd5261676a273d4ff0fb21c77ff6311f2347de88785b7d41747f34b01",
+          "bytes": 2086752
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/329fc774-3c20-4c41-a628-8778b5a2ed7d.json",
+          "sha256": "fbd50c7968f09cff3b5753543a9e6e98ad6b5b3cd46be06c467880bc31a1ca5d",
+          "bytes": 9086543
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/3d43a1ac-1821-407f-b6ee-267a7b9ec567.json",
+          "sha256": "bb610b06ce58be8144703e844132fb1978092f7cf25a90409960e22b9af72a11",
+          "bytes": 6237711
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/4ab5520f-47c6-4a97-9cb0-2f80567f106b.json",
+          "sha256": "5d0125b06b09aa38d4ba18772912352b7633497c2fce1e8bad5fc62e456311f2",
+          "bytes": 2968103
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/4b006ee3-713d-4548-bdda-6ebc51588983.json",
+          "sha256": "230e8649d50893de137af853d88871ddf8c62e2a26b30e74f0ab701f3368b3a4",
+          "bytes": 1531114
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/4dc38d33-4f9a-4f3c-b0e7-615a40197787.json",
+          "sha256": "efc8c01774067a6437c883f59ef682e29bd1238e60cb4577e65a3b73321eee3c",
+          "bytes": 11416151
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/507c29e8-d308-4162-a5e9-41590d7ea72f.json",
+          "sha256": "6db0388747f687fbea36a74ac036984ed4834c486ba1dcd38f3fac519f6e2113",
+          "bytes": 3317048
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/51133d41-b515-4d7c-855b-ccca383f634b.json",
+          "sha256": "8ecde8771fb9a155a762bcfcdc7a9c0fb688e86a8d47dcd8abdacd372bcb0ccd",
+          "bytes": 5689368
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/51e19789-d7e2-439a-b6ee-d01d0d6fadb0.json",
+          "sha256": "a50058996a09d5d9be7e71da77f520f63851870e2fae1eeedf67a51b8798db65",
+          "bytes": 4838424
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/55cf18ed-295e-4578-b304-5a0d1d73462d.json",
+          "sha256": "31c5e3a23bcd81843473b9dbb13e7458f6ca637851e6e92eca33ee3bfa2cd593",
+          "bytes": 17089015
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/56f4498e-3c51-4535-9fa8-35b38e1d432e.json",
+          "sha256": "bb4ba9011a7bf4793282a313cd0b903b385b0dadf1d9dbcc8341c7c796232b9b",
+          "bytes": 2226201
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/58899d90-8fd0-4577-8f7e-3acb9a76b85d.json",
+          "sha256": "aa0666c5e005ccfc86c1a37998f10faa31fb40c000122db900271c02b6c1bf47",
+          "bytes": 9281593
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/5e62b30b-1dbf-4651-9a2c-9aec70202f86.json",
+          "sha256": "0f8e39e4e5e46048422e8a0e42bef200243c4aba38088575070c54fe55ce4799",
+          "bytes": 5537770
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/64c8b257-ebda-4670-8a76-c23c7799a406.json",
+          "sha256": "9bd150628ff38b30a316561bbe66ff778382f03dc65b98b7e71938eddd2a5722",
+          "bytes": 13497081
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/70d4ee74-f169-4f77-a347-1afd704756e3.json",
+          "sha256": "472eab29919a94d5b5a7d67d409e380a549eb3dd2a1c05e5e13775de563f89fa",
+          "bytes": 3474909
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/7dfe2030-24ac-4f1b-898b-5c72cdd6ffd7.json",
+          "sha256": "6633897be9ffedbe1563d5b54f6d752e21becd69df41c0a7f90326dfc91f9073",
+          "bytes": 4657915
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/7f55934b-7057-4ebc-9620-44194b58526a.json",
+          "sha256": "f2096be31bef0c698bd053795015dcc39c4e17086ca736218e70548ffd0096a8",
+          "bytes": 12766972
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/88a22d0d-6611-4ce9-bcfa-4a5f73a664f7.json",
+          "sha256": "d6d6192a4545435e57cbafd3d0547102501668bb20152be9f70a71bf78ab3ca2",
+          "bytes": 3901687
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/8c6df1bd-b56d-47fa-ac1c-dcc969ce7d5e.json",
+          "sha256": "a7abd98e9571223dee5e23cd53e925e1b40d9eb12741466e7b409214ca5c7c4e",
+          "bytes": 4926322
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/8d941f7c-e0f3-4c74-ad23-e7cca41faa2f.json",
+          "sha256": "a1b235be6005acab4915bd68a49cbf2482948e7e8251edea9be81107dc60d867",
+          "bytes": 4467878
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/8e345726-da8d-46fa-9ba1-6a3bdf992444.json",
+          "sha256": "8e57b5cb02cb247c9d6b18944801e3e918851f65f082f6f432ae52846d87f8e4",
+          "bytes": 2917300
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/96cf1c56-ff87-4b1d-8bf5-e65f4c5398e8.json",
+          "sha256": "d63a8f9b348ce19b0a5e2693f465920a11bf96d88e288df537581f9d96d4e3d9",
+          "bytes": 3801360
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/97eaa1d7-363b-4d97-864f-6733c305f720.json",
+          "sha256": "bfb972c23574e533d1eee386398ec27cf76ba4bfe23309b87a8aad96141f4e82",
+          "bytes": 707349
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/98703ca3-6276-4819-89a8-15f54cc5c998.json",
+          "sha256": "437dc03739f97cee6b384441bea12e6970e47e9dbbb4c9beae3f8bcd265b4a64",
+          "bytes": 13952607
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/aa0ff201-7368-4761-84c4-eb3ed94fcb3b.json",
+          "sha256": "b3efed667fe5b6f7f7160454c67b9aa40833e322485f433f41a6f127356a0f4e",
+          "bytes": 7964860
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ab49520e-98b1-4480-9c12-0e23b2c85c27.json",
+          "sha256": "810a06523f718ed784cf2daf1191b1dea192c6cf0e9e7dd9f75021b97c15e7d3",
+          "bytes": 8211111
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/b40b2b36-d9db-4af2-8ba3-f790343cfd9e.json",
+          "sha256": "d5e5a69760fdd88587ced402113ef137e9e22dbb0334ef2afffa4f737563a2aa",
+          "bytes": 4795800
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/b6f03971-d726-4cbe-af6a-93a02664792f.json",
+          "sha256": "203828e499f1bad41f6fad8a1e57eca14ffa51752d1d00851b8d3bdc1634e7ed",
+          "bytes": 1359248
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/b95b6fee-2052-431e-bdb8-f4d0296bb506.json",
+          "sha256": "fe50df5c86296faf3d4a2dea99b90379269f7118d515af75dac7900aea46b0b0",
+          "bytes": 7805843
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/b9675a0c-ed5e-4563-9cf6-cc3a025cd542.json",
+          "sha256": "7739d90b788a9e51c09068b17632a17fa92426c0665caa9b06b1ca4871e0eeb8",
+          "bytes": 1394813
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/bca5565b-7936-4658-b6e8-0be6f7e0ed5a.json",
+          "sha256": "3ba8610b1f89f9ac5bb8a4d706fb2c0a6b76d55d066b4fd1d5d8fd5319e8d44b",
+          "bytes": 16256803
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/bd07a4c4-0bec-4f34-8f7f-3b4f690fdc5d.json",
+          "sha256": "e3f2fe8dbe0901d5a4b81d09c1e9f40a19a2ff60155d38a5c2f9f2e92b16c84e",
+          "bytes": 9651336
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/c35c1470-431d-4102-8aa6-c56577e74a0f.json",
+          "sha256": "fa64b9b9423f249c813cab0cfefd9f42790807729949513d9a12e8c2f1bfda62",
+          "bytes": 5928792
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/c4f084cd-18dc-4d2c-956d-8852c670b06d.json",
+          "sha256": "0c930d8a6f34930864061f2cc47e067b07955595f65ed9cb0e88eeb1890b96c4",
+          "bytes": 1575217
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/caed36d4-18bf-4821-8e18-fca4150cb1bf.json",
+          "sha256": "914836e9b8d209eba5ae6bed09d33af2ea93d02ecb148498ccfaffabe1e9b32a",
+          "bytes": 5389611
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/cc40e1b7-1482-4909-97ca-6b29527fb092.json",
+          "sha256": "5ac550fbde13199abe30fbb6064c6d1dab62de9f6a8d7c00590498268c5f4ead",
+          "bytes": 3872191
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ccf4d04c-7086-4bb8-aa7a-e64bf1a3d800.json",
+          "sha256": "820371ef676af0d393b0b98572ba829d5af5ab17de82cdda0dbbc86311b70a78",
+          "bytes": 17251047
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/d7e25820-ef7e-482c-b40a-687b46ccad30.json",
+          "sha256": "090dd4211f933be5f72f40c0848db9ce25031935116c36d9dd1e20c606829788",
+          "bytes": 7594081
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/d841b0bb-3308-49e4-8a5e-89c177614d52.json",
+          "sha256": "d4edeb0b3e85f8c1b7ba2f344bd3dd880f8fc1a7731ccaf425ea838713756f7a",
+          "bytes": 4163052
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/d88552b1-c8ae-4663-9a59-30d7c1c70afe.json",
+          "sha256": "7a2074f05be4dcb21f5d7183832a972928c887a75722e5768ae46d1af44534bd",
+          "bytes": 13430802
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/da59d85c-4faf-492e-a075-679e38ec446f.json",
+          "sha256": "a5bd3387d6198e0ded9df6f60acf4e63582839784834574a0a76c7b6bb54677c",
+          "bytes": 3928083
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/da82e1ce-8d3d-4a22-8b16-b05b33073551.json",
+          "sha256": "baa6547c39032afb8ae47271538d0880e2b02aa33e64b683df345fe21ce8cf8f",
+          "bytes": 12722191
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/db13c55e-8ee5-4f9a-b1b5-2621387796a7.json",
+          "sha256": "706663a38a41f4fea5cb6e79ed4e9978f0aa63073c1b9195723b5e3378b5b59e",
+          "bytes": 2603757
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/dc3955c9-5107-4d8f-bc69-98505b976f53.json",
+          "sha256": "b2867ed17c3c843c6ea11a01c3303c72383a2ca1fea0742db77ba51bf689822d",
+          "bytes": 3629877
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/e8ccbf09-f93d-4891-a330-3bec56d4890a.json",
+          "sha256": "07ef687f951c7e235e8ab176bd9373fa4c10ebf7d746c633d5b722dd18d11e50",
+          "bytes": 3727152
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/f0b85da3-e236-4afc-8fcf-fb36fb9e1d63.json",
+          "sha256": "e587537140430e8739410bef590b19326c886be4774a6957f8313aeb39e41807",
+          "bytes": 4780803
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/f35d25e0-feee-4025-a186-b2b33fda20db.json",
+          "sha256": "0d2a3475d15cefb0685dd28314957e8f19c15b816ff58c40a76037d681351943",
+          "bytes": 4996223
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/fb8684b8-22da-4571-88f4-ac5731f754d8.json",
+          "sha256": "5cff3afedd28e123faf6563b93f9802fea47c7f20ee4504792db888d9ef502b5",
+          "bytes": 8628598
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ff87929c-53a1-4238-be58-20e0e0fc1391.json",
+          "sha256": "21beb274145fefef3f971d08e63c2b7956505877ed40986d4a86c4d8b4a9b778",
+          "bytes": 3975275
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ff982152-f939-40ad-8ffa-13ecf3cd82f3.json",
+          "sha256": "53e6e5dc8ec4162fcdb7eb23087b7fc3e74c9c7f871b9c38e9dd55e405ff0d89",
+          "bytes": 9350486
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ffe1c498-7212-45e0-8be0-05aaacc2b89e.json",
+          "sha256": "afeebf933ee3d939229ac7de3b4201d5787bf04a12bdee559fb9936a566023a5",
+          "bytes": 7525948
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/09bba8ea-d7e6-4ca4-95be-b5d8eae4bdbc.json",
+          "sha256": "bd88260fa8f5d13dde7f2374a27d06d01e64b1a4cfae215cd14676f42a7d106d",
+          "bytes": 6981431
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1033bf80-1119-42b6-826d-2a537ed780cc.json",
+          "sha256": "df597405f7ec5386949381a83b8dbb71d62e61b309ccc73242e8ebeebf8caecf",
+          "bytes": 3803293
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1089502b-b5cf-482a-971a-323b00756b41.json",
+          "sha256": "d266708fd3776a6fdb02c9c3a7d409921f37841d45e2e5cfc92c7c9c17c33800",
+          "bytes": 7594288
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/11bc1ef0-5d53-483e-b2e4-e00a42e7a38d.json",
+          "sha256": "245abc8fb0e61774ae837d93f46c93b4a10410115020b05aaa6f88be4e320127",
+          "bytes": 12234050
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/13311bd4-62ea-4470-abc1-c0431a8e83f4.json",
+          "sha256": "ecfb413bdc4114010921ab4e518f4eff183234c0e5a6713b87fa60d2c11a26e5",
+          "bytes": 10405029
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/17ec3d6e-dea0-434a-ad35-efdec6d665d5.json",
+          "sha256": "9175f57d71c36d315b51b5c4c4e49b5e7e9e32d401655ed481f6974742adf5b1",
+          "bytes": 2603659
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/19e4edae-287b-4273-9aab-7ca65b1787f6.json",
+          "sha256": "84e86925721d17f2b6959a64f32ee60dc5000bcf10b663636b02f509cfe98b63",
+          "bytes": 7110029
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/1c313ec4-1a13-423f-ba30-23b7ce17dc09.json",
+          "sha256": "6d6f6612f4e20eef69a2a189377b4cc1b25d21cee9516c1772a2c95ae9558edd",
+          "bytes": 10427719
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/2283b70b-2626-42fd-b858-c8166378e924.json",
+          "sha256": "a701ecaf3da3bc2da27df51d8a4681b36a015c649185b4f7ab4e82ed2c048503",
+          "bytes": 4232729
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/278664a4-e53c-4cbc-b263-edcce38adb43.json",
+          "sha256": "0d6f6fc625b71f056c53b65a549597f36676e231bc2873a716b3e95a9ef0185f",
+          "bytes": 2327880
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/32912db5-ee74-47d5-9a54-70d035baf2e3.json",
+          "sha256": "b3881cbf4ba66c6ebea53cfde75cd0ab8132c484aee058850ea60a951af27ec0",
+          "bytes": 9097024
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/45ebe05b-113a-41ad-b91b-ee5c30530a0c.json",
+          "sha256": "b64fb1627c5f0c0d28246bf0490f11d483b1d13a5d10edc76dfe64b45357de7a",
+          "bytes": 7062744
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/4ccff22e-1004-42b3-a356-0dab34c13bab.json",
+          "sha256": "8b392df1d54a9c103bb334a92935459cbd10fb7ed5403fc97e3830d8e835f11f",
+          "bytes": 6238530
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/4e45f61b-2b80-43df-9991-8aa78fd18f5a.json",
+          "sha256": "bbb944f4b71125ade7318e403c2cd8f989b93df6fc6b7b655969866162cb386d",
+          "bytes": 5113864
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/53abe7de-6f7c-4b75-a603-6a5d979541c4.json",
+          "sha256": "1228123859f4b83c96b373314ccec16ba7e04f80257cf5d5d5cfd7598b7cd3b0",
+          "bytes": 5421373
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/61e73539-3951-4151-bdcf-c69df5eada17.json",
+          "sha256": "8b4378685948e0f6e57f17411c1e2e57c2e01ae874feb0df1650ee81f6075874",
+          "bytes": 3630549
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/64574d9b-319e-45d0-9fa9-aa8594e4bd23.json",
+          "sha256": "cb66b9eaa9e97de3a07886601e3cd7cbd6f81710a51ec95b1877b8e9df5e3254",
+          "bytes": 4282457
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/66b0566f-d91f-40f8-a3b9-09e8a1743ddb.json",
+          "sha256": "2a28e633d34801718f74bf8369fa828b4b2cbe3a241f540a61c313005608875c",
+          "bytes": 6017253
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/755fe51b-8d29-4c11-8e6e-a0887e6fd872.json",
+          "sha256": "44c44a24b037ec8b77263aec53be4c24aa303d39daeb918413e0dcff3a131432",
+          "bytes": 12187025
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/7f732a70-f67d-415d-8349-85fa22806407.json",
+          "sha256": "b7ac322f76de0ff6e9f21ab40d17f3559868b88df94b128016e5e22692384feb",
+          "bytes": 8973219
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/86196feb-0c1b-4aea-b566-b4f38f04db66.json",
+          "sha256": "5a4120574a4795215acbe0b261f08f38761b65013cea29f56521436e56a28124",
+          "bytes": 19453860
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/a94fa218-7c5a-4a43-8848-bb4d48d2cf01.json",
+          "sha256": "7d71637b7f53bb9ddd02f20d4cb45f0535f1cf2f780609879864202854314cc6",
+          "bytes": 4518623
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ac1bc2c5-3fcd-4a18-9dd2-d7c299f299c2.json",
+          "sha256": "b22a3d78ec2490f96ac8f13eb66e4af63a8a740fd0377bc14f687c648c5d877b",
+          "bytes": 15535858
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/af6090cf-8033-44d0-90f0-7ed9e2f55c44.json",
+          "sha256": "ea35fcafd3217fc3301d7dbf536b4d502ac49b31cda44c540c7f50db3ec29d98",
+          "bytes": 10800489
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/b99c2c84-d5ab-4476-81b1-d61985bfe308.json",
+          "sha256": "072582be4980928b5e259c2c3c916ad591477764e1467760acc93307386f379b",
+          "bytes": 7352984
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/bd3ecb11-2a2d-4d59-aeef-0a81a9dc96f0.json",
+          "sha256": "4d2b5b34a84d80bd04786846eabb3242a961e7573d2ff18b07f14d90169ece7d",
+          "bytes": 4536334
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/be870d93-c03a-46e9-892b-c3d9cd61a95d.json",
+          "sha256": "dc03fdf1690c683d7b42c0a58880c7c3fb57cf76c78a8344e8e59e44936a45c2",
+          "bytes": 12015182
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/c8731bad-8abe-4531-b412-0d65514560d3.json",
+          "sha256": "8db3b0945405c9fde992aeae8a33a74e6e24b6c45c38a9ee2a2b60642eba2045",
+          "bytes": 5263450
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/de432f8b-a1e1-419a-932e-40010c89f131.json",
+          "sha256": "aee92b1d146427f42f075d805305683f7e1e151553e774ad73382f02df2ba233",
+          "bytes": 5456128
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/e61f942d-b6d4-42d3-b423-29ec3c480a7c.json",
+          "sha256": "a0813d82e252373638fd13a67190b5db1468af431b1038ef2c3fc79f319ae36a",
+          "bytes": 1186199
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ef087f60-6434-45e1-b8a6-bda82905d5d9.json",
+          "sha256": "8560d4f6558dbe612ed54e43c68f09dae1b76aa428a02a37832346284279e3b3",
+          "bytes": 5171277
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/fb55d303-b269-4e71-a626-edf977f0107b.json",
+          "sha256": "5201db303a19feaf64e4f49793ad92c4d3ea19bd631a823792612897b71ef209",
+          "bytes": 11355295
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/fdfc8b2a-9891-415c-8c30-ff91c9bc09d4.json",
+          "sha256": "cca38e98c989657d569c64704e2d665f8a613bdc30b8c38ded73e08b074a3876",
+          "bytes": 5266403
+        },
+        {
+          "path": "data/trajectories/xai-realtime-banking_xai_2026-07-13/simulations/ffafa903-4a68-4519-97ad-87fb0f830e04.json",
+          "sha256": "e5ff66c68f7030ef6e1e9c53d55ae4eee1bcf9de2521a1c726584cd03c03a758",
+          "bytes": 10672271
+        }
+      ]
+    }
+  ]
+}

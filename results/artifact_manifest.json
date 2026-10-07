@@ -1,0 +1,561 @@
+{
+  "generated_utc": "2026-10-07T18:08:07.468347+00:00",
+  "artifacts": [
+    {
+      "path": ".gitattributes",
+      "sha256": "c7cf33058e91c9b3139bc1f1d605b4f8cdb149018ddc33dc35c055c5d3a34a67"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6059bf407d2492e2b5b10cfc873437baad7d4a8cf7d1da2233ca831ed35ef818"
+    },
+    {
+      "path": "README.md",
+      "sha256": "28c032367f5e7154e6f3cdeb5cec67913200edb6ce710e58d37562f1e427b4d8"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "0c2d64af77582c1bf0faf7f4fad8161f2d9f2b981be9d4db4d51f24b78f2f47c"
+    },
+    {
+      "path": "analysis-plan.md",
+      "sha256": "2669496deb3419389ed4de5d01349b8426a0c043452a3d60582f49973af9de58"
+    },
+    {
+      "path": "cluster/controlled.sbatch",
+      "sha256": "0392bf4910a775fee29bfe6cee53df705c20311f2843dbd1af542ec081d8ec1b"
+    },
+    {
+      "path": "cluster/diagnose.sbatch",
+      "sha256": "bc19c7c51bb63bcdfc07bdee335bda9567e25e758843d1eec7afce5dd5f59fce"
+    },
+    {
+      "path": "cluster/finalize.sbatch",
+      "sha256": "075e4eacfaa05b4da82211ac4f0c63c7d7099415b8d08c8182532a1520f2167d"
+    },
+    {
+      "path": "cluster/regrade.sbatch",
+      "sha256": "9cdb555d4567ecb522ebd6baca1f899aa1f3a5349a4fe7bda4855437ef572d6c"
+    },
+    {
+      "path": "cluster/replays.sbatch",
+      "sha256": "3efefce18b7c33ffaace25149c2369fe03a70af131266b0f356834feef78b972"
+    },
+    {
+      "path": "cluster/submissions.txt",
+      "sha256": "f631710c36b7d9f0a0f96e7d3c7ce9b313308b30fb6507301b035b6b8976846d"
+    },
+    {
+      "path": "cluster/verify.sbatch",
+      "sha256": "a9922df557d14e15678a633adba95ebb42f049eaa3d18083128f2ffe63a7608f"
+    },
+    {
+      "path": "coding/action_units.csv",
+      "sha256": "ca11b51e0c6cb0a77d6319766ee1406d603c3e2d89895565796803a11a86938b"
+    },
+    {
+      "path": "coding/document_screen.csv",
+      "sha256": "f63e89425703f48c0b655a7babbaef810f2f01185eb119612575afde9a50d143"
+    },
+    {
+      "path": "coding/task_screen.csv",
+      "sha256": "b42437562915bca1fd507984eb422dfc12452b84a3e0649e781851c9ad7e1384"
+    },
+    {
+      "path": "data/corpus_manifest.json",
+      "sha256": "b6b830d9635c616df4083936033df109f59a8e7d31a1943240be2a7a2d1e766c"
+    },
+    {
+      "path": "data/download_manifest-athena.json",
+      "sha256": "0feffaed4699f096882d481879e132af0a3ec3321c43d61aa9f119702fca9b35"
+    },
+    {
+      "path": "data/download_manifest.json",
+      "sha256": "cafba806462bc3d821ddd28973cde181bccd5a339ebe9daa0892c73defab31dc"
+    },
+    {
+      "path": "data/issue374-comments.json",
+      "sha256": "f3e9e68cf8019d22505708aa9c18c70e7435afc86bcc5bb9d9328a925a79c523"
+    },
+    {
+      "path": "data/issue374.json",
+      "sha256": "35173b37ef4fd21d07ede887747ba4b8213778a8b999782045d82ecc41555ba8"
+    },
+    {
+      "path": "data/issue592-current.json",
+      "sha256": "27e231f80cfef7f5535149417828676fc56b84b7f0656a5bb363eda462dd18ec"
+    },
+    {
+      "path": "data/issue592.json",
+      "sha256": "27e231f80cfef7f5535149417828676fc56b84b7f0656a5bb363eda462dd18ec"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-fable-5_sierra_2026-08-04/submission.json",
+      "sha256": "f5cb61669a7f9665a006031ae1779b59230dcb4527cf763cfc3d2c771878166b"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-5_sierra_2026-02-26/submission.json",
+      "sha256": "9c3b8b400e21d370cea27caec3643bfe6fd8385be9ed5135b585d0b976b6e34f"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-6_sierra_2026-05-05/submission.json",
+      "sha256": "880ea58f76664a0f0e06c3117c6a8b75c4007149d06cc3de04f852f62487f3f3"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-7_sierra_2026-05-05/submission.json",
+      "sha256": "7ec10475f58a7d24c55548df9b8a04b6e6105dc25a6927f618c487185f28eca9"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-4-8_sierra_2026-08-04/submission.json",
+      "sha256": "13052291f58a74e601c4e577bce110a7fad93a126edaa87fb483e49df0823054"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-opus-5_sierra_2026-08-04/submission.json",
+      "sha256": "4ab17f3f2e77cae8b2b4e4ba13413f7e2168104a772f25afe9d071950ed24ba2"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/claude-sonnet-4-5_sierra_2026-02-26/submission.json",
+      "sha256": "e5ce9f12ab9e616db52e973e90b48144b7bafd29e35c4fd6c3e7fde573a9b8d8"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/distyl-buttonagent_distyl_2026-03-25/submission.json",
+      "sha256": "bb1984dd43557ac3e526f64eeaea0fd4467d924c69d38655d64dde0a45a2c522"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gemini-2-5-pro_sierra_2026-05-05/submission.json",
+      "sha256": "b14f65b54ac7b733550cb1e04b986d17b7ff877de6ff79e94e8e98998035de6f"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13/submission.json",
+      "sha256": "a41d225d97e33489a78ee663455350be72312a04cb6ada2bb8cc75a0c9bd15fb"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-1-pro-preview_sierra_2026-05-05/submission.json",
+      "sha256": "16ada360be015c129cc704ab283535144305df1b1cb911750bb2ec6a2fde53ac"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-flash_sierra_2026-03-02/submission.json",
+      "sha256": "d1b7d1fc5d789662fb6eeb4a5ec01948295db397d2313df42c43c7fd8caf3637"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gemini-3-pro_sierra_2026-03-02/submission.json",
+      "sha256": "f5c7b2d432d4efc6d6c1533f87e61ae1673336579df9f5f5cf986c277f0afd18"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/glm-5-2_sierra_2026-08-04/submission.json",
+      "sha256": "58b36fd68b92eac5c9e72efce3952aa4004db2b7f6f520c2bcf2908c4845e801"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/glm-5-think_sierra_2026-03-02/submission.json",
+      "sha256": "fa27b9a1a7a4c8b15517ec1329ef21fcc700be2ca12f21659b60aeda99c7de8f"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-2-none_sierra_2026-02-26/submission.json",
+      "sha256": "e1be4bac436e8115f9253697d68b71867f17cfcb2bef5dfa6a756c0a89a70dab"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-2_sierra_2026-02-26/submission.json",
+      "sha256": "343687b822edbcbff42a4d4632ecc6288a58d9817a7a02c8533081c5709c0ac6"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-4_sierra_2026-03-25/submission.json",
+      "sha256": "47fa11691a745682b86ffc91e1a57aef6d6d7cebe60df66820ebb310b518b0ab"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-5_sierra_2026-05-05/submission.json",
+      "sha256": "24247d74b2a942da4c8f85503d0f8b95ba6e2d5df7158c2adf15049056d8b7f4"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-5-6-sol_sierra_2026-08-04/submission.json",
+      "sha256": "0394128dc04d58ff77846e404ce588d786988a5c2ffcb69a8af09f19c46c97a4"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-live-1-astra-high-banking_openai_2026-09-16/submission.json",
+      "sha256": "e22ce6ba70eb02a5f4f296e546b3bed7c87c248df0e6fb6d36f7daabf90ce696"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09/submission.json",
+      "sha256": "1eac97fde74af2b66ced406261e59cc0ae3cd8f48be4d0d406db2754b5e197a2"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/gpt-realtime-2-banking_openai_2026-07-12/submission.json",
+      "sha256": "2b9aa23aa956a5ab3adda84ccbed0e3de4f893850a65b5e9acc43ca5263cc034"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/grok-4-1-fast_sierra_2026-05-05/submission.json",
+      "sha256": "24efda601208398e37890ee127e37190b2080dc8eb34aa52fac0ee7f32ae1e08"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/grok-4-2_sierra_2026-05-05/submission.json",
+      "sha256": "6187e4b645a9de92f40ba0d6b800c13200ef39c5bc95062d5ae8122251459fc6"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/grok-4-5_sierra_2026-08-04/submission.json",
+      "sha256": "fb6414a4c05756d2ea00289684680f22fe3111a1ed69cf8d77c1071b1075bcb1"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/grok-4-fast_sierra_2026-05-05/submission.json",
+      "sha256": "e310d5fa844297cbb9b3ff0755f9784ddeae8daf99624f1003a8d0bdd973c237"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/inkling_sierra_2026-08-04/submission.json",
+      "sha256": "f5d7b5fae9986619bc3258d1be25b3577f46d4e61a1b6c8853933710eb3169b9"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/kimi-k3_sierra_2026-08-04/submission.json",
+      "sha256": "71e1ac4413f59ceac04851843319f73b485280a756f3b69fb5f47836d65a52b6"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/muse-spark-1-1_sierra_2026-08-04/submission.json",
+      "sha256": "5ec4d2b119542bb40358374e3408515dccf5f0b3dace60de7936a20cb9bf13da"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/qwen3-8-max_sierra_2026-08-04/submission.json",
+      "sha256": "afd5525e447a221f6997b6af8a6a72536acda81b0e7775fd7124836a13a9ad76"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/qwen3.5-397b-a17b-think_sierra_2026-03-02/submission.json",
+      "sha256": "2cfb2c7d2a46e9f22154fa153dcdf155d50dbd5bf86233ecf564eccca1e5913e"
+    },
+    {
+      "path": "data/leaderboard/web/leaderboard/public/submissions/xai-realtime-banking_xai_2026-07-13/submission.json",
+      "sha256": "34053c035861b7745c2b9d86b61c5a2503cfd5647f21583be39847af5024796b"
+    },
+    {
+      "path": "disclosure/issue592-comment.md",
+      "sha256": "04e11a548d9a14ad38eb71b04125ae491db29d83a181da6f94167d1a420479d2"
+    },
+    {
+      "path": "disclosure/replay_reference_patch.py",
+      "sha256": "83287fb2c35d0bc1ae1eff604fb98fc34eeeb7d1d93cee57daf737a7153b7903"
+    },
+    {
+      "path": "paper/figures/capability.pdf",
+      "sha256": "ca470ce66eeff139b2d2baeabb64f0fd8ee7a58a132be8c4635e415e682aff7e"
+    },
+    {
+      "path": "paper/figures/state_outcomes.pdf",
+      "sha256": "bae314389a6a36ad5b8c67c09cf180242f022ce427c839f81cd0984acb90c8a7"
+    },
+    {
+      "path": "paper/generated/capability_results.tex",
+      "sha256": "9d20862b34180124007fba32f351ad9aca6bb7273ba40ddb48f6db72d0a0cfa9"
+    },
+    {
+      "path": "paper/generated/coverage.tex",
+      "sha256": "fa30a078bc7416461ad373342fe3073c990b7692bb981d7f2fe4bea07763e875"
+    },
+    {
+      "path": "paper/generated/full_table.tex",
+      "sha256": "18e9acacad8bbff0abd59dc8ba4c49f9df5123aad34f3e15bc458dab8cf70d1a"
+    },
+    {
+      "path": "paper/generated/results.tex",
+      "sha256": "7c81ae92b7d4524ee3c9a33e12539e71e20941b9037c56429e68c5e7320fef5f"
+    },
+    {
+      "path": "paper/generated/state_results.tex",
+      "sha256": "d708cc23f112d5869e0bf188e991052d173225fbe35fc1b3692b783e1afc11e5"
+    },
+    {
+      "path": "paper/main.pdf",
+      "sha256": "5df1101bfd5419aea55a6fd09ce16439b705d55b91b95716e7cb04c7d4662945"
+    },
+    {
+      "path": "paper/main.tex",
+      "sha256": "275a7fe933ee65cea1a88a9693f1c27e9f57a1d51a26756d3e945cb332bdb12a"
+    },
+    {
+      "path": "paper/references.bib",
+      "sha256": "df55a28f38544c187ed2c9d8bf51e82f2dc6c0ab73af06ac352f67605f58a383"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "fc8cae4be4db49ae85a9e97cef8cd0da05152c9b2c6d7b69615681f9c7a5b125"
+    },
+    {
+      "path": "regrade/core.py",
+      "sha256": "e6cfda4f59b5793d510c4184f71574233ec751744bbc11911ebe8d039e7ce7f9"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "sha256": "5e7005639024da1fc3ca472494e5240e8a79af8df995af2df08c5fc497e720e5"
+    },
+    {
+      "path": "results/baseline_reconciliation.json",
+      "sha256": "704310dfc1d4c224741a3a1dc26c8d21bd6cab02bd40f4a615d768f3e8a8ff59"
+    },
+    {
+      "path": "results/candidate_diagnostics.json",
+      "sha256": "839d195e1de7ef5e7654735ff7b88c8dfb7cd802a160f8c3a3aba9aa3f3684d0"
+    },
+    {
+      "path": "results/controlled_sweep.json",
+      "sha256": "16160e14470853f65920e87ab09e107e3844eb99e163e5a6886c9ec4acce24d8"
+    },
+    {
+      "path": "results/environment-local.txt",
+      "sha256": "159d2ca06080939b92aa3d9efda1e8be929c302cc9771ffe8e2200651b1f0581"
+    },
+    {
+      "path": "results/environment.txt",
+      "sha256": "b0a903ca658f6c2eb6651404c7b7cfc521840d16811aa0b60250a8a7dd7e130c"
+    },
+    {
+      "path": "results/extra_state_replays.json",
+      "sha256": "bb86f8b884ef64107e468412a2b4b5eae69608942c7b78270eb8256b860f9f0e"
+    },
+    {
+      "path": "results/inventory.json",
+      "sha256": "a25f291c528f8566eb814023966009e384903bda003e589b7e1e0764cbeaea3a"
+    },
+    {
+      "path": "results/issue374_fix_verification.json",
+      "sha256": "ca1831a560eebb7427123c351e996935f674e463301e8d10a1de38c1ffd7bc23"
+    },
+    {
+      "path": "results/official_differential.json",
+      "sha256": "60c71d100529f8cd2ab1f13219cf5a737911a361384c3f6bca664edd691c6771"
+    },
+    {
+      "path": "results/public/claude-fable-5_sierra_2026-08-04.json",
+      "sha256": "81198eb6bd9d320aa4913585006829f2999f7dea5110caa4c727ef536dd30f4e"
+    },
+    {
+      "path": "results/public/claude-opus-4-5_sierra_2026-02-26.json",
+      "sha256": "51d82cd48809b813818593c769f32f2b088cbffa28533f4aba5086e182c7dcd3"
+    },
+    {
+      "path": "results/public/claude-opus-4-6_sierra_2026-05-05.json",
+      "sha256": "4c6dd1839159634141098263a9f6e575d8e424defd5ea8156df733a219cb42ee"
+    },
+    {
+      "path": "results/public/claude-opus-4-7_sierra_2026-05-05.json",
+      "sha256": "f2232ba5ce2b0b8bc4669dd4ccb97972c6fb0ac862274662d7456ae1b1f90657"
+    },
+    {
+      "path": "results/public/claude-opus-4-8_sierra_2026-08-04.json",
+      "sha256": "39eb8c02a4e31fc09defb059c6eaa06acba92e5ae15c766949fa58193edc8fd1"
+    },
+    {
+      "path": "results/public/claude-opus-5_sierra_2026-08-04.json",
+      "sha256": "f10fa38dc5d5ca3e959d8cba810c92871ac8f21bf87f427f15cedeeb26e9959b"
+    },
+    {
+      "path": "results/public/claude-sonnet-4-5_sierra_2026-02-26.json",
+      "sha256": "33f3b276e6b2a81c7100a7b7e55cad3743290db0ce66400a5eb621d0a6489f73"
+    },
+    {
+      "path": "results/public/gemini-2-5-pro_sierra_2026-05-05.json",
+      "sha256": "a074d52db37d0fa1def6112fbd8f8a221013a4b422149ea8de21b2cd5dbf08bf"
+    },
+    {
+      "path": "results/public/gemini-3-1-flash-live-preview-thinking-high-banking_google_2026-07-13.json",
+      "sha256": "70160724bf48c0836f43958c68408d3469abb66702ef6764858dae10952bd6ca"
+    },
+    {
+      "path": "results/public/gemini-3-1-pro-preview_sierra_2026-05-05.json",
+      "sha256": "4c85703ef1067b2c7950f2e67b2e3edfd0563dad18dd7e6a42fe78412bf280ec"
+    },
+    {
+      "path": "results/public/gemini-3-flash_sierra_2026-03-02.json",
+      "sha256": "9a3099ff8c232fac82cc5b9021455910494106ec888e498d2f72ffa3f6077493"
+    },
+    {
+      "path": "results/public/gemini-3-pro_sierra_2026-03-02.json",
+      "sha256": "2e950d374667ab11d2c57db547253d09f3dbc47b721af7cc62988ec95e17ccca"
+    },
+    {
+      "path": "results/public/glm-5-2_sierra_2026-08-04.json",
+      "sha256": "971539244ce1750bdcfcb80636de27cba9f488ff53dbfd292fef79a968c2a408"
+    },
+    {
+      "path": "results/public/glm-5-think_sierra_2026-03-02.json",
+      "sha256": "4c5369228710b052c6e1916568f482ab452e3c1984e52feeea6764736b37cc74"
+    },
+    {
+      "path": "results/public/gpt-5-2-none_sierra_2026-02-26.json",
+      "sha256": "428b2581e3c2d4c0b8d26617b8df69972c994f7d2fa66960b6dc8b4863d25ae2"
+    },
+    {
+      "path": "results/public/gpt-5-2_sierra_2026-02-26.json",
+      "sha256": "cb19ae9990178122e2157f030fbfbdcd6db07a6cc0c1fab7a45335ddd5141250"
+    },
+    {
+      "path": "results/public/gpt-5-4_sierra_2026-03-25.json",
+      "sha256": "1bc5d207077e1c4d374ba9b8d5801b1ec543a6f2bedbccb9a072d5e7436c1710"
+    },
+    {
+      "path": "results/public/gpt-5-5_sierra_2026-05-05.json",
+      "sha256": "81f1613f2e647de572d810c732482acd2fe84d40e5e3b8069492d2381de03ef2"
+    },
+    {
+      "path": "results/public/gpt-5-6-sol_sierra_2026-08-04.json",
+      "sha256": "d728f04b62da47022a5d8fd35665fb944798aad69c4a0f67fef54c7ec97d11a9"
+    },
+    {
+      "path": "results/public/gpt-live-1-astra-high-banking_openai_2026-09-16.json",
+      "sha256": "49c688e529d5744824da0c609e9e6148d8832d90f7cb720eea71f320cbddc5b0"
+    },
+    {
+      "path": "results/public/gpt-live-1-diamond-alpha-user-sim-gpt-5-5_openai_2026-09-09.json",
+      "sha256": "2c2c09233175b2c5db5cf9c348b78f7e295d872a9b9826d2f3aeedc8b5a122aa"
+    },
+    {
+      "path": "results/public/gpt-realtime-2-banking_openai_2026-07-12.json",
+      "sha256": "1d7901e2606d7b8b38ce85971fe94ec57c6979e5cb98fd8475c53c3ba62aca54"
+    },
+    {
+      "path": "results/public/grok-4-1-fast_sierra_2026-05-05.json",
+      "sha256": "f380f9375ce17433a5f5b50171d820bf80d280b98c7db22a2a2c591a73a4f24f"
+    },
+    {
+      "path": "results/public/grok-4-2_sierra_2026-05-05.json",
+      "sha256": "94654692b670d709825a923bf325e61169d03bfa0528b7d57572847170d4e4d0"
+    },
+    {
+      "path": "results/public/grok-4-5_sierra_2026-08-04.json",
+      "sha256": "ecb147ec4fcfda49cbfa3f68d60692120cec847f96cc2184448e01e162dca104"
+    },
+    {
+      "path": "results/public/grok-4-fast_sierra_2026-05-05.json",
+      "sha256": "ed56cc375060585a7497109537ab35f16760581cdbd81a00e799178ee877f5aa"
+    },
+    {
+      "path": "results/public/inkling_sierra_2026-08-04.json",
+      "sha256": "2f201bb163fdbe5fba917cbda6c49c5eff9b1dcf3106d77339c14d51c2a0b7f7"
+    },
+    {
+      "path": "results/public/kimi-k3_sierra_2026-08-04.json",
+      "sha256": "45da5b0a047ee5c59c65ebe37fae0204f2056f8f27cc466c99b77ab27b831241"
+    },
+    {
+      "path": "results/public/muse-spark-1-1_sierra_2026-08-04.json",
+      "sha256": "69f0e7a5e8c6f0334a46125eeb2ab6c5a5a8a0beafed90857642b7d911194e40"
+    },
+    {
+      "path": "results/public/qwen3-8-max_sierra_2026-08-04.json",
+      "sha256": "bb0b124818429b085bbd9035c54d301826a0307dd2ad07d4acb5ee6da5d44d3c"
+    },
+    {
+      "path": "results/public/qwen3.5-397b-a17b-think_sierra_2026-03-02.json",
+      "sha256": "9de215778752a3ad45f319fbc87d0c18c317f6146039af34e1f5c359ad55f42e"
+    },
+    {
+      "path": "results/public/xai-realtime-banking_xai_2026-07-13.json",
+      "sha256": "7329b9f70d67894706a12348b66f0b909ff0cf530a3c75a36c270c965ee519b9"
+    },
+    {
+      "path": "results/rank_sensitivity.json",
+      "sha256": "f189eb984addcdb40a73c90d9bcc1ba8c5b7ff088ce2520e33f0b4a59653b2f1"
+    },
+    {
+      "path": "results/replays.json",
+      "sha256": "aae0273d582dfbf368b21323e6130b6093ddb34fca5ee10cdf2d25888971fe6d"
+    },
+    {
+      "path": "results/residual_taxonomy.json",
+      "sha256": "aea1cd67e10817fb8df9fc7287bdc1431b5067c330a4935fac1f4cfd5fe73481"
+    },
+    {
+      "path": "results/score_table.csv",
+      "sha256": "ca162a199c07dda48cf2ae5b9fdec04e300129a93056cc11f4336d629cb95756"
+    },
+    {
+      "path": "results/slurm_accounting.txt",
+      "sha256": "2c0d216f70868de1373a1c27a2424b3e1ee1725546dbcd0a5a452c1bf2bc8869"
+    },
+    {
+      "path": "results/state_outcomes.json",
+      "sha256": "a78333532291e3dc1802a6dd1b9596607ec9bc21d277f5977c10aa26b082de15"
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "feb05a87818dbf6572abf944ffdb57a90cf897e858bc20efaee1b61654d3821f"
+    },
+    {
+      "path": "results/test-publication.txt",
+      "sha256": "140ca7b6735d71dd7988ffe65017972aacf982e8bbef39eeb363ecbb491f716f"
+    },
+    {
+      "path": "scripts/build_paper.sh",
+      "sha256": "74adfea5edff946380e5e447d1cea168f299f375a2c2493068fb5e35a9e4fe09"
+    },
+    {
+      "path": "scripts/build_paper_data.py",
+      "sha256": "f2b49eb6ee020817744ecc2be008462b810f3ed0fc083a9c76bdbd13c9de6dda"
+    },
+    {
+      "path": "scripts/classify_residuals.py",
+      "sha256": "684374cd20f0f0ce30fa2907a99f9f3521af2b6c710db5852a213af73e14193b"
+    },
+    {
+      "path": "scripts/controlled_sweep.py",
+      "sha256": "80a161ea950ae34098581537596a969743350f7aae7326df7917d764cc8684e6"
+    },
+    {
+      "path": "scripts/diagnose_candidates.py",
+      "sha256": "3e8cfa84c03c173bc290853809569b534a9cd6c443201b39a41af718ed5fa066"
+    },
+    {
+      "path": "scripts/fetch_public.py",
+      "sha256": "3e25284c11033706147728dadd25cc6254ad8bb236b96486f92ad2af683fe576"
+    },
+    {
+      "path": "scripts/fetch_sources.py",
+      "sha256": "3c3885ffa950e92f45c5a73225bf8379e4c3ec86d95ad16ea2ad2745c62d73e7"
+    },
+    {
+      "path": "scripts/finalize_replays.py",
+      "sha256": "1ed26440b4e1acf5d35dbb3d86da2d241d880a175fcb2451ad6a594b44818453"
+    },
+    {
+      "path": "scripts/fix_shared_gate.py",
+      "sha256": "7942a123be240af60ce90fb2ed613e63ea4289b529dd89d8e1a6a0aca561740f"
+    },
+    {
+      "path": "scripts/freeze_artifacts.py",
+      "sha256": "91eac8e4cb88d56896ea1f18af93dcd775962cd3e4b994ad5ee84fb963f98279"
+    },
+    {
+      "path": "scripts/inventory.py",
+      "sha256": "03d205997b7e35b0bf1ca47acd83ca3a0f98e477cb601921702f8134bf8f1e88"
+    },
+    {
+      "path": "scripts/rank_sensitivity.py",
+      "sha256": "1cf77180f3be9785f8b3b681d44ed600be7d1aa964ced0959e21688b3e3fe52c"
+    },
+    {
+      "path": "scripts/reconcile_scores.py",
+      "sha256": "e135b69074b8ddbdcddbd13ec9484b006316dca90a140115da92e8d391506d8d"
+    },
+    {
+      "path": "scripts/regrade_public.py",
+      "sha256": "ca5f57b9b4074310418b87871384c89e9067428c8e252f97fe1a3019299a37e5"
+    },
+    {
+      "path": "scripts/run_replays.py",
+      "sha256": "c7c2e50bcf0542869ca8c534404e32ec269ad59b0693b1ffa20ed57c2d9c7195"
+    },
+    {
+      "path": "scripts/state_outcomes.py",
+      "sha256": "db508dcf83fb5e6fabf7fde8782ce108759f4279adc2732af25285f67908739a"
+    },
+    {
+      "path": "scripts/summarize.py",
+      "sha256": "0db2e3e0aa6afa1005dc202bc53919bff4684e1f6fbe7a9bedba4d67a38f11c7"
+    },
+    {
+      "path": "scripts/verify_official.py",
+      "sha256": "51835582bc939a0eac04c796ac640b0294cf45aa28dc6b5458efc6c972f1556b"
+    },
+    {
+      "path": "tests/test_regrade.py",
+      "sha256": "fda9aeee6028f599f2ea707e6bd98d27f8eadd9f4c901f976d44245c8d953a96"
+    },
+    {
+      "path": "tests/test_state_outcomes.py",
+      "sha256": "6085c994b793e942c515bb9cc89781ceb3b8d6799b6b087097f6f5b946984e40"
+    }
+  ]
+}

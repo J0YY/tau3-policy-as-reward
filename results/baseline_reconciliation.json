@@ -1,0 +1,142 @@
+{
+  "ledger": [
+    {
+      "submission": "claude-fable-5_sierra_2026-08-04",
+      "model": "Claude Fable 5",
+      "published": 39.69072164948454,
+      "official_exclude_infra": 44.88636363636363,
+      "infra_as_failure_sensitivity": 38.659793814432994,
+      "infra_count": 53,
+      "denominator_alone_explains": false,
+      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+    },
+    {
+      "submission": "gemini-2-5-pro_sierra_2026-05-05",
+      "model": "Gemini 2.5 Pro",
+      "published": 13.66,
+      "official_exclude_infra": 13.831615120274913,
+      "infra_as_failure_sensitivity": 13.65979381443299,
+      "infra_count": 4,
+      "denominator_alone_explains": true,
+      "remaining_status": "denominator convention explains to rounding"
+    },
+    {
+      "submission": "gemini-3-1-pro-preview_sierra_2026-05-05",
+      "model": "Gemini 3.1 Pro Preview",
+      "published": 26.03,
+      "official_exclude_infra": 26.288659793814436,
+      "infra_as_failure_sensitivity": 26.288659793814436,
+      "infra_count": 2,
+      "denominator_alone_explains": false,
+      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+    },
+    {
+      "submission": "gpt-5-5_sierra_2026-05-05",
+      "model": "GPT-5.5",
+      "published": 44.58762886597938,
+      "official_exclude_infra": 44.501718213058425,
+      "infra_as_failure_sensitivity": 44.329896907216494,
+      "infra_count": 2,
+      "denominator_alone_explains": false,
+      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+    },
+    {
+      "submission": "gpt-5-6-sol_sierra_2026-08-04",
+      "model": "GPT-5.6-sol",
+      "published": 46.90721649484536,
+      "official_exclude_infra": 47.048611111111114,
+      "infra_as_failure_sensitivity": 42.52577319587629,
+      "infra_count": 41,
+      "denominator_alone_explains": false,
+      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+    },
+    {
+      "submission": "qwen3.5-397b-a17b-think_sierra_2026-03-02",
+      "model": "Qwen3.5-397B-A17B",
+      "published": 9.79,
+      "official_exclude_infra": 9.879725085910652,
+      "infra_as_failure_sensitivity": 9.793814432989691,
+      "infra_count": 57,
+      "denominator_alone_explains": true,
+      "remaining_status": "denominator convention explains to rounding"
+    }
+  ],
+  "cohorts": {
+    "published_reproduced": {
+      "submissions": 26,
+      "archive_simulations": 8552,
+      "tasks": {
+        "task_082": {
+          "scored": 88,
+          "termination_gated": 4,
+          "normal_completion": 84,
+          "r0": 0,
+          "predicates": 30,
+          "r2": 0
+        },
+        "task_083": {
+          "scored": 88,
+          "termination_gated": 3,
+          "normal_completion": 85,
+          "r0": 0,
+          "predicates": 0,
+          "r2": 0
+        },
+        "task_084": {
+          "scored": 88,
+          "termination_gated": 4,
+          "normal_completion": 84,
+          "r0": 0,
+          "predicates": 8,
+          "r2": 0
+        },
+        "task_086": {
+          "scored": 88,
+          "termination_gated": 5,
+          "normal_completion": 83,
+          "r0": 0,
+          "predicates": 5,
+          "r2": 0
+        }
+      }
+    },
+    "all_replayed": {
+      "submissions": 32,
+      "archive_simulations": 10880,
+      "tasks": {
+        "task_082": {
+          "scored": 111,
+          "termination_gated": 7,
+          "normal_completion": 104,
+          "r0": 0,
+          "predicates": 37,
+          "r2": 0
+        },
+        "task_083": {
+          "scored": 111,
+          "termination_gated": 6,
+          "normal_completion": 105,
+          "r0": 0,
+          "predicates": 0,
+          "r2": 0
+        },
+        "task_084": {
+          "scored": 111,
+          "termination_gated": 7,
+          "normal_completion": 104,
+          "r0": 0,
+          "predicates": 8,
+          "r2": 0
+        },
+        "task_086": {
+          "scored": 111,
+          "termination_gated": 8,
+          "normal_completion": 103,
+          "r0": 0,
+          "predicates": 5,
+          "r2": 0
+        }
+      }
+    }
+  }
+}

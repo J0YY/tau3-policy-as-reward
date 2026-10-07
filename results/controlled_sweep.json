@@ -1,0 +1,1061 @@
+{
+  "host": "cnode404",
+  "slurm_job": "420809",
+  "seconds": 9.032836437225342,
+  "rows": [
+    {
+      "task": "task_082",
+      "variant": "original",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "pin_yes_shared",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "pin_yes_observed",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "pin_no",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "pin_unknown",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "neutral_numeric_format",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_082",
+      "variant": "unrelated_police_flag",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_b17aa1648835:exists": true,
+          "btxn_b17aa1648835:not_voluntary_sharing": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "original",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_-1_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_-1_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_0_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_0_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_1_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_1_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_25_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_25_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_49.99_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_49.99_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_50_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_50_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_50.01_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_50.01_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_100_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_100_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_412.88_extra_False",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_412.88_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_500_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "liability_500_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "neutral_numeric_format",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_084",
+      "variant": "unrelated_police_flag",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_c2g7f43h6g89:exists": true,
+          "btxn_c2g7f43h6g89:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "original",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_-1_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_-1_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_0_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_0_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_1_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_1_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_25_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_25_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_49.99_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_49.99_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_50_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_50_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": true,
+        "retained_state_pass": true,
+        "pass": true,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": true,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_50.01_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_50.01_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_100_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_100_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_412.88_extra_False",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_412.88_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_500_extra_False",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "liability_500_extra_True",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": true,
+          "extra:identity_amount_dates": true,
+          "extra:fraud": true,
+          "extra:type": true,
+          "extra:liability": true,
+          "extra:pin": true,
+          "extra:credit_consistent": true,
+          "extra:boolean_fields": true,
+          "extra:card_action": true,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "neutral_numeric_format",
+      "r0": 1.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": true,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": true
+        }
+      },
+      "error_count": 0
+    },
+    {
+      "task": "task_086",
+      "variant": "unrelated_police_flag",
+      "r0": 0.0,
+      "r2": {
+        "predicate_pass": false,
+        "retained_state_pass": false,
+        "pass": false,
+        "checks": {
+          "btxn_5690acdd3de5:exists": true,
+          "btxn_5690acdd3de5:liability_0_50": false,
+          "extra:exists": false,
+          "unaffected_state_equal": false
+        }
+      },
+      "error_count": 0
+    }
+  ]
+}
