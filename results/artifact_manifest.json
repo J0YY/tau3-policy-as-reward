@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-07T19:32:45.196429+00:00",
+  "generated_utc": "2026-10-07T19:56:10.193959+00:00",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -271,15 +271,15 @@
     },
     {
       "path": "paper/main.pdf",
-      "sha256": "297b9f4e9bf9cbee6a70467f79365544324d45b182911a35ce4cab624c5ccfc6"
+      "sha256": "f2886f9b962992a037cedb6993a28a15035281e9a83a8b9146ac4da70c104095"
     },
     {
       "path": "paper/main.tex",
-      "sha256": "58a9689383701f1f86b63b82c2fbdf129ef32ac7690df20e02696d27533bcd83"
+      "sha256": "26c2d933e23caac38b58d6b185be7269d7e4e03e36a6e169e04d98d1158b8156"
     },
     {
       "path": "paper/references.bib",
-      "sha256": "b223632fe3536d7af06d9d3dc0575476648e9a7afcb025752f8d140a0cfede69"
+      "sha256": "63d0186115db15573e610ef4c7624ec4bfebaf502ad0ec4c797de63bfa41f36b"
     },
     {
       "path": "pyproject.toml",
@@ -300,6 +300,14 @@
     {
       "path": "results/candidate_diagnostics.json",
       "sha256": "839d195e1de7ef5e7654735ff7b88c8dfb7cd802a160f8c3a3aba9aa3f3684d0"
+    },
+    {
+      "path": "results/citation_audit.json",
+      "sha256": "24d2d2fec78671882ec2cc02da50142f86b011cd137222f92df7f38302196377"
+    },
+    {
+      "path": "results/citation_audit.txt",
+      "sha256": "59ee280163cdce523bb0b2f9058df7f89f6bf254cefa72f8133416aa7c949e14"
     },
     {
       "path": "results/controlled_sweep.json",
