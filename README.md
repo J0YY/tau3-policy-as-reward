@@ -1,6 +1,6 @@
 # τ³-Banking: policy as reward
 
-Replication materials for **When a Banking Benchmark Rewards the Wrong Rule**.
+Replication materials for **When a Banking Benchmark Penalizes Filing a Fraud Claim**.
 
 [Read the paper](paper/main.pdf) · [Editable LaTeX](paper/main.tex) · [Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
 

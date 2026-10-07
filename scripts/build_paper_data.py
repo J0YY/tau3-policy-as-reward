@@ -94,7 +94,7 @@ def main():
     ]
     infra = sum(r["status"] == "excluded_infrastructure" for r in rows)
     (OUT / "coverage.tex").write_text(
-        f"We replay {d['total_simulations']:,} public runs from {len(subs)} submissions and reproduce {matches} published scores. We follow the benchmark's convention of excluding {infra} infrastructure failures. Every remaining run has a resolved replay result. We use all accessible submissions for the main record analysis and check the reproduced-score subset separately.\n"
+        f"We replay {d['total_simulations']:,} public runs from {len(subs)} submissions and reproduce {matches} published scores. We follow the benchmark's convention of excluding {infra} infrastructure failures. The replay returns a result for every remaining run. We use all accessible submissions for the main record analysis and check the reproduced-score subset separately.\n"
     )
     c = s["counts"]
     a = c["task_084"]
@@ -117,7 +117,7 @@ def main():
         details.append(name + " & " + " & ".join(values) + r"\\")
     details += [
         r"\bottomrule\end{tabular}\caption{How much liability agents assign to the TechWorld fraud claim in each capped-claim scenario. Every row sums to 111 runs. Missing means the agent leaves no matching dispute record.}\end{table}",
-        r"In the lost-wallet scenario, agents choose \code{yes\_shared} in 54 runs, \code{yes\_observed} in 32, and \code{unknown} in five. Twenty runs leave no record. The latter two recorded categories account for the 37 runs that avoid voluntary sharing.",
+        r"In the lost-wallet scenario, agents choose \code{yes\_shared} in 54 runs, \code{yes\_observed} in 32, and \code{unknown} in five. Twenty runs leave no record. The observed and unknown categories account for the 37 runs that avoid voluntary sharing.",
     ]
     (OUT / "outcome_details.tex").write_text("\n".join(details) + "\n")
     fig, axs = plt.subplots(
@@ -191,7 +191,7 @@ def main():
         )
     lines += [
         r"\bottomrule\end{tabular}",
-        r"\caption{How each recorded decision relates to performance on 81 other banking tasks. Positive correlations mean higher-scoring submissions record the outcome more often. Negative correlations mean they do so less often. Each submission contributes one rate, using all its scored attempts. The 95\% intervals resample the nine model families and refer to ordinary Spearman correlation.}\label{tab:capability}\end{table}",
+        r"\caption{How each recorded decision relates to performance on 81 other banking tasks. Positive correlations mean higher-scoring submissions record the outcome more often. Negative correlations mean they do so less often. Each submission contributes one rate, using all its scored attempts. We obtain the 95\% intervals by resampling the nine model families. They describe ordinary Spearman correlation.}\label{tab:capability}\end{table}",
     ]
     v = s["associations"]
     l1 = v["extra084"]["raw_spearman_leave_one_family_out_range"]
@@ -209,7 +209,7 @@ def main():
     restricted_lines = [
         r"\subsection{Trial-count sensitivity}\label{sec:trial-sensitivity}",
         robustness,
-        r"We repeat the comparison using only submissions with at least three scored attempts at each main scenario. This leaves 27 submissions and 106 trials per scenario. All five excluded submissions use voice with all tools exposed. The restriction therefore changes the evaluation setup as well as trial count. We keep the same 81 comparison tasks and give each submission equal weight. Both claim-filing correlations become more negative, while the lower-liability correlations stay positive.",
+        r"We repeat the comparison using only submissions with at least three scored attempts at each main scenario. This leaves 27 submissions and 106 trials per scenario. All five submissions we exclude use voice and give the agent access to every tool. The restriction therefore changes the evaluation setup as well as trial count. We keep the same 81 comparison tasks and give each submission equal weight. Both claim-filing correlations become more negative, while the lower-liability correlations stay positive.",
         r"\begin{table}[!htbp]\centering\small",
         r"\begin{tabular}{p{.39\linewidth}rrr}\toprule Recorded outcome & Spearman $\rho$ & Family-centered & Family bootstrap \\",
         r" & & rank correlation & interval for $\rho$ \\\midrule",
@@ -217,7 +217,7 @@ def main():
     for metric,name in names.items():
         v=restricted['associations'][metric]; lo,hi=v['raw_spearman_family_bootstrap_95_percentile']
         restricted_lines.append(f"{name} & {v['spearman']:.2f} & {v['family_centered_rank_correlation']:.2f} & [{lo:.2f}, {hi:.2f}] " + r"\\")
-    restricted_lines += [r"\bottomrule\end{tabular}\caption{The pattern persists among submissions with at least three attempts per main scenario. Intervals resample model families.}\label{tab:restricted}\end{table}"]
+    restricted_lines += [r"\bottomrule\end{tabular}\caption{The pattern persists among submissions with at least three attempts per main scenario. We resample model families to obtain the intervals.}\label{tab:restricted}\end{table}"]
     (OUT/'restricted_results.tex').write_text('\n'.join(restricted_lines)+'\n')
     families = sorted({x["family"] for x in s["submissions"]})
     colors = dict(zip(families, plt.cm.tab10.colors))
