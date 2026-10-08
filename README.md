@@ -1,10 +1,10 @@
 # τ³-Banking: policy as reward
 
-Replication materials for **Do AI-Agent Benchmarks Favor Firms over Consumers?**.
+Replication materials for **Legal Errors in a Banking Benchmark Before They Change the Rankings**.
 
 [Read the paper](paper/main.pdf) · [Editable LaTeX](paper/main.tex) · [Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
 
-The audit compares selected banking policies with Regulation E, tests controlled changes to reference trajectories, and replays 10,880 public simulations from 32 submissions. It reproduces 26 published scores. Tasks 082, 084, and 086 have no passing runs under either original or primary alternative grading, so current rankings are unchanged. Controlled replays show a conditional scoring penalty when the rest of the reference workflow succeeds. Recorded outcomes vary beneath those shared zeros.
+The audit screens all 698 bank documents for explicit Regulation E citations and reviews the full contents of the four matching documents. Its ledger covers restrictive rules, additional customer protections, consistent provisions, and unclear statements. It also tests controlled changes in three selected scenarios and replays 10,880 public simulations from 32 submissions. It reproduces 26 published scores. Tasks 082, 084, and 086 have no passing runs under either original or primary alternative grading, so current rankings are unchanged. Controlled replays show a conditional scoring penalty when the rest of the reference workflow succeeds. Recorded outcomes vary beneath those shared zeros.
 
 Legal interpretation is source-grounded and model-assisted, with explicit coverage and timing assumptions. State outcomes are descriptive; the capability comparisons are exploratory associations. No human coding agreement, external legal endorsement, or consumer-harm finding is claimed.
 
@@ -156,7 +156,7 @@ Original, primary alternative, and accept-either scores coincide for every submi
 
 The main state cohort has 111 scored trials on each of tasks 082, 084, and 086. The reproduced-score subset has 88. Capability analysis uses 81 common unaffected tasks, unconditional state-outcome rates, equal submission weighting, and explicitly described model-family sensitivities. Family-bootstrap intervals concern composition sensitivity, not a causal effect. `results/restricted_correlations.json` repeats the analysis on 27 submissions with at least three trials. The five excluded submissions all use voice with all tools exposed, so this restriction changes cohort composition as well as trial precision. `results/trajectory_checks.json` records completed dispute-history reads, their timing relative to filing, final open-dispute counts, and the task-086 date/liability cross-tabulation; regenerating it requires the downloaded archives.
 
-Six baseline discrepancies are preserved in `results/baseline_reconciliation.json`: two reconcile numerically under an infrastructure-denominator sensitivity, and four remain unresolved. The main alternative adds no complete-task passes. Fifty runs meet the targeted component predicates but differ elsewhere; the residual ledger identifies those fields without assuming every difference is an independent error.
+Six baseline discrepancies are preserved in `results/baseline_reconciliation.json`: two reconcile numerically under an infrastructure-denominator sensitivity, and four receive a separate source investigation in `results/score_gap_investigation.json`. The main alternative adds no complete-task passes. Fifty runs meet the targeted component predicates but differ elsewhere; the residual ledger identifies those fields without assuming every difference is an independent error.
 
 ## Cluster execution
 
@@ -175,3 +175,19 @@ The array reads `cluster/submissions.txt`; check that its entries downloaded suc
 Issue [592](https://github.com/sierra-research/tau2-bench/issues/592) predates this audit and established the task-086 specification inconsistency and its 110-trial zero-pass result. The paper credits those findings and the related flagged tasks. Our follow-up provides external-law comparisons, omitted-claim/PIN analysis, controlled grader checks, and re-grading.
 
 `results/artifact_manifest.json` hashes the published source and results. Regenerate it with `python3 scripts/freeze_artifacts.py` after changing outputs. Third-party source attribution is in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Extended policy and metadata audit
+
+The post hoc extension on 8 October 2026 separates the complete explicit-citation document sweep from the three selected grading experiments. `coding/reg_e_clause_review.json` contains the assessments and coding rule. `coding/reg_e_clause_ledger.csv` adds exact source text and legal pinpoints. `results/reg_e_clause_audit.json` records the 698-document screen, hashes, line coverage, and counts. The 51 review units include 41 legal comparisons and ten operational or introductory blocks. Counts describe occurrences rather than independent violations or net bias.
+
+Rebuild the sweep with the pinned benchmark checkout present. Rebuild the score-gap investigation after downloading the five relevant archives. The optional upstream check runs locally without new model inference.
+
+```bash
+.venv/bin/python -m scripts.audit_reg_e_clauses
+.venv/bin/python -m scripts.investigate_score_gaps --fetch-history --verify-official
+.venv/bin/python -m pytest tests/test_score_gap_investigation.py -q
+```
+
+`--trajectories PATH` selects an existing archive directory. The score investigation treats possible outcomes for missing infrastructure attempts only as compatibility checks. Its matching witness is hypothetical and never enters the score table or correlation analysis. Fable 5 and Opus 4.8 share a published pass rate, but that discrete tie does not establish copying.
+
+The Gemini 3.1 Pro Preview gap is numerically reconciled by restoring the documented earlier $8 task-074 refund reference instead of $14.50. The official evaluator then reproduces all four published metrics at reported precision, with infrastructure failures counted as zero. The public history records the same one-trial correction. This identifies the matching grading state without establishing publication-pipeline timing. For Fable 5, GPT-5.5, and GPT-5.6-sol, replay matches all stored rewards, but the cause of the archive/metadata gap remains unconfirmed.

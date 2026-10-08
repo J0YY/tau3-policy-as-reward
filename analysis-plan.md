@@ -68,3 +68,16 @@ The manuscript now states the computational scope directly. Legal predicates
 remain motivated alternatives, without claims of expert certification. The
 primary R4 null, selection limits, and all numerical results are unchanged.
 Human coding packets are optional legacy preparation artifacts, not blockers.
+
+## Post hoc extension — 8 October 2026
+
+In response to review, screen all 698 document titles and bodies for explicit
+Regulation E, Reg E, and 1005 section references. Review every substantive
+line in each matching document, including consistent and customer-benefiting
+clauses, under the documented precedence rule. Publish exact text, source
+hashes, legal pinpoints, dispositions, and a line-coverage check. This is a
+post hoc expansion, not a preregistered or independently coded legal audit.
+Keep the three existing mechanism cases and alternative grading predicates
+fixed. Investigate the four outstanding score gaps against archived rewards,
+metadata histories, and the pinned upstream evaluator. Treat possible missing
+trial completions as mathematical diagnostics, never as observed scores.

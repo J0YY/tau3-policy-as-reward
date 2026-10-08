@@ -8,7 +8,8 @@
       "infra_as_failure_sensitivity": 38.659793814432994,
       "infra_count": 53,
       "denominator_alone_explains": false,
-      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+      "remaining_status": "Replay matches every stored reward; missing-trial completions fit published vector, but cause of archive/metadata difference is unconfirmed",
+      "followup_evidence": "results/score_gap_investigation.json"
     },
     {
       "submission": "gemini-2-5-pro_sierra_2026-05-05",
@@ -28,7 +29,8 @@
       "infra_as_failure_sensitivity": 26.288659793814436,
       "infra_count": 2,
       "denominator_alone_explains": false,
-      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+      "remaining_status": "Published vector reproduced by earlier task_074 ATM reference and infrastructure-as-failure convention; publication timing unverified",
+      "followup_evidence": "results/score_gap_investigation.json"
     },
     {
       "submission": "gpt-5-5_sierra_2026-05-05",
@@ -38,7 +40,8 @@
       "infra_as_failure_sensitivity": 44.329896907216494,
       "infra_count": 2,
       "denominator_alone_explains": false,
-      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+      "remaining_status": "Replay matches every stored reward; missing-trial completions fit published vector, but cause of archive/metadata difference is unconfirmed",
+      "followup_evidence": "results/score_gap_investigation.json"
     },
     {
       "submission": "gpt-5-6-sol_sierra_2026-08-04",
@@ -48,7 +51,8 @@
       "infra_as_failure_sensitivity": 42.52577319587629,
       "infra_count": 41,
       "denominator_alone_explains": false,
-      "remaining_status": "unresolved archive/metadata discrepancy; not assigned a cause"
+      "remaining_status": "Replay matches every stored reward; missing-trial completions fit published vector, but cause of archive/metadata difference is unconfirmed",
+      "followup_evidence": "results/score_gap_investigation.json"
     },
     {
       "submission": "qwen3.5-397b-a17b-think_sierra_2026-03-02",

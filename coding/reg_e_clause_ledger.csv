@@ -1,0 +1,251 @@
+id,document,title,direction,legal_pinpoint,assessment,source_text,source_url
+C01,bank_031,Instruction to follow Regulation E,context,1005.11,Introduces the governing rule and the liability instructions assessed separately below.,"When a customer needs to file a dispute for a debit card transaction (unauthorized charges, ATM errors, merchant issues, or incorrect amounts), the agent must gather comprehensive information and follow Regulation E requirements. Before proceeding, inform the customer of their liability exposure based on when they noticed the unauthorized activity:",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C02,bank_031,Two-day clock starts at statement,uncertain,1005.6(b)(1)-(2),The text incorrectly starts the two-business-day clock at the statement rather than learning of device loss or theft. It can move a prompt reporter into a higher tier or extend the lower tier after earlier discovery. We record the definite clock error as directionally unclear.,- Reported within 2 business days of statement: Maximum liability $50,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C03,bank_031,Flat $500 tier within 60 days,restrictive,1005.6(b)(2)-(3),"The $500 ceiling depends on delayed notice after learning of device loss, the timing of later transfers, and the bank establishing preventability. Statement age alone does not establish $500 liability.",- Reported within 60 days of statement: Maximum liability $500,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C04,bank_031,Unlimited liability after 60 days,restrictive,1005.6(b)(3),"The statement-notice rule concerns subsequent preventable transfers after the 60-day period, not automatic unlimited liability for the original transfer.",- Reported after 60 days: Unlimited liability - customer may not recover funds,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C05,bank_031,Dispute earliest duplicate,uncertain,"1005.11(a)(1)(ii),(c)(1)","The bank may use one filing to represent a duplicate-charge error. Without knowing what one filing covers, transaction selection alone does not establish weaker protection.",Dispute the earliest (first) transaction when multiple duplicates exist.,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C06,bank_031,Verify customer,operational,1005.11(b)(1)(ii),Identifying the consumer and account is legitimate. The clause alone specifies no unlawful evidentiary barrier.,1. Customer must be verified,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C07,bank_031,Minimum disputed amount of $1,restrictive,"1005.11(a)(1),(b)(1)",The error-resolution duty has no $1 minimum for a covered error after qualifying notice.,2. Transaction must be at least $1.00,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C08,bank_031,Transaction-age deadline,restrictive,1005.11(b)(1)(i),"The notice period runs from sending the statement that first shows the error, rather than from the transaction date.",3. Transaction must be within 60 days old,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C09,bank_031,Open-dispute cap by account tier,restrictive,1005.11(b)-(c),The investigation duty for a properly reported covered error does not depend on the number of other disputes.,"4. Customer cannot exceed the maximum open disputes for their checking account tier: Entry Tier max 2, Mid Tier max 3, Premium Tier max 4, Elite Tier max 5. Dispute limits are per account, not per customer.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C10,bank_031,Open account required to file,restrictive,Comment 11(a)-4,The bank must handle a properly asserted error even after the account closes.,5. The debit card must be linked to an OPEN checking account,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C11,bank_031,Identify ATM operator,operational,1005.11(c)(4),Routing an investigation by ATM operator is not itself a denial of an error-resolution right.,"6. For ATM disputes, determine if it was a Rho-Bank ATM or third-party ATM (different processes apply)",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C12,bank_031,Tool identifiers and classification fields,operational,1005.2(m); 1005.11(b)(1),These fields describe the interface and its taxonomy. The labels do not themselves establish authorization. We test the lost-wallet reference classification separately.,"1. **transaction_id** (string) - ID of the transaction being disputed. Use get_bank_account_transactions_9173 to find it.
+
+2. **account_id** (string) - The checking account ID linked to the debit card.
+
+3. **card_id** (string) - The debit card ID. 
+
+4. **user_id** (string) - The customer's Rho-Bank user ID.
+
+5. **dispute_category** (string) - Must be exactly one of:
+   - 'unauthorized_transaction': Transaction customer did not make or authorize (use only when fraud is NOT suspected)
+   - 'atm_cash_discrepancy': ATM dispensed wrong amount or no cash
+   - 'atm_deposit_not_credited': ATM deposit not reflected in account
+   - 'duplicate_charge': Same transaction charged multiple times
+   - 'incorrect_amount': Charged different amount than expected
+   - 'goods_services_not_received': Paid but never received item/service
+   - 'recurring_charge_after_cancellation': Subscription cancelled but still charging
+   - 'card_present_fraud': Physical card used fraudulently (not by customer) - USE THIS when fraud suspected and card was physically present
+   - 'card_not_present_fraud': Online/phone transaction customer didn't make - USE THIS when fraud suspected for online/phone transactions
+
+ When a transaction is unauthorized, determine if fraud is suspected. If YES, use 'card_present_fraud' (for in-store/physical transactions) or 'card_not_present_fraud' (for online/phone transactions). Only use 'unauthorized_transaction' when fraud is NOT suspected (e.g., family member used card without permission, customer forgot about a transaction, etc.).
+
+6. **transaction_date** (string, MM/DD/YYYY) - Date the disputed transaction occurred.
+
+7. **discovery_date** (string, MM/DD/YYYY) - Date customer first noticed the issue.
+
+8. **disputed_amount** (float) - The dollar amount being disputed.
+
+9. **transaction_type** (string) - Determine from user circumstances. Must be exactly one of:
+   - 'pin_purchase': In-store purchase with PIN
+   - 'signature_purchase': In-store purchase with signature
+   - 'online_purchase': Online or card-not-present transaction
+   - 'atm_withdrawal': ATM cash withdrawal
+   - 'atm_deposit': ATM deposit
+   - 'recurring_payment': Subscription or automatic payment
+   - 'person_to_person': P2P transfer (EveryonePay, etc.)
+
+10. **card_in_possession** (boolean) - Ask: ""Do you still have your physical debit card in your possession?"" This affects fraud classification.
+
+11. **pin_compromised** (string) - Ask: ""Do you believe your PIN may have been compromised?"" Must be exactly one of:
+    - 'yes_shared': Customer shared PIN with someone
+    - 'yes_observed': Customer believes PIN was observed/skimmed
+    - 'no': PIN not compromised
+    - 'unknown': Customer unsure",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C13,bank_031,Merchant-contact field for non-fraud claims,uncertain,1005.11(b)-(c),The wording can mean an obligatory question or prior merchant contact. Asking is permissible. Making investigation depend on the answer would restrict rights. Document 032 states the credit exclusion expressly.,"12. **contacted_merchant** (boolean) - Ask: ""Have you attempted to resolve this directly with the merchant?"" Required for non-fraud disputes.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C14,bank_031,Recommend a police report,operational,Comment 11(b)(1)-2; CFPB EFT FAQ Error Resolution 4,This clause recommends a report and does not expressly make it a condition of investigation. The separate customer-facing document 036 uses stronger language.,"13. **police_report_filed** (boolean) - For fraud disputes over $500, ask if customer has filed a police report. If not, recommend they do so.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C15,bank_031,Written statement and consent to use conversation,uncertain,"1005.11(b)(2),(c)(2)(i)(A)","A bank may request written confirmation, but the rule requires notice of the requirement and time to respond. Accepting the conversation reduces burden. The blanket eligibility wording omits the timing conditions, so we do not assign one direction.","14. **written_statement_provided** (boolean) - Whether the customer has provided a written statement describing what happened. Required for Reg E provisional credit eligibility. Ask the customer: ""Are you willing to provide a written statement describing what happened? We can use this conversation as your written statement if you agree."" Set to true if the customer agrees.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C16,bank_031,Credit cross-reference and card actions,operational,1005.11,"The credit cross-reference points to document 032, whose rules we assess separately. Card freezing, replacement, and action precedence are security procedures without an independent legal threshold here.","15. **provisional_credit_eligible** (boolean) - Agent must determine based on Debit Card Provisional Credit Guidelines.
+
+16. **card_action** (string) - Determine based on dispute category using the mapping below. Must be exactly one of:
+    - 'keep_active': Keep card active
+    - 'freeze_pending_investigation': Temporarily freeze card during investigation
+    - 'close_and_reissue': Close card and issue replacement
+
+**Note:** This parameter records metadata only; the agent must separately perform the indicated card action after filing the dispute.
+
+**Card Action Mapping by Dispute Category:**
+- 'card_present_fraud' → 'close_and_reissue'
+- 'card_not_present_fraud' → 'close_and_reissue'
+- 'unauthorized_transaction' → 'freeze_pending_investigation'
+- 'atm_cash_discrepancy' → 'keep_active'
+- 'atm_deposit_not_credited' → 'keep_active'
+- 'duplicate_charge' → 'keep_active'
+- 'incorrect_amount' → 'keep_active'
+- 'goods_services_not_received' → 'keep_active'
+- 'recurring_charge_after_cancellation' → 'keep_active'
+
+**Multiple Disputes on Same Card:** When filing multiple disputes for the same card, record each dispute's card_action based on its own category mapping (do NOT change individual dispute parameters). However, when performing the actual card action after filing all disputes, use the MOST SEVERE action across all disputes. Severity order (highest to lowest): 'close_and_reissue' > 'freeze_pending_investigation' > 'keep_active'. For example, if Dispute A maps to 'keep_active' and Dispute B maps to 'freeze_pending_investigation', record 'keep_active' for Dispute A and 'freeze_pending_investigation' for Dispute B, but then call freeze_debit_card_3892 (the most severe action) once for the card.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_031.json
+C17,bank_032,Conditional provisional-credit duty,aligned,1005.11(c)(2),"The law requires temporary credit when the bank uses the extended investigation period, subject to exceptions.","Under Regulation E, Rho-Bank is REQUIRED to provide provisional credit for debit card disputes under certain conditions. ",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C18,bank_032,Standard credit deadline,aligned,1005.11(c)(2)(i),"Ten business days is the standard deadline. We read this line with the conditions introduced in the document, rather than as a promise of credit after an already completed investigation.",- Standard accounts: Must issue within 10 business days of dispute filing,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C19,bank_032,New-account credit deadline,uncertain,1005.11(c)(3)(i),"Twenty business days can apply, but the legal trigger is a transfer within 30 days after the first deposit. The guide substitutes an account-opening age without specifying when to measure it. Depending on interpretation it can shorten the available period. We leave the direction unclear because the relevant measurement date is unstated.",- New accounts (open less than 30 days): Must issue within 20 business days,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C20,bank_032,Statement-based reporting window,uncertain,"1005.11(b)(1)(i),(b)(3)",The clause uses the statement date. The law uses transmittal of the first statement showing the error and has a documentation-request extension. Direction depends on which date the bank stores.,1. **Timely Reporting**: Customer reported the unauthorized transaction within 60 days of the statement date showing the transaction,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C21,bank_032,Listed eligible error categories,aligned,"1005.11(a)(1),(c)(2)",These categories can qualify. This unit records the affirmative inclusions. We assess omissions and categorical exclusions separately.,"2. **Dispute Category**: The dispute is for one of these categories:
+   - 'unauthorized_transaction'
+   - 'card_present_fraud'
+   - 'card_not_present_fraud'
+   - 'atm_cash_discrepancy'
+   - 'duplicate_charge'",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C22,bank_032,Written confirmation prerequisite,uncertain,"1005.11(b)(2),(c)(2)(i)(A)","A failure to supply requested confirmation within ten business days can excuse temporary credit. The clause omits the request, notice, and waiting-period predicates.",3. **Written Statement**: Customer has provided a written statement describing the unauthorized transaction,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C23,bank_032,Open account without holds required for credit,restrictive,Comment 11(a)-4; 1005.11(c)(2),Closed status or a hold is not a categorical exception to the error-resolution or conditional temporary-credit duty.,4. **Account Standing**: The checking account is in OPEN status with no holds or restrictions,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C24,bank_032,Goods or services not received,aligned,1005.11(a)(1),"A merchant-performance complaint alone need not allege an electronic-transfer error. The exclusion is consistent only on that narrow reading, not when the customer also alleges a covered error.",   - 'goods_services_not_received',https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C25,bank_032,Recurring charge after cancellation excluded,restrictive,1005.10(c); 1005.11(a)(1)(i)-(ii),A post-cancellation charge can involve an unauthorized or incorrect transfer. Its category alone cannot eliminate the conditional credit duty.,   - 'recurring_charge_after_cancellation',https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C26,bank_032,ATM deposits and incorrect amounts excluded,restrictive,"1005.11(a)(1)(ii)-(iv),(c)(2)",Both categories can contain covered errors. The categorical exclusion removes the conditional credit duty.,"   - 'atm_deposit_not_credited'
+   - 'incorrect_amount'",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C27,bank_032,Merchant contact required for credit,restrictive,1005.11(c)(2),Prior merchant contact is not one of the exceptions to the conditional temporary-credit duty for covered errors.,2. Customer has not contacted merchant first (for non-fraud disputes),https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C28,bank_032,Shared PIN removes credit requirement,restrictive,1005.2(m); Comment 2(m)-2; 1005.11(c)(2),Sharing a PIN does not by itself resolve authority for the disputed transfer. This categorical exclusion is broader than the rule for a person whom the consumer actually authorizes.,3. Customer shared their PIN voluntarily (pin_compromised = 'yes_shared'),https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C29,bank_032,New-account online claims excluded,restrictive,1005.11(c)(3),New accounts can receive longer deadlines. Combining a new account with a card-not-present transaction does not create a blanket credit exemption.,4. Account is less than 30 days old AND the dispute is for a card-not-present transaction,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C30,bank_032,Full amount of temporary credit,uncertain,1005.11(c)(2)(i),The rule generally requires the alleged error amount plus interest where applicable. The text omits interest and introduces offsets in the next line. Its comparison with credit-card policy is outside this Regulation E audit.,"Unlike credit cards which have tiered maximum amounts, debit card provisional credit is for the FULL disputed amount, subject to:
+- Maximum: The full transaction amount",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C31,bank_032,Deduct $50 or $500 from temporary credit,restrictive,1005.11(c)(2)(i),"The provision permits withholding at most $50, with specified predicates. A $500 liability offset exceeds that allowance even when ultimate liability might reach $500.","- Liability offset: If customer reported late, reduce by their liability amount ($50 or $500)",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C32,bank_032,45 business days to investigate,restrictive,1005.11(c)(2); Comment 11(c)-5,The ordinary extended period is 45 calendar days. Business days give the bank longer.,"When provisional credit is issued, the bank has 45 business days to complete the investigation (extended from 10 days). For international transactions, POS transactions at merchants outside the US, or new accounts, the timeline extends to 90 days.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C33,bank_032,90-day extensions omit domestic POS,generous,1005.11(c)(3)(ii),"The policy lists foreign transactions, foreign merchant POS, and new accounts, leaving domestic POS under its shorter default. The law also permits 90 days for domestic POS. This benefit concerns that omitted extension, not the separate business-day error.","When provisional credit is issued, the bank has 45 business days to complete the investigation (extended from 10 days). For international transactions, POS transactions at merchants outside the US, or new accounts, the timeline extends to 90 days.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C34,bank_032,Reverse credit when no error found,aligned,1005.11(d)(1)-(2),The law allows a reversal after the required investigation and notices. This clause alone does not supply the omitted post-reversal payment protection.,"If the investigation determines the transaction was authorized or the claim is invalid:
+1. Provisional credit will be reversed",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C35,bank_032,Three-business-day advance notice of reversal,generous,1005.11(d)(2); Comment 11(d)(2)-1,"The ordinary rule allows notice upon debiting and protects specified payments for five business days. The bank promises earlier warning. That promise does not replace the separate five-day protection, which the document omits.",2. Customer will be notified in writing at least 3 business days before reversal,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C36,bank_032,Access to supporting documents,aligned,1005.11(d)(1),After an adverse finding the customer may request the documents on which the bank relied.,3. Customer has the right to request documentation supporting the finding,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_032.json
+C37,bank_037,Electronic-transfer coverage,aligned,1005.3(a)-(b); 1005.2(b),The listed transfer types can fall within Regulation E for covered consumer accounts. General coverage still has statutory exceptions.,"Regulation E is a federal regulation implemented by the Consumer Financial Protection Bureau (CFPB) that governs electronic fund transfers (EFTs) and provides important consumer protections for debit card transactions. As a Rho-Bank customer, understanding these protections can help you know your rights when issues arise with your debit card.
+
+## What Regulation E Covers
+
+Regulation E applies to electronic fund transfers including:
+- Debit card purchases (both PIN and signature transactions)
+- ATM withdrawals and deposits
+- Direct deposits
+- Automatic bill payments
+- Person-to-person (P2P) transfers
+- Recurring electronic payments",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C38,bank_037,Liability tiers without clock anchors,uncertain,1005.6(b)(1)-(3),The summary gives three amounts but omits the distinct discovery and statement clocks. It cannot determine liability without facts and conditions not stated here.,"If someone uses your debit card without permission, your liability is limited based on how quickly you report it:
+- **Within 2 business days**: Maximum $50 liability
+- **Within 60 days**: Maximum $500 liability
+- **After 60 days**: You may be liable for the full amount",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C39,bank_037,Right to dispute listed errors,aligned,1005.11(a)(1),"The listed unauthorized transfers, incorrect amounts, omissions, and bookkeeping errors correspond to covered types, assuming an electronic transfer and qualifying notice.","You have the right to dispute any error on your account, including:
+- Unauthorized transactions
+- Incorrect transaction amounts
+- Missing deposits or transfers
+- Computational errors
+- Transactions that weren't completed as instructed",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C40,bank_037,Prompt investigation,aligned,1005.11(c)(1)-(3),"The ordinary investigation deadline is ten business days, with the stated statutory extensions available.","When you report an error, Rho-Bank must:
+- Investigate promptly (typically within 10 business days)",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C41,bank_037,Report results within three business days,aligned,1005.11(c)(1),The deadline matches the rule after completing the investigation.,- Report results to you within 3 business days of completing the investigation,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C42,bank_037,Correct error within one business day,aligned,1005.11(c)(1),The deadline matches the rule after determining that an error occurred.,- Correct any confirmed errors within 1 business day of determination,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C43,bank_037,Credit during an extended investigation,aligned,1005.11(c)(2),This accurately states the ordinary ten-business-day procedure for qualifying disputes. The new-account extension appears in document 032.,"For qualifying disputes, Rho-Bank must provide provisional (temporary) credit within 10 business days if the investigation takes longer than 10 business days. This ensures you're not left without access to your funds during the investigation.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C44,bank_037,Written confirmation of every resolution,generous,Comment 11(c)-1; 1005.11(d)(1),The law generally permits oral notice unless it specifies otherwise. The policy promises writing even for favorable resolutions. Written adverse findings are already mandatory.,"You have the right to:
+- Receive written confirmation of error resolution",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C45,bank_037,Copies of investigation documents,uncertain,1005.11(d)(1),"The law expressly provides this right after an adverse or different-error finding. The policy states it without qualification, potentially broadening access but leaving the intended scope unclear.",- Request copies of documents used in the investigation,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C46,bank_037,Advance notice before reversal,generous,1005.11(d)(2),"This repeats the advance-warning benefit in document 032. It is a second occurrence of the same benefit, not an independent type of protection.",- Receive advance notice before provisional credit is reversed,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C47,bank_037,How to report and scope reminders,operational,1005.11(b)(1)-(2); 1005.2(b),"Reporting promptly, describing the transaction, following a confirmation request, and keeping records are practical advice. Personal-account coverage and separate credit-card rules are broad reminders rather than new thresholds.","To dispute an unauthorized or erroneous transaction:
+1. Contact Rho-Bank customer service as soon as you notice the issue
+2. Provide details about the transaction(s) in question
+3. Follow up with a written statement if requested
+4. Keep records of all communications
+
+## Important Notes
+
+- These protections apply specifically to debit card and electronic transactions, not credit cards (which are covered by different regulations)
+- Business accounts may have different protections than personal accounts
+- Promptly reviewing your statements helps you identify issues quickly and maximize your protections",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C48,bank_037,Lost-card and stolen-card security protocols,operational,1005.11,"Decline-code diagnosis, verification, replacement, and escalation prescribe security workflow. They make no independently testable claim about liability or error-resolution time limits here.","When your debit card is declined due to security concerns, you may see one of the following decline codes. These codes are directly related to the protections described in this document.
+
+### CODE 41 - Lost Card
+
+Card was previously reported lost. Look up the debit card information to confirm - the card will have issue_reason = 'lost' or status will indicate lost.
+
+1. Check if customer actually reported it: 'I see this card was reported lost. Did you report it lost?'
+
+2. If customer says YES and found the card:
+   - The old card CANNOT be reactivated once reported lost.
+   - Check if replacement card was ordered by looking for another card in the response. If a replacement exists with status PENDING, guide through activation with the internal protocol.
+   - If no replacement ordered, offer to help order one.
+
+3. If customer says NO (they didn't report it):
+   - SECURITY CONCERN: Someone else may have reported it.
+   - Say: 'For your security, I need to verify some additional information.'
+   - Ask security questions. If verified, this may indicate account compromise.
+   - Review recent transaction history to check for suspicious activity.
+   - Follow lost debit card protocol to help the customer.
+
+### CODE 43 - Stolen Card (SECURITY SENSITIVE)
+
+Card was reported stolen. This code requires EXTRA CAUTION.
+
+1. DO NOT immediately offer to unfreeze or reactivate.
+
+2. Verify customer identity using ENHANCED verification (not standard):
+   - Full name, date of birth, AND
+   - Last 4 of SSN, AND
+   - Recent transaction verification - review transaction history and ask about 2-3 recent transactions
+
+3. After enhanced verification, explain: 'This card was reported stolen. For security, stolen cards cannot be reactivated. I can order you a replacement card with a new number.' Follow protocol to order a new one.
+
+4. If customer insists they never reported it stolen:
+   - This is a MAJOR security flag. Someone may have access to their account.
+   - Say: 'I understand this is frustrating. For your protection, I need to transfer you to our security team who can investigate this further.'
+   - Use transfer_to_human_agents. Do NOT attempt to resolve this yourself.
+
+### CODES NOT TO DISCLOSE (INTERNAL USE ONLY)
+
+The following codes indicate fraud or security concerns. DO NOT tell the customer the specific code or reason:
+
+- **CODE 04 - Capture Card (Pick Up)**: Say: 'I'm sorry, but I'm unable to process transactions on this card. For assistance, please visit a Rho-Bank branch with valid ID.' Use transfer_to_human_agents if customer presses for details.
+
+- **CODE 07 - Pick Up Card (Special)**: Same response as Code 04.
+
+- **CODE 34 - Suspected Fraud**: Say: 'There's a security matter affecting your card that requires in-person verification. Please visit a branch with your ID.' Do NOT attempt to clear or explain.
+
+- **CODE 59 - Suspected Fraud**: Same as Code 34.
+
+**NEVER** tell the customer their card has been flagged for fraud over the phone. This could tip off a fraudster who has stolen the card.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_bank_accounts_bank_accounts_(general)_037.json
+C49,checking_006,Balance explanations and diagnostic steps,operational,1005.17,"Explains holds, pending transactions, balance checks, and settings. These are operational context, not independent assertions about the statutory opt-in threshold.","- Overdraft protections may temporarily cover transactions, which can display a negative balance until incoming funds post or adjustments complete.
+- Authorization holds reduce your available balance while a merchant finalizes a purchase or security deposit.
+- Pending card transactions and checks can decrease available funds before they appear as posted.
+- Scheduled payments or transfers may be earmarked, lowering your available balance in advance.
+
+## How to review and resolve
+- Check both pending and posted activity to understand current holds and recent payments.
+- Add funds or transfer money from another account to restore a positive available balance.
+- If a hold seems higher than expected, contact the merchant to request a release or adjustment.
+- Review and adjust overdraft settings to align with your preferences for coverage and fees.
+- If something looks incorrect, contact support with transaction details and timestamps.
+
+## Decline Codes Related to Balance Issues
+
+If your debit card was declined due to balance-related reasons, you may have encountered one of these codes:
+
+### CODE 51 - Insufficient Funds
+
+The account doesn't have enough funds for the transaction. This is the most common decline but requires careful diagnosis.
+
+1. **Check Current Balance**: Look up the customer's accounts to get the checking account balance.
+
+2. **If balance APPEARS sufficient** for the transaction amount:
+   
+   a. **Check Authorization Holds**: Ask the customer if they have any recent authorization holds that might be reducing their available balance.
+      - Authorization holds reduce available balance but don't show as posted transactions.
+      - Common sources: gas stations (often $75-$150 pre-auth), hotels, car rentals, restaurants (tip buffer).
+      - If holds exist, explain: 'Your posted balance is $[balance], but you may have pending authorization holds reducing your available balance. These holds typically release in 1-3 business days.'
+
+   b. **Check Pending Transactions**: Review recent transaction history and look for transactions with status 'pending'.
+      - Pending debits reduce available balance.
+      - Explain: 'You have pending transactions totaling $[amount] that haven't posted yet.'
+
+   c. **Check Overdraft Settings**: The account's overdraft_pos_enabled field from the account lookup shows if overdraft is enabled for POS.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_checking_accounts_checking_accounts_(general)_006.json
+C50,checking_006,Opt-in required for overdraft coverage,uncertain,1005.17(b)(1); Comment 17(b)-2,Regulation E conditions fees for ATM and one-time debit-card overdrafts on opt-in. It permits fee-free payment without opt-in. The policy conflates payment with charging and does not establish a single directional consumer effect.,      - Regulation E requires customer opt-in for POS/ATM overdraft coverage.,https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_checking_accounts_checking_accounts_(general)_006.json
+C51,checking_006,Overdraft options and closed-card handling,operational,1005.17(b),"The steps offer explanations, transfers, and account checks. The law does not require the bank to pay an overdraft. Closing a card after account closure differs from refusing a dispute about a past transfer.","      - If overdraft_pos_enabled is FALSE: 'Your account isn't opted into overdraft coverage for debit card purchases. Would you like me to explain your options?' Then reference the overdraft features documentation.
+
+3. **If balance is genuinely insufficient**:
+   - Inform customer of their balance.
+   - Offer options: 'Would you like to transfer funds from another account, or would you prefer to make a smaller transaction?'
+   - If they want to transfer, help them do so.
+
+### CODE 52 - No Checking Account
+
+The PIN was accepted but the underlying checking account has issues.
+
+1. Look up the customer's accounts to check the account status.
+
+2. If account status is CLOSED: 'The checking account linked to this debit card has been closed. This card can no longer be used for transactions.'
+   - If customer wants to continue banking with Rho-Bank, discuss opening a new checking account.
+
+3. If account exists and is OPEN but still getting this code: This may be a system synchronization issue. Advise waiting 10-15 minutes and retrying.",https://github.com/sierra-research/tau2-bench/blob/fc0055dc4e0a316c3f83133267fbd6faaa770992/data/tau2/domains/banking_knowledge/documents/doc_checking_accounts_checking_accounts_(general)_006.json

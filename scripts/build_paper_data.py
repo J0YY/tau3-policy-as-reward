@@ -94,7 +94,7 @@ def main():
     ]
     infra = sum(r["status"] == "excluded_infrastructure" for r in rows)
     (OUT / "coverage.tex").write_text(
-        f"We replay {d['total_simulations']:,} public runs from {len(subs)} submissions and reproduce {matches} published scores. We follow the benchmark's convention of excluding {infra} infrastructure failures. The replay returns a result for every remaining run. We use all accessible submissions for the main record analysis and check the reproduced-score subset separately.\n"
+        f"We replay {d['total_simulations']:,} public runs from {len(subs)} submissions and reproduce {matches} published scores. Following the pinned metrics utility, we exclude {infra} infrastructure failures. Some published scores instead count them as failures. The replay returns a result for every remaining run. We use all accessible submissions for the main record analysis and check the reproduced-score subset separately.\n"
     )
     c = s["counts"]
     a = c["task_084"]

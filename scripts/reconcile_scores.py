@@ -30,6 +30,18 @@ for s in summary["submissions"]:
                 else "unresolved archive/metadata discrepancy; not assigned a cause",
             }
         )
+followup_path = ROOT / "results/score_gap_investigation.json"
+if followup_path.exists():
+    investigation = {x["submission"]: x for x in json.loads(followup_path.read_text())["rows"]}
+    for entry in ledger:
+        evidence = investigation.get(entry["submission"])
+        if not evidence:
+            continue
+        entry["followup_evidence"] = "results/score_gap_investigation.json"
+        if evidence.get("earlier_atm_reference_check", {}).get("matches_all_published_to_precision"):
+            entry["remaining_status"] = "Published vector reproduced by earlier task_074 ATM reference and infrastructure-as-failure convention; publication timing unverified"
+        elif not evidence["stored_reward_differences"]:
+            entry["remaining_status"] = "Replay matches every stored reward; missing-trial completions fit published vector, but cause of archive/metadata difference is unconfirmed"
 for name, ss in [
     (
         "published_reproduced",

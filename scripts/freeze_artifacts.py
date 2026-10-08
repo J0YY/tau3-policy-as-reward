@@ -11,7 +11,7 @@ patterns = (
     "paper/generated/*.tex", "paper/figures/*.pdf",
     "results/*.json", "results/*.csv", "results/*.txt", "results/public/*.json",
     "regrade/*.py", "scripts/*.py", "scripts/*.sh", "tests/*.py",
-    "cluster/*.sbatch", "cluster/*.txt", "coding/*.csv",
+    "cluster/*.sbatch", "cluster/*.txt", "coding/*.csv", "coding/*.json",
     "data/*.json", "data/leaderboard/**/submission.json", "disclosure/*.md", "disclosure/*.py",
 )
 paths = sorted({p for pattern in patterns for p in ROOT.glob(pattern)
