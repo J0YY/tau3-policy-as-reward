@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T17:28:04.526280+00:00",
+  "generated_utc": "2026-10-08T21:52:36.439137+00:00",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -11,7 +11,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "18906a01c5c28499c1db7b3853e9fef9f4f78c59d4683dec39c9e0c2b4cdc621"
+      "sha256": "0f243e58921c05ce09756339871a905892b3e90d7da86daff052a4d463e3fccf"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -264,6 +264,10 @@
     {
       "path": "results/controlled_sweep.json",
       "sha256": "16160e14470853f65920e87ab09e107e3844eb99e163e5a6886c9ec4acce24d8"
+    },
+    {
+      "path": "results/credit_rule_trace.json",
+      "sha256": "86bd03796ae1e97ef32f2a69feb778194e996968b9915c81512bf6e24ced4dda"
     },
     {
       "path": "results/environment-local.txt",
@@ -540,6 +544,10 @@
     {
       "path": "scripts/summarize.py",
       "sha256": "0db2e3e0aa6afa1005dc202bc53919bff4684e1f6fbe7a9bedba4d67a38f11c7"
+    },
+    {
+      "path": "scripts/trace_credit_rules.py",
+      "sha256": "f0fe178989dfc85dab2582e6455fd129475388f505bf6ef44df7cf9ddce7256d"
     },
     {
       "path": "scripts/trajectory_checks.py",

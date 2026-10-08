@@ -64,6 +64,14 @@ These commands regenerate analysis tables and figures in the ignored local `pape
 
 This uses the saved dispute states plus `results/extra_state_replays.json`, which contains the nine early-stop states recovered from the original archives. If that cache is removed, regenerating it requires the downloaded trajectories and pinned benchmark.
 
+Trace the provisional-credit deduction and investigation deadline from policy into the reference workflows with:
+
+```bash
+.venv/bin/python -m scripts.trace_credit_rules
+```
+
+`results/credit_rule_trace.json` records all 23 reference debit-dispute calls across eight tasks. Nineteen create a claim and 13 record provisional credit, always for the full disputed amount. No reference applies the policy's liability deduction. The filing tool has no investigation-deadline field, and the search across all 97 evaluation criteria finds no requirement for the policy's 45-business-day period. These policy errors therefore supply no additional scoring mechanism in the audited release. This check does not assess agents' spoken explanations of timing.
+
 Verify the included artifact hashes before regenerating outputs:
 
 ```bash
