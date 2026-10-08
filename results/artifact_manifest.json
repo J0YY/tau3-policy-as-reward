@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T17:18:17.819741+00:00",
+  "generated_utc": "2026-10-08T17:28:04.526280+00:00",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -7,11 +7,11 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "76cae58f697cc44003f071f262a78aec8a010e382e47816ae5e918aae5d14848"
+      "sha256": "ee190a433d96a69ce4a5dbbacb0aa93581df2479fea9a2876ca205a902060a4b"
     },
     {
       "path": "README.md",
-      "sha256": "2f0fd6365774fe618094d2005550030b1422d32de9a9de02db5573c6344aa599"
+      "sha256": "18906a01c5c28499c1db7b3853e9fef9f4f78c59d4683dec39c9e0c2b4cdc621"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -242,58 +242,6 @@
       "sha256": "83287fb2c35d0bc1ae1eff604fb98fc34eeeb7d1d93cee57daf737a7153b7903"
     },
     {
-      "path": "paper/figures/capability.pdf",
-      "sha256": "5bcb762056364ad2d10f40cf27bd12699b70123ce9b23865a69ba1d019bd5ca4"
-    },
-    {
-      "path": "paper/figures/state_outcomes.pdf",
-      "sha256": "694f580cc2d5146ebcb4fa2c2cebe38ed655ec42b7b337d2a11cc35d31ec0e9d"
-    },
-    {
-      "path": "paper/generated/capability_results.tex",
-      "sha256": "8795fc32a89fa3e2c3efe63dc5122588097b79d3d63c72ffa6e72edafb2752aa"
-    },
-    {
-      "path": "paper/generated/clause_counts.tex",
-      "sha256": "e2f96bfd128f68b25a9769aeeb13405dbfa9708ac8a9d0f9a54c19a5fd58063e"
-    },
-    {
-      "path": "paper/generated/coverage.tex",
-      "sha256": "7154ee854bd520d2b3a625416bd72bcd73353474b9f5fcc84cb5501ace49bf8d"
-    },
-    {
-      "path": "paper/generated/full_table.tex",
-      "sha256": "18e9acacad8bbff0abd59dc8ba4c49f9df5123aad34f3e15bc458dab8cf70d1a"
-    },
-    {
-      "path": "paper/generated/outcome_details.tex",
-      "sha256": "90a9b829fddc774a354f28109650730766cfde8e7fb5ecee0a6e00e28bfb9e0e"
-    },
-    {
-      "path": "paper/generated/restricted_results.tex",
-      "sha256": "5f2c7fe041918fae422f9258948ded60dc2cbb0a0d59405fad78f716dacad5c7"
-    },
-    {
-      "path": "paper/generated/results.tex",
-      "sha256": "7c81ae92b7d4524ee3c9a33e12539e71e20941b9037c56429e68c5e7320fef5f"
-    },
-    {
-      "path": "paper/generated/state_results.tex",
-      "sha256": "73f1b8615e6c2b035a45a8d0f94dfb0ef120df8d0f274e6f14a26d8996d47fe5"
-    },
-    {
-      "path": "paper/main.pdf",
-      "sha256": "1acebf5386f7d04b257ae826d751f4f48b1a957f19f9b0d543c96b69b3cc2d74"
-    },
-    {
-      "path": "paper/main.tex",
-      "sha256": "7cad3087518355d53d350b59ba9fbd3fd7007710a591154bf68e4f7bafe38891"
-    },
-    {
-      "path": "paper/references.bib",
-      "sha256": "e3aaf24e81f67ab37203058eb7cf9c8e108b8c683b91d1552a9d79056d69c91a"
-    },
-    {
       "path": "pyproject.toml",
       "sha256": "fc8cae4be4db49ae85a9e97cef8cd0da05152c9b2c6d7b69615681f9c7a5b125"
     },
@@ -312,14 +260,6 @@
     {
       "path": "results/candidate_diagnostics.json",
       "sha256": "839d195e1de7ef5e7654735ff7b88c8dfb7cd802a160f8c3a3aba9aa3f3684d0"
-    },
-    {
-      "path": "results/citation_audit.json",
-      "sha256": "8ac3023e85874b8e01daac6d0ae0e58a532bb1d416ef3cc322b46e0c9521a0f4"
-    },
-    {
-      "path": "results/citation_audit.txt",
-      "sha256": "2d5315040b9bcc0bf385770e33781be3d8dcb6c3ac799604005ab3879a9df38c"
     },
     {
       "path": "results/controlled_sweep.json",
@@ -498,10 +438,6 @@
       "sha256": "88c017a219a2214dd3d793e23aec4c3bd12b1e1c1fac898ca3e535c4eade7268"
     },
     {
-      "path": "results/reviewer_revision_review.txt",
-      "sha256": "36e94a21c1eea29ba981cd2832c1031352dfae20d0ab544d2f1ae7cd350052c2"
-    },
-    {
       "path": "results/score_gap_investigation.json",
       "sha256": "185c62d016c980bc53fd9e1088e9ce8acde2c4c1a54ec237e9e939f685d60bb7"
     },
@@ -532,10 +468,6 @@
     {
       "path": "scripts/audit_reg_e_clauses.py",
       "sha256": "e31f1915587a8f5fc146a7ebd9cf466d5c1eacb175be91d3e79fcedca29b55dc"
-    },
-    {
-      "path": "scripts/build_paper.sh",
-      "sha256": "1223487642ddc26741e4fdec509e0cacbd97d95a64267e8d58a7df8a04ea352c"
     },
     {
       "path": "scripts/build_paper_data.py",
@@ -571,7 +503,7 @@
     },
     {
       "path": "scripts/freeze_artifacts.py",
-      "sha256": "2a2b9d606860cc2897c3a7da3abc985a06de08241e7881c39a8dfcd784520ff7"
+      "sha256": "d143c6c1b3526aa5603010fd0e35d5c8b0a47674b481d8346fc494b34a75382c"
     },
     {
       "path": "scripts/inventory.py",
@@ -580,10 +512,6 @@
     {
       "path": "scripts/investigate_score_gaps.py",
       "sha256": "1595af4c51dcab774fc55973988051492306f48cbe7db9bee483dfc8c247dbba"
-    },
-    {
-      "path": "scripts/package_latex.py",
-      "sha256": "ff24c0411f2954bcb701124e4a4687ebda1a4e108e11cb61899a4d131d02354a"
     },
     {
       "path": "scripts/rank_sensitivity.py",

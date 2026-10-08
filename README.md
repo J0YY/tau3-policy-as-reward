@@ -1,8 +1,8 @@
 # τ³-Banking: policy as reward
 
-Replication materials for **Legal Errors in a Banking Benchmark Before They Change the Rankings**.
+Code, data, and analysis results for an audit of policy and grading in τ³-Banking. The manuscript and its editable sources are maintained separately.
 
-[Read the paper](paper/main.pdf) · [Editable LaTeX](paper/main.tex) · [Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
+[Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
 
 The audit screens all 698 bank documents for explicit Regulation E citations and reviews the full contents of the four matching documents. Its ledger covers restrictive rules, additional customer protections, consistent provisions, and unclear statements. It also tests controlled changes in three selected scenarios and replays 10,880 public simulations from 32 submissions. It reproduces 26 published scores. Tasks 082, 084, and 086 have no passing runs under either original or primary alternative grading, so current rankings are unchanged. Controlled replays show a conditional scoring penalty when the rest of the reference workflow succeeds. Recorded outcomes vary beneath those shared zeros.
 
@@ -12,7 +12,6 @@ Legal interpretation is source-grounded and model-assisted, with explicit covera
 
 | Location | Contents |
 | --- | --- |
-| `paper/` | Manuscript, references, generated tables, and figures |
 | `regrade/` | Replay adapters, original grading, alternative predicates, and metrics |
 | `scripts/` | Acquisition, inventory, controls, public replay, diagnostics, aggregation, and plotting |
 | `tests/` | 67 tests for replay/scoring, recorded states, and tool-call chronology |
@@ -28,14 +27,14 @@ The raw trajectory archives (about 7.5 GB) and full upstream benchmark are acqui
 
 ## Setup
 
-Use Python 3.12 or 3.13. Replay uses offline BM25 retrieval and requires no model API key. A TeX installation with `pdflatex` and `bibtex` is needed only to rebuild the PDF.
+Use Python 3.12 or 3.13. Replay uses offline BM25 retrieval and requires no model API key. The analysis does not require a TeX installation.
 
 ```bash
 git clone https://github.com/J0YY/tau3-policy-as-reward.git
 cd tau3-policy-as-reward
 python3.13 -m venv .venv
 .venv/bin/pip install -r requirements-analysis.txt
-mkdir -p vendor logs paper/rendered
+mkdir -p vendor logs
 
 git clone https://github.com/sierra-research/tau2-bench.git vendor/tau2-bench
 git -C vendor/tau2-bench checkout fc0055dc4e0a316c3f83133267fbd6faaa770992
@@ -46,16 +45,17 @@ The benchmark release is v1.0.1. Leaderboard metadata is frozen independently at
 
 `results/environment*.txt` records the original installed package versions for reference. The setup commands install the pinned benchmark and compatible dependencies; the snapshots document the original runs rather than serving as portable lockfiles.
 
-## Inspect results and rebuild the paper
+## Inspect results and rebuild tables and figures
 
 The saved result ledgers are included. Rebuild their aggregate tables and figures with:
 
 ```bash
-bash scripts/build_paper.sh
-pdftoppm -scale-to 1400 -png paper/main.pdf paper/rendered/page
+.venv/bin/python -m scripts.summarize
+.venv/bin/python -m scripts.build_paper_data
+.venv/bin/python -m scripts.audit_reg_e_clauses
 ```
 
-`build_paper.sh` recomputes the aggregate score summary, generates tables and figures, then runs LaTeX and BibTeX. It does not download trajectories or rerun agent inference. `results/state_outcomes.json` contains the saved per-run outcomes and capability analysis; recompute it with:
+These commands regenerate analysis tables and figures in the ignored local `paper/generated/` and `paper/figures/` directories. They do not create the manuscript, download trajectories, or rerun agent inference. `results/state_outcomes.json` contains the saved per-run outcomes and capability analysis; recompute it with:
 
 ```bash
 .venv/bin/python -m scripts.state_outcomes
@@ -75,16 +75,6 @@ for row in json.loads(Path('results/artifact_manifest.json').read_text())['artif
 print('Artifact hashes verified')
 PY
 ```
-
-## Prepare a standalone LaTeX ZIP
-
-After building the paper, package its editable sources and figures with:
-
-```bash
-python3 scripts/package_latex.py
-```
-
-The archive appears at `dist/tau3-policy-as-reward-latex.zip`. It includes the manuscript, bibliography, generated TeX inputs, figures, and build instructions. It compiles independently of the analysis environment. Upload it to Overleaf with `main.tex` as the main document, or extract it and run `bash build.sh` with a TeX installation.
 
 ## Reproduce the full replay
 

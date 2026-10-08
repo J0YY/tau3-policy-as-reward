@@ -16,3 +16,11 @@ paper/rendered/
 paper/main.txt
 logs/
 dist/
+
+# Private manuscript and editorial materials
+/paper/
+/results/citation_audit.json
+/results/citation_audit.txt
+/results/reviewer_revision_review.txt
+/scripts/build_paper.sh
+/scripts/package_latex.py
