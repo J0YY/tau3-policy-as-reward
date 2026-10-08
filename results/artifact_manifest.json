@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T03:02:37.663812+00:00",
+  "generated_utc": "2026-10-08T03:10:37.569875+00:00",
   "artifacts": [
     {
       "path": ".gitattributes",
@@ -271,11 +271,11 @@
     },
     {
       "path": "paper/main.pdf",
-      "sha256": "037271a8d207a9786126715991661a648f6f85174303ef2c872482f2676febc7"
+      "sha256": "6bf33b51f6a8f986a56f75c9aa89383f87e5b9abe57a651eeb5467105059c541"
     },
     {
       "path": "paper/main.tex",
-      "sha256": "ed811d775c186f04d9b86398384ce5c0f9f33408e2e0922234ed91ac6795edab"
+      "sha256": "87bd85f0365ef0c146a4a35c763ad19368dcd92a5accb14f27331839500b8e15"
     },
     {
       "path": "paper/references.bib",
@@ -303,11 +303,11 @@
     },
     {
       "path": "results/citation_audit.json",
-      "sha256": "0421f69823ed68b89a0e67e640c995ad7c0f83092252c46f84f4a4dbbbfa8395"
+      "sha256": "2f559db52ec35c9defcdab84a69fd7288de27e814c5c92e788ac6b3ec246b152"
     },
     {
       "path": "results/citation_audit.txt",
-      "sha256": "6f576e3ea271f886c1e17e7fab10fce527f2fa253d1b950b2a69451f7ddfe4c1"
+      "sha256": "0d10b4e2ecd6839dfa5ccfea53c429b87483bfb3eedbab62b170eb4ffa9e2c37"
     },
     {
       "path": "results/controlled_sweep.json",
