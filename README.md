@@ -2,7 +2,6 @@
 
 Code, data, and analysis results for an audit of policy and grading in τ³-Banking. The manuscript and its editable sources are maintained separately.
 
-[Maintainer disclosure](https://github.com/sierra-research/tau2-bench/issues/592#issuecomment-6042790694)
 
 The audit screens all 698 bank documents for explicit Regulation E citations and reviews the full contents of the four matching documents. Its ledger covers restrictive rules, additional customer protections, consistent provisions, and unclear statements. It also tests controlled changes in three selected scenarios and replays 10,880 public simulations from 32 submissions. It reproduces 26 published scores. Tasks 082, 084, and 086 have no passing runs under either original or primary alternative grading, so current rankings are unchanged. Controlled replays show a conditional scoring penalty when the rest of the reference workflow succeeds. Recorded outcomes vary beneath those shared zeros.
 
@@ -21,7 +20,7 @@ Legal interpretation is source-grounded and model-assisted, with explicit covera
 | `data/` | Frozen submission metadata, input manifests, and issue provenance |
 | `coding/` | Automated task, document, and action inventories; blank human-verdict columns are unused |
 | `cluster/` | Slurm templates for CPU replay |
-| `disclosure/` | Posted issue report and standalone minimal reproduction |
+| `disclosure/` | Standalone minimal reproduction |
 
 The raw trajectory archives (about 7.5 GB) and full upstream benchmark are acquired separately. Download manifests preserve source URLs, sizes, hashes, and failed downloads. This repository includes compact derived outputs sufficient to inspect the reported counts and rebuild the manuscript figures.
 
@@ -30,8 +29,7 @@ The raw trajectory archives (about 7.5 GB) and full upstream benchmark are acqui
 Use Python 3.12 or 3.13. Replay uses offline BM25 retrieval and requires no model API key. The analysis does not require a TeX installation.
 
 ```bash
-git clone https://github.com/J0YY/tau3-policy-as-reward.git
-cd tau3-policy-as-reward
+# Download and extract the anonymous repository ZIP, then enter its directory.
 python3.13 -m venv .venv
 .venv/bin/pip install -r requirements-analysis.txt
 mkdir -p vendor logs
@@ -132,7 +130,7 @@ bash scripts/build_paper.sh
 
 The historical `finalize_replays.py` and `fix_shared_gate.py` scripts document corrections to initial run outputs. Fresh `regrade_public.py` runs already implement those rules; do not apply the historical repairs as an extra reproduction step.
 
-For the minimal five liability/PIN comparisons posted on issue 592:
+For the minimal five liability/PIN comparisons:
 
 ```bash
 .venv/bin/python disclosure/replay_reference_patch.py
@@ -158,7 +156,7 @@ Six baseline discrepancies are preserved in `results/baseline_reconciliation.jso
 
 ## Cluster execution
 
-The original runs used the Athena CPU cluster; scheduler accounting is retained in `results/slurm_accounting.txt`. The templates now take an explicit checkout path:
+The original runs used a CPU cluster; scheduler accounting is retained in `results/slurm_accounting.txt`. The templates now take an explicit checkout path:
 
 ```bash
 export AUDIT_ROOT="$PWD"
@@ -170,7 +168,7 @@ The array reads `cluster/submissions.txt`; check that its entries downloaded suc
 
 ## Provenance and updates
 
-Issue [592](https://github.com/sierra-research/tau2-bench/issues/592) predates this audit and established the task-086 specification inconsistency and its 110-trial zero-pass result. The paper credits those findings and the related flagged tasks. Our follow-up provides external-law comparisons, omitted-claim/PIN analysis, controlled grader checks, and re-grading.
+Issue [592](https://github.com/sierra-research/tau2-bench/issues/592) predates this audit and established the task-086 specification inconsistency and its 110-trial zero-pass result. The paper credits those findings and the related flagged tasks. This audit provides external-law comparisons, omitted-claim/PIN analysis, controlled grader checks, and re-grading.
 
 `results/artifact_manifest.json` hashes the published source and results. Regenerate it with `python3 scripts/freeze_artifacts.py` after changing outputs. Third-party source attribution is in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 

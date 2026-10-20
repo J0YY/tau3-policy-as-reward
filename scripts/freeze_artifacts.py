@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 patterns = (
-    ".gitignore", ".gitattributes", "README.md", "THIRD_PARTY_NOTICES.md", "requirements-analysis.txt", "pyproject.toml", "analysis-plan.md",
+    ".gitignore", ".gitattributes", "ANONYMIZATION.txt", "README.md", "THIRD_PARTY_NOTICES.md", "requirements-analysis.txt", "pyproject.toml", "analysis-plan.md",
     "results/*.json", "results/*.csv", "results/*.txt", "results/public/*.json",
     "regrade/*.py", "scripts/*.py", "scripts/*.sh", "tests/*.py",
     "cluster/*.sbatch", "cluster/*.txt", "coding/*.csv", "coding/*.json",

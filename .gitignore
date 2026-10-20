@@ -24,3 +24,11 @@ dist/
 /results/reviewer_revision_review.txt
 /scripts/build_paper.sh
 /scripts/package_latex.py
+
+# Keep signed disclosures and private submission files out of review snapshots
+/data/disclosure_visibility.json
+/disclosure/issue592-comment.md
+/output/
+*.pdf
+*.tex
+*.bib
